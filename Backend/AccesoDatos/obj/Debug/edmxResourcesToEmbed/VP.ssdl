@@ -1,0 +1,135 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="VPModelo.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="TVE_Clientes">
+    <Key>
+      <PropertyRef Name="TN_IdCliente" />
+    </Key>
+    <Property Name="TN_IdCliente" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="TC_Nombre" Type="varchar" MaxLength="60" Nullable="false" />
+    <Property Name="TC_Ap1" Type="varchar" MaxLength="60" Nullable="false" />
+    <Property Name="TC_Ap2" Type="varchar" MaxLength="60" Nullable="false" />
+    <Property Name="TC_NumTelefono" Type="varchar" MaxLength="15" Nullable="false" />
+    <Property Name="TC_CorreoElectronico" Type="varchar" MaxLength="100" Nullable="false" />
+  </EntityType>
+  <EntityType Name="TVET_Citas">
+    <Key>
+      <PropertyRef Name="TN_IdCita" />
+    </Key>
+    <Property Name="TN_IdCita" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="TN_IdCliente" Type="int" />
+    <Property Name="TN_IdMascota" Type="int" />
+    <Property Name="TF_FecCita" Type="datetime" Nullable="false" />
+  </EntityType>
+  <EntityType Name="TVET_DetalleMascota">
+    <Key>
+      <PropertyRef Name="TN_IdMascota" />
+    </Key>
+    <Property Name="TN_IdMascota" Type="int" Nullable="false" />
+    <Property Name="TC_Raza" Type="varchar" MaxLength="100" Nullable="false" />
+    <Property Name="TN_Peso" Type="decimal" Precision="18" Scale="2" Nullable="false" />
+    <Property Name="TC_Color" Type="varchar" MaxLength="50" Nullable="false" />
+  </EntityType>
+  <EntityType Name="TVET_Diagnostico">
+    <Key>
+      <PropertyRef Name="TN_IdDiagnostico" />
+    </Key>
+    <Property Name="TN_IdDiagnostico" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="TN_IdCita" Type="int" />
+    <Property Name="TC_DscDiagnostico" Type="varchar" MaxLength="500" Nullable="false" />
+  </EntityType>
+  <EntityType Name="TVET_Mascotas">
+    <Key>
+      <PropertyRef Name="TN_IdMascota" />
+    </Key>
+    <Property Name="TN_IdMascota" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="TC_NombreMascota" Type="varchar" MaxLength="100" Nullable="false" />
+    <Property Name="TN_IdCliente" Type="int" />
+  </EntityType>
+  <Association Name="FK__TVET_Cita__TN_Id__3F466844">
+    <End Role="TVE_Clientes" Type="Self.TVE_Clientes" Multiplicity="0..1" />
+    <End Role="TVET_Citas" Type="Self.TVET_Citas" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="TVE_Clientes">
+        <PropertyRef Name="TN_IdCliente" />
+      </Principal>
+      <Dependent Role="TVET_Citas">
+        <PropertyRef Name="TN_IdCliente" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__TVET_Cita__TN_Id__403A8C7D">
+    <End Role="TVET_Mascotas" Type="Self.TVET_Mascotas" Multiplicity="0..1" />
+    <End Role="TVET_Citas" Type="Self.TVET_Citas" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="TVET_Mascotas">
+        <PropertyRef Name="TN_IdMascota" />
+      </Principal>
+      <Dependent Role="TVET_Citas">
+        <PropertyRef Name="TN_IdMascota" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__TVET_Deta__TN_Id__3C69FB99">
+    <End Role="TVET_Mascotas" Type="Self.TVET_Mascotas" Multiplicity="1" />
+    <End Role="TVET_DetalleMascota" Type="Self.TVET_DetalleMascota" Multiplicity="0..1" />
+    <ReferentialConstraint>
+      <Principal Role="TVET_Mascotas">
+        <PropertyRef Name="TN_IdMascota" />
+      </Principal>
+      <Dependent Role="TVET_DetalleMascota">
+        <PropertyRef Name="TN_IdMascota" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__TVET_Diag__TN_Id__4316F928">
+    <End Role="TVET_Citas" Type="Self.TVET_Citas" Multiplicity="0..1" />
+    <End Role="TVET_Diagnostico" Type="Self.TVET_Diagnostico" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="TVET_Citas">
+        <PropertyRef Name="TN_IdCita" />
+      </Principal>
+      <Dependent Role="TVET_Diagnostico">
+        <PropertyRef Name="TN_IdCita" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__TVET_Masc__TN_Id__398D8EEE">
+    <End Role="TVE_Clientes" Type="Self.TVE_Clientes" Multiplicity="0..1" />
+    <End Role="TVET_Mascotas" Type="Self.TVET_Mascotas" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="TVE_Clientes">
+        <PropertyRef Name="TN_IdCliente" />
+      </Principal>
+      <Dependent Role="TVET_Mascotas">
+        <PropertyRef Name="TN_IdCliente" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="VPModeloStoreContainer">
+    <EntitySet Name="TVE_Clientes" EntityType="Self.TVE_Clientes" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="TVET_Citas" EntityType="Self.TVET_Citas" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="TVET_DetalleMascota" EntityType="Self.TVET_DetalleMascota" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="TVET_Diagnostico" EntityType="Self.TVET_Diagnostico" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="TVET_Mascotas" EntityType="Self.TVET_Mascotas" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK__TVET_Cita__TN_Id__3F466844" Association="Self.FK__TVET_Cita__TN_Id__3F466844">
+      <End Role="TVE_Clientes" EntitySet="TVE_Clientes" />
+      <End Role="TVET_Citas" EntitySet="TVET_Citas" />
+    </AssociationSet>
+    <AssociationSet Name="FK__TVET_Cita__TN_Id__403A8C7D" Association="Self.FK__TVET_Cita__TN_Id__403A8C7D">
+      <End Role="TVET_Mascotas" EntitySet="TVET_Mascotas" />
+      <End Role="TVET_Citas" EntitySet="TVET_Citas" />
+    </AssociationSet>
+    <AssociationSet Name="FK__TVET_Deta__TN_Id__3C69FB99" Association="Self.FK__TVET_Deta__TN_Id__3C69FB99">
+      <End Role="TVET_Mascotas" EntitySet="TVET_Mascotas" />
+      <End Role="TVET_DetalleMascota" EntitySet="TVET_DetalleMascota" />
+    </AssociationSet>
+    <AssociationSet Name="FK__TVET_Diag__TN_Id__4316F928" Association="Self.FK__TVET_Diag__TN_Id__4316F928">
+      <End Role="TVET_Citas" EntitySet="TVET_Citas" />
+      <End Role="TVET_Diagnostico" EntitySet="TVET_Diagnostico" />
+    </AssociationSet>
+    <AssociationSet Name="FK__TVET_Masc__TN_Id__398D8EEE" Association="Self.FK__TVET_Masc__TN_Id__398D8EEE">
+      <End Role="TVE_Clientes" EntitySet="TVE_Clientes" />
+      <End Role="TVET_Mascotas" EntitySet="TVET_Mascotas" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

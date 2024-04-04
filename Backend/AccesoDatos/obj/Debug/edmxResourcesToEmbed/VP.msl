@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="VPModeloStoreContainer" CdmEntityContainer="VPEntidades">
+    <EntitySetMapping Name="TVE_Clientes">
+      <EntityTypeMapping TypeName="VPModelo.TVE_Clientes">
+        <MappingFragment StoreEntitySet="TVE_Clientes">
+          <ScalarProperty Name="TN_IdCliente" ColumnName="TN_IdCliente" />
+          <ScalarProperty Name="TC_Nombre" ColumnName="TC_Nombre" />
+          <ScalarProperty Name="TC_Ap1" ColumnName="TC_Ap1" />
+          <ScalarProperty Name="TC_Ap2" ColumnName="TC_Ap2" />
+          <ScalarProperty Name="TC_NumTelefono" ColumnName="TC_NumTelefono" />
+          <ScalarProperty Name="TC_CorreoElectronico" ColumnName="TC_CorreoElectronico" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TVET_Citas">
+      <EntityTypeMapping TypeName="VPModelo.TVET_Citas">
+        <MappingFragment StoreEntitySet="TVET_Citas">
+          <ScalarProperty Name="TN_IdCita" ColumnName="TN_IdCita" />
+          <ScalarProperty Name="TN_IdCliente" ColumnName="TN_IdCliente" />
+          <ScalarProperty Name="TN_IdMascota" ColumnName="TN_IdMascota" />
+          <ScalarProperty Name="TF_FecCita" ColumnName="TF_FecCita" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TVET_DetalleMascota">
+      <EntityTypeMapping TypeName="VPModelo.TVET_DetalleMascota">
+        <MappingFragment StoreEntitySet="TVET_DetalleMascota">
+          <ScalarProperty Name="TN_IdMascota" ColumnName="TN_IdMascota" />
+          <ScalarProperty Name="TC_Raza" ColumnName="TC_Raza" />
+          <ScalarProperty Name="TN_Peso" ColumnName="TN_Peso" />
+          <ScalarProperty Name="TC_Color" ColumnName="TC_Color" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TVET_Diagnostico">
+      <EntityTypeMapping TypeName="VPModelo.TVET_Diagnostico">
+        <MappingFragment StoreEntitySet="TVET_Diagnostico">
+          <ScalarProperty Name="TN_IdDiagnostico" ColumnName="TN_IdDiagnostico" />
+          <ScalarProperty Name="TN_IdCita" ColumnName="TN_IdCita" />
+          <ScalarProperty Name="TC_DscDiagnostico" ColumnName="TC_DscDiagnostico" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TVET_Mascotas">
+      <EntityTypeMapping TypeName="VPModelo.TVET_Mascotas">
+        <MappingFragment StoreEntitySet="TVET_Mascotas">
+          <ScalarProperty Name="TN_IdMascota" ColumnName="TN_IdMascota" />
+          <ScalarProperty Name="TC_NombreMascota" ColumnName="TC_NombreMascota" />
+          <ScalarProperty Name="TN_IdCliente" ColumnName="TN_IdCliente" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

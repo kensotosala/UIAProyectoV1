@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" xmlns:wsx="http://schemas.xmlsoap.org/ws/2004/09/mex" xmlns:wsap="http://schemas.xmlsoap.org/ws/2004/08/addressing/policy" xmlns:msc="http://schemas.microsoft.com/ws/2005/12/wsdl/contract" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:tns="http://tempuri.org/" xmlns:wsa10="http://www.w3.org/2005/08/addressing" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" name="srvClientes" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <xsd:schema targetNamespace="http://tempuri.org/Imports">
+      <xsd:import schemaLocation="http://localhost:51022/srvClientes.svc?xsd=xsd0" namespace="http://tempuri.org/" />
+      <xsd:import schemaLocation="http://localhost:51022/srvClientes.svc?xsd=xsd1" namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
+      <xsd:import schemaLocation="http://localhost:51022/srvClientes.svc?xsd=xsd2" namespace="http://schemas.datacontract.org/2004/07/Entidades" />
+    </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="IsrvClientes_DoWork_InputMessage">
+    <wsdl:part name="parameters" element="tns:DoWork" />
+  </wsdl:message>
+  <wsdl:message name="IsrvClientes_DoWork_OutputMessage">
+    <wsdl:part name="parameters" element="tns:DoWorkResponse" />
+  </wsdl:message>
+  <wsdl:message name="IsrvClientes_obtenerCliente_ENT_InputMessage">
+    <wsdl:part name="parameters" element="tns:obtenerCliente_ENT" />
+  </wsdl:message>
+  <wsdl:message name="IsrvClientes_obtenerCliente_ENT_OutputMessage">
+    <wsdl:part name="parameters" element="tns:obtenerCliente_ENTResponse" />
+  </wsdl:message>
+  <wsdl:message name="IsrvClientes_obtenerclienteXId_ENT_InputMessage">
+    <wsdl:part name="parameters" element="tns:obtenerclienteXId_ENT" />
+  </wsdl:message>
+  <wsdl:message name="IsrvClientes_obtenerclienteXId_ENT_OutputMessage">
+    <wsdl:part name="parameters" element="tns:obtenerclienteXId_ENTResponse" />
+  </wsdl:message>
+  <wsdl:message name="IsrvClientes_agregaCliente_ENT_InputMessage">
+    <wsdl:part name="parameters" element="tns:agregaCliente_ENT" />
+  </wsdl:message>
+  <wsdl:message name="IsrvClientes_agregaCliente_ENT_OutputMessage">
+    <wsdl:part name="parameters" element="tns:agregaCliente_ENTResponse" />
+  </wsdl:message>
+  <wsdl:message name="IsrvClientes_modificaCliente_ENT_InputMessage">
+    <wsdl:part name="parameters" element="tns:modificaCliente_ENT" />
+  </wsdl:message>
+  <wsdl:message name="IsrvClientes_modificaCliente_ENT_OutputMessage">
+    <wsdl:part name="parameters" element="tns:modificaCliente_ENTResponse" />
+  </wsdl:message>
+  <wsdl:message name="IsrvClientes_eliminaCliente_ENT_InputMessage">
+    <wsdl:part name="parameters" element="tns:eliminaCliente_ENT" />
+  </wsdl:message>
+  <wsdl:message name="IsrvClientes_eliminaCliente_ENT_OutputMessage">
+    <wsdl:part name="parameters" element="tns:eliminaCliente_ENTResponse" />
+  </wsdl:message>
+  <wsdl:portType name="IsrvClientes">
+    <wsdl:operation name="DoWork">
+      <wsdl:input wsaw:Action="http://tempuri.org/IsrvClientes/DoWork" message="tns:IsrvClientes_DoWork_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IsrvClientes/DoWorkResponse" message="tns:IsrvClientes_DoWork_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="obtenerCliente_ENT">
+      <wsdl:input wsaw:Action="http://tempuri.org/IsrvClientes/obtenerCliente_ENT" message="tns:IsrvClientes_obtenerCliente_ENT_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IsrvClientes/obtenerCliente_ENTResponse" message="tns:IsrvClientes_obtenerCliente_ENT_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="obtenerclienteXId_ENT">
+      <wsdl:input wsaw:Action="http://tempuri.org/IsrvClientes/obtenerclienteXId_ENT" message="tns:IsrvClientes_obtenerclienteXId_ENT_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IsrvClientes/obtenerclienteXId_ENTResponse" message="tns:IsrvClientes_obtenerclienteXId_ENT_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="agregaCliente_ENT">
+      <wsdl:input wsaw:Action="http://tempuri.org/IsrvClientes/agregaCliente_ENT" message="tns:IsrvClientes_agregaCliente_ENT_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IsrvClientes/agregaCliente_ENTResponse" message="tns:IsrvClientes_agregaCliente_ENT_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="modificaCliente_ENT">
+      <wsdl:input wsaw:Action="http://tempuri.org/IsrvClientes/modificaCliente_ENT" message="tns:IsrvClientes_modificaCliente_ENT_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IsrvClientes/modificaCliente_ENTResponse" message="tns:IsrvClientes_modificaCliente_ENT_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="eliminaCliente_ENT">
+      <wsdl:input wsaw:Action="http://tempuri.org/IsrvClientes/eliminaCliente_ENT" message="tns:IsrvClientes_eliminaCliente_ENT_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IsrvClientes/eliminaCliente_ENTResponse" message="tns:IsrvClientes_eliminaCliente_ENT_OutputMessage" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="BasicHttpBinding_IsrvClientes" type="tns:IsrvClientes">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="DoWork">
+      <soap:operation soapAction="http://tempuri.org/IsrvClientes/DoWork" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="obtenerCliente_ENT">
+      <soap:operation soapAction="http://tempuri.org/IsrvClientes/obtenerCliente_ENT" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="obtenerclienteXId_ENT">
+      <soap:operation soapAction="http://tempuri.org/IsrvClientes/obtenerclienteXId_ENT" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="agregaCliente_ENT">
+      <soap:operation soapAction="http://tempuri.org/IsrvClientes/agregaCliente_ENT" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="modificaCliente_ENT">
+      <soap:operation soapAction="http://tempuri.org/IsrvClientes/modificaCliente_ENT" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="eliminaCliente_ENT">
+      <soap:operation soapAction="http://tempuri.org/IsrvClientes/eliminaCliente_ENT" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="srvClientes">
+    <wsdl:port name="BasicHttpBinding_IsrvClientes" binding="tns:BasicHttpBinding_IsrvClientes">
+      <soap:address location="http://localhost:51022/srvClientes.svc" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

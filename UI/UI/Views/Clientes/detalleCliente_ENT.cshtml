@@ -1,0 +1,66 @@
+﻿@model UI.Models.Clientes
+
+@{
+    ViewBag.Title = "detalleCliente_ENT";
+}
+
+<h2>detalleCliente_ENT</h2>
+
+<div>
+    <h4>Clientes</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.TN_IdCliente)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.TN_IdCliente)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.TC_Nombre)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.TC_Nombre)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.TC_Ap1)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.TC_Ap1)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.TC_Ap2)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.TC_Ap2)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.TC_NumTelefono)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.TC_NumTelefono)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.TC_CorreoElectronico)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.TC_CorreoElectronico)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Editar", "modificarCliente_ENT", new { pIdCliente = Model.TN_IdCliente}) |
+    @Html.ActionLink("Rgresar", "obtenerRegiones_ENT")
+</p>

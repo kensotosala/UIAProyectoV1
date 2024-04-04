@@ -1,0 +1,101 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Dev Projects\\UIA\\PROYECTOV1\\Backend\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{2DD20597-CBC0-4262-8C6B-FA6D5C1B3F5C}|AccesoDatos\\AccesoDatos.csproj|c:\\dev projects\\uia\\proyectov1\\backend\\accesodatos\\implementacion\\clientesad.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2DD20597-CBC0-4262-8C6B-FA6D5C1B3F5C}|AccesoDatos\\AccesoDatos.csproj|solutionrelative:accesodatos\\implementacion\\clientesad.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3CC7D525-EEBF-4476-BB15-2D6BA6F45EF6}|LogicaNegocio\\LogicaNegocio.csproj|C:\\Dev Projects\\UIA\\PROYECTOV1\\Backend\\logicanegocio\\implementacion\\clienteln.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3CC7D525-EEBF-4476-BB15-2D6BA6F45EF6}|LogicaNegocio\\LogicaNegocio.csproj|solutionrelative:logicanegocio\\implementacion\\clienteln.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{12CF7AB4-67A6-481D-8634-EF8DBCEA588A}|C:\\Dev Projects\\UIA\\Backend\\WCFProyecto|C:\\Dev Projects\\UIA\\PROYECTOV1\\Backend\\wcfproyecto\\app_code\\srvclientes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{12CF7AB4-67A6-481D-8634-EF8DBCEA588A}|C:\\Dev Projects\\UIA\\Backend\\WCFProyecto|solutionrelative:wcfproyecto\\app_code\\srvclientes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{12CF7AB4-67A6-481D-8634-EF8DBCEA588A}|C:\\Dev Projects\\UIA\\Backend\\WCFProyecto|C:\\Dev Projects\\UIA\\PROYECTOV1\\Backend\\wcfproyecto\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{12CF7AB4-67A6-481D-8634-EF8DBCEA588A}|C:\\Dev Projects\\UIA\\Backend\\WCFProyecto|solutionrelative:wcfproyecto\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{12CF7AB4-67A6-481D-8634-EF8DBCEA588A}|C:\\Dev Projects\\UIA\\Backend\\WCFProyecto|C:\\Dev Projects\\UIA\\PROYECTOV1\\Backend\\wcfproyecto\\srvclientes.svc||{FB9167C9-D3B8-4EDA-8083-9AF6B6F6DA62}",
+      "RelativeMoniker": "D:0:0:{12CF7AB4-67A6-481D-8634-EF8DBCEA588A}|C:\\Dev Projects\\UIA\\Backend\\WCFProyecto|solutionrelative:wcfproyecto\\srvclientes.svc||{FB9167C9-D3B8-4EDA-8083-9AF6B6F6DA62}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ClientesAD.cs",
+              "DocumentMoniker": "C:\\Dev Projects\\UIA\\PROYECTOV1\\Backend\\AccesoDatos\\Implementacion\\ClientesAD.cs",
+              "RelativeDocumentMoniker": "AccesoDatos\\Implementacion\\ClientesAD.cs",
+              "ToolTip": "C:\\Dev Projects\\UIA\\PROYECTOV1\\Backend\\AccesoDatos\\Implementacion\\ClientesAD.cs",
+              "RelativeToolTip": "AccesoDatos\\Implementacion\\ClientesAD.cs",
+              "ViewState": "AQIAAFwAAAAAAAAAAAAYwHMAAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-04T06:21:07.418Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ClienteLN.cs",
+              "DocumentMoniker": "C:\\Dev Projects\\UIA\\PROYECTOV1\\Backend\\LogicaNegocio\\Implementacion\\ClienteLN.cs",
+              "RelativeDocumentMoniker": "LogicaNegocio\\Implementacion\\ClienteLN.cs",
+              "ToolTip": "C:\\Dev Projects\\UIA\\PROYECTOV1\\Backend\\LogicaNegocio\\Implementacion\\ClienteLN.cs",
+              "RelativeToolTip": "LogicaNegocio\\Implementacion\\ClienteLN.cs",
+              "ViewState": "AQIAADsAAAAAAAAAAAA1wE0AAABAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-04T06:20:27.532Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "srvClientes.cs",
+              "DocumentMoniker": "C:\\Dev Projects\\UIA\\PROYECTOV1\\Backend\\WCFProyecto\\App_Code\\srvClientes.cs",
+              "RelativeDocumentMoniker": "WCFProyecto\\App_Code\\srvClientes.cs",
+              "ToolTip": "C:\\Dev Projects\\UIA\\PROYECTOV1\\Backend\\WCFProyecto\\App_Code\\srvClientes.cs",
+              "RelativeToolTip": "WCFProyecto\\App_Code\\srvClientes.cs",
+              "ViewState": "AQIAADsAAAAAAAAAAAA1wEcAAAA2AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-04T04:06:48.304Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "srvClientes.svc",
+              "DocumentMoniker": "C:\\Dev Projects\\UIA\\PROYECTOV1\\Backend\\WCFProyecto\\srvClientes.svc",
+              "RelativeDocumentMoniker": "WCFProyecto\\srvClientes.svc",
+              "ToolTip": "C:\\Dev Projects\\UIA\\PROYECTOV1\\Backend\\WCFProyecto\\srvClientes.svc",
+              "RelativeToolTip": "WCFProyecto\\srvClientes.svc",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003504|",
+              "WhenOpened": "2024-04-04T03:45:31.543Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Web.config",
+              "DocumentMoniker": "C:\\Dev Projects\\UIA\\PROYECTOV1\\Backend\\WCFProyecto\\Web.config",
+              "RelativeDocumentMoniker": "WCFProyecto\\Web.config",
+              "ToolTip": "C:\\Dev Projects\\UIA\\PROYECTOV1\\Backend\\WCFProyecto\\Web.config",
+              "RelativeToolTip": "WCFProyecto\\Web.config",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2024-04-04T03:45:28.22Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

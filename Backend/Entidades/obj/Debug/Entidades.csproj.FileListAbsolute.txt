@@ -1,0 +1,24 @@
+C:\Users\Tryro\source\repos\progra 4\proyecto_prograIV\Entidades\bin\Debug\Entidades.dll
+C:\Users\Tryro\source\repos\progra 4\proyecto_prograIV\Entidades\bin\Debug\Entidades.pdb
+C:\Users\Tryro\source\repos\progra 4\proyecto_prograIV\Entidades\obj\Debug\Entidades.csproj.AssemblyReference.cache
+C:\Users\Tryro\source\repos\progra 4\proyecto_prograIV\Entidades\obj\Debug\Entidades.csproj.CoreCompileInputs.cache
+C:\Users\Tryro\source\repos\progra 4\proyecto_prograIV\Entidades\obj\Debug\Entidades.dll
+C:\Users\Tryro\source\repos\progra 4\proyecto_prograIV\Entidades\obj\Debug\Entidades.pdb
+C:\Users\steve\OneDrive\Escritorio\proyecto_prograIV\Entidades\bin\Debug\Entidades.dll
+C:\Users\steve\OneDrive\Escritorio\proyecto_prograIV\Entidades\bin\Debug\Entidades.pdb
+C:\Users\steve\OneDrive\Escritorio\proyecto_prograIV\Entidades\obj\Debug\Entidades.csproj.AssemblyReference.cache
+C:\Users\steve\OneDrive\Escritorio\proyecto_prograIV\Entidades\obj\Debug\Entidades.csproj.CoreCompileInputs.cache
+C:\Users\steve\OneDrive\Escritorio\proyecto_prograIV\Entidades\obj\Debug\Entidades.dll
+C:\Users\steve\OneDrive\Escritorio\proyecto_prograIV\Entidades\obj\Debug\Entidades.pdb
+G:\My Drive\UNIVERSIDAD UIA\2024\IQ\PROGRAMACION IV\PROYECTO\Backend\Entidades\bin\Debug\Entidades.dll
+G:\My Drive\UNIVERSIDAD UIA\2024\IQ\PROGRAMACION IV\PROYECTO\Backend\Entidades\bin\Debug\Entidades.pdb
+G:\My Drive\UNIVERSIDAD UIA\2024\IQ\PROGRAMACION IV\PROYECTO\Backend\Entidades\obj\Debug\Entidades.csproj.AssemblyReference.cache
+G:\My Drive\UNIVERSIDAD UIA\2024\IQ\PROGRAMACION IV\PROYECTO\Backend\Entidades\obj\Debug\Entidades.csproj.CoreCompileInputs.cache
+G:\My Drive\UNIVERSIDAD UIA\2024\IQ\PROGRAMACION IV\PROYECTO\Backend\Entidades\obj\Debug\Entidades.dll
+G:\My Drive\UNIVERSIDAD UIA\2024\IQ\PROGRAMACION IV\PROYECTO\Backend\Entidades\obj\Debug\Entidades.pdb
+C:\Dev Projects\UIA\Backend\Entidades\bin\Debug\Entidades.dll
+C:\Dev Projects\UIA\Backend\Entidades\bin\Debug\Entidades.pdb
+C:\Dev Projects\UIA\Backend\Entidades\obj\Debug\Entidades.csproj.AssemblyReference.cache
+C:\Dev Projects\UIA\Backend\Entidades\obj\Debug\Entidades.csproj.CoreCompileInputs.cache
+C:\Dev Projects\UIA\Backend\Entidades\obj\Debug\Entidades.dll
+C:\Dev Projects\UIA\Backend\Entidades\obj\Debug\Entidades.pdb

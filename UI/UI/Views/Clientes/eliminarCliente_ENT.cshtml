@@ -1,0 +1,58 @@
+﻿@model UI.Models.Clientes
+
+@{
+    ViewBag.Title = "eliminarCliente_ENT";
+}
+
+<h2>Eliminar Clientes</h2>
+
+<h3>Are you sure you want to delete this?</h3>
+
+<div>
+    <h4>Clientes</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.TC_Nombre)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.TC_Nombre)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.TC_Ap1)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.TC_Ap1)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.TC_Ap2)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.TC_Ap2)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.TC_NumTelefono)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.TC_NumTelefono)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.TC_CorreoElectronico)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.TC_CorreoElectronico)
+        </dd>
+    </dl>
+
+    @using (Html.BeginForm("accionesEjecucion", "Clientes", FormMethod.Post))
+    {
+        @Html.AntiForgeryToken()
+        @Html.HiddenFor(model => model.TN_IdCliente)
+        <div class="form-actions no-color mt-2">
+            <button type="submit" name="accionEjecutar" value="Borrar" class="btn btn-warning" formaction="@Url.Action("accionesEjecucion", "Clientes")">
+                Eliminar 🗑️
+            </button> |
+            @Html.ActionLink("Regresar", "obtenerClientes_ENT")
+        </div>
+    }
+</div>

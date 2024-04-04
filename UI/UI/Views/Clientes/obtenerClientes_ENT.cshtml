@@ -1,0 +1,63 @@
+﻿@model IEnumerable<UI.Models.Clientes>
+
+@{
+    ViewBag.Title = "obtenerClientes_ENT";
+}
+
+<h2>obtenerClientes_ENT</h2>
+
+<p>
+    @Html.ActionLink("Nuevo", "agregarCliente_ENT")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.TN_IdCliente)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.TC_Nombre)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.TC_Ap1)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.TC_Ap2)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.TC_NumTelefono)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.TC_CorreoElectronico)
+        </th>
+        <th></th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.TN_IdCliente)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.TC_Nombre)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.TC_Ap1)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.TC_Ap2)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.TC_NumTelefono)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.TC_CorreoElectronico)
+            </td>
+            <td>
+                @Html.ActionLink("Editar", "modificarCliente_ENT", new { pIdCliente = item.TN_IdCliente }) |
+                @Html.ActionLink("Detalle", "detalleCliente_ENT", new { pIdCliente = item.TN_IdCliente }) |
+                @Html.ActionLink("Eliminar", "eliminarCliente_ENT", new { pIdCliente = item.TN_IdCliente })
+            </td>
+        </tr>
+    }
+</table>

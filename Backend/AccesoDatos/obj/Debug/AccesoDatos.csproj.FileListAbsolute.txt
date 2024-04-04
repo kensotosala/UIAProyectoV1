@@ -1,0 +1,56 @@
+C:\Users\Tryro\source\repos\progra 4\proyecto_prograIV\AccesoDatos\bin\Debug\AccesoDatos.dll.config
+C:\Users\Tryro\source\repos\progra 4\proyecto_prograIV\AccesoDatos\bin\Debug\AccesoDatos.dll
+C:\Users\Tryro\source\repos\progra 4\proyecto_prograIV\AccesoDatos\bin\Debug\AccesoDatos.pdb
+C:\Users\Tryro\source\repos\progra 4\proyecto_prograIV\AccesoDatos\bin\Debug\Entidades.dll
+C:\Users\Tryro\source\repos\progra 4\proyecto_prograIV\AccesoDatos\bin\Debug\EntityFramework.dll
+C:\Users\Tryro\source\repos\progra 4\proyecto_prograIV\AccesoDatos\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Tryro\source\repos\progra 4\proyecto_prograIV\AccesoDatos\bin\Debug\Entidades.pdb
+C:\Users\Tryro\source\repos\progra 4\proyecto_prograIV\AccesoDatos\bin\Debug\EntityFramework.xml
+C:\Users\Tryro\source\repos\progra 4\proyecto_prograIV\AccesoDatos\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Tryro\source\repos\progra 4\proyecto_prograIV\AccesoDatos\obj\Debug\AccesoDatos.csproj.AssemblyReference.cache
+C:\Users\Tryro\source\repos\progra 4\proyecto_prograIV\AccesoDatos\obj\Debug\AccesoDatos.csproj.CoreCompileInputs.cache
+C:\Users\Tryro\source\repos\progra 4\proyecto_prograIV\AccesoDatos\obj\Debug\AccesoDatos.csproj.CopyComplete
+C:\Users\Tryro\source\repos\progra 4\proyecto_prograIV\AccesoDatos\obj\Debug\AccesoDatos.dll
+C:\Users\Tryro\source\repos\progra 4\proyecto_prograIV\AccesoDatos\obj\Debug\AccesoDatos.pdb
+C:\Users\steve\OneDrive\Escritorio\proyecto_prograIV\AccesoDatos\bin\Debug\AccesoDatos.dll.config
+C:\Users\steve\OneDrive\Escritorio\proyecto_prograIV\AccesoDatos\bin\Debug\AccesoDatos.dll
+C:\Users\steve\OneDrive\Escritorio\proyecto_prograIV\AccesoDatos\bin\Debug\AccesoDatos.pdb
+C:\Users\steve\OneDrive\Escritorio\proyecto_prograIV\AccesoDatos\bin\Debug\Entidades.dll
+C:\Users\steve\OneDrive\Escritorio\proyecto_prograIV\AccesoDatos\bin\Debug\EntityFramework.dll
+C:\Users\steve\OneDrive\Escritorio\proyecto_prograIV\AccesoDatos\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\steve\OneDrive\Escritorio\proyecto_prograIV\AccesoDatos\bin\Debug\Entidades.pdb
+C:\Users\steve\OneDrive\Escritorio\proyecto_prograIV\AccesoDatos\bin\Debug\EntityFramework.xml
+C:\Users\steve\OneDrive\Escritorio\proyecto_prograIV\AccesoDatos\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\steve\OneDrive\Escritorio\proyecto_prograIV\AccesoDatos\obj\Debug\AccesoDatos.csproj.AssemblyReference.cache
+C:\Users\steve\OneDrive\Escritorio\proyecto_prograIV\AccesoDatos\obj\Debug\AccesoDatos.csproj.CoreCompileInputs.cache
+C:\Users\steve\OneDrive\Escritorio\proyecto_prograIV\AccesoDatos\obj\Debug\AccesoDa.B2719C34.Up2Date
+C:\Users\steve\OneDrive\Escritorio\proyecto_prograIV\AccesoDatos\obj\Debug\AccesoDatos.dll
+C:\Users\steve\OneDrive\Escritorio\proyecto_prograIV\AccesoDatos\obj\Debug\AccesoDatos.pdb
+G:\My Drive\UNIVERSIDAD UIA\2024\IQ\PROGRAMACION IV\PROYECTO\Backend\AccesoDatos\bin\Debug\AccesoDatos.dll.config
+G:\My Drive\UNIVERSIDAD UIA\2024\IQ\PROGRAMACION IV\PROYECTO\Backend\AccesoDatos\bin\Debug\AccesoDatos.dll
+G:\My Drive\UNIVERSIDAD UIA\2024\IQ\PROGRAMACION IV\PROYECTO\Backend\AccesoDatos\bin\Debug\AccesoDatos.pdb
+G:\My Drive\UNIVERSIDAD UIA\2024\IQ\PROGRAMACION IV\PROYECTO\Backend\AccesoDatos\bin\Debug\Entidades.dll
+G:\My Drive\UNIVERSIDAD UIA\2024\IQ\PROGRAMACION IV\PROYECTO\Backend\AccesoDatos\bin\Debug\EntityFramework.dll
+G:\My Drive\UNIVERSIDAD UIA\2024\IQ\PROGRAMACION IV\PROYECTO\Backend\AccesoDatos\bin\Debug\EntityFramework.SqlServer.dll
+G:\My Drive\UNIVERSIDAD UIA\2024\IQ\PROGRAMACION IV\PROYECTO\Backend\AccesoDatos\bin\Debug\Entidades.pdb
+G:\My Drive\UNIVERSIDAD UIA\2024\IQ\PROGRAMACION IV\PROYECTO\Backend\AccesoDatos\bin\Debug\EntityFramework.xml
+G:\My Drive\UNIVERSIDAD UIA\2024\IQ\PROGRAMACION IV\PROYECTO\Backend\AccesoDatos\bin\Debug\EntityFramework.SqlServer.xml
+G:\My Drive\UNIVERSIDAD UIA\2024\IQ\PROGRAMACION IV\PROYECTO\Backend\AccesoDatos\obj\Debug\AccesoDatos.csproj.AssemblyReference.cache
+G:\My Drive\UNIVERSIDAD UIA\2024\IQ\PROGRAMACION IV\PROYECTO\Backend\AccesoDatos\obj\Debug\AccesoDatos.csproj.CoreCompileInputs.cache
+G:\My Drive\UNIVERSIDAD UIA\2024\IQ\PROGRAMACION IV\PROYECTO\Backend\AccesoDatos\obj\Debug\AccesoDa.B2719C34.Up2Date
+G:\My Drive\UNIVERSIDAD UIA\2024\IQ\PROGRAMACION IV\PROYECTO\Backend\AccesoDatos\obj\Debug\AccesoDatos.dll
+G:\My Drive\UNIVERSIDAD UIA\2024\IQ\PROGRAMACION IV\PROYECTO\Backend\AccesoDatos\obj\Debug\AccesoDatos.pdb
+C:\Dev Projects\UIA\Backend\AccesoDatos\bin\Debug\AccesoDatos.dll.config
+C:\Dev Projects\UIA\Backend\AccesoDatos\bin\Debug\AccesoDatos.dll
+C:\Dev Projects\UIA\Backend\AccesoDatos\bin\Debug\AccesoDatos.pdb
+C:\Dev Projects\UIA\Backend\AccesoDatos\bin\Debug\Entidades.dll
+C:\Dev Projects\UIA\Backend\AccesoDatos\bin\Debug\EntityFramework.dll
+C:\Dev Projects\UIA\Backend\AccesoDatos\bin\Debug\EntityFramework.SqlServer.dll
+C:\Dev Projects\UIA\Backend\AccesoDatos\bin\Debug\Entidades.pdb
+C:\Dev Projects\UIA\Backend\AccesoDatos\bin\Debug\EntityFramework.xml
+C:\Dev Projects\UIA\Backend\AccesoDatos\bin\Debug\EntityFramework.SqlServer.xml
+C:\Dev Projects\UIA\Backend\AccesoDatos\obj\Debug\AccesoDatos.csproj.AssemblyReference.cache
+C:\Dev Projects\UIA\Backend\AccesoDatos\obj\Debug\AccesoDatos.csproj.CoreCompileInputs.cache
+C:\Dev Projects\UIA\Backend\AccesoDatos\obj\Debug\AccesoDa.B2719C34.Up2Date
+C:\Dev Projects\UIA\Backend\AccesoDatos\obj\Debug\AccesoDatos.dll
+C:\Dev Projects\UIA\Backend\AccesoDatos\obj\Debug\AccesoDatos.pdb

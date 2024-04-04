@@ -1,0 +1,171 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Dev Projects\\UIA\\PROYECTOV1\\UI\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B941D645-F2F0-4014-96AB-053319688FD3}|UI\\UI.csproj|c:\\dev projects\\uia\\proyectov1\\ui\\ui\\controllers\\clientescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B941D645-F2F0-4014-96AB-053319688FD3}|UI\\UI.csproj|solutionrelative:ui\\controllers\\clientescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B941D645-F2F0-4014-96AB-053319688FD3}|UI\\UI.csproj|C:\\Dev Projects\\UIA\\PROYECTOV1\\UI\\ui\\views\\clientes\\agregarcliente_ent.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B941D645-F2F0-4014-96AB-053319688FD3}|UI\\UI.csproj|solutionrelative:ui\\views\\clientes\\agregarcliente_ent.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B941D645-F2F0-4014-96AB-053319688FD3}|UI\\UI.csproj|C:\\Dev Projects\\UIA\\PROYECTOV1\\UI\\ui\\views\\clientes\\eliminarcliente_ent.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B941D645-F2F0-4014-96AB-053319688FD3}|UI\\UI.csproj|solutionrelative:ui\\views\\clientes\\eliminarcliente_ent.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B941D645-F2F0-4014-96AB-053319688FD3}|UI\\UI.csproj|C:\\Dev Projects\\UIA\\PROYECTOV1\\UI\\ui\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B941D645-F2F0-4014-96AB-053319688FD3}|UI\\UI.csproj|solutionrelative:ui\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B941D645-F2F0-4014-96AB-053319688FD3}|UI\\UI.csproj|C:\\Dev Projects\\UIA\\PROYECTOV1\\UI\\ui\\models\\clientes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B941D645-F2F0-4014-96AB-053319688FD3}|UI\\UI.csproj|solutionrelative:ui\\models\\clientes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B941D645-F2F0-4014-96AB-053319688FD3}|UI\\UI.csproj|C:\\Dev Projects\\UIA\\PROYECTOV1\\UI\\ui\\views\\clientes\\detallecliente_ent.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B941D645-F2F0-4014-96AB-053319688FD3}|UI\\UI.csproj|solutionrelative:ui\\views\\clientes\\detallecliente_ent.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B941D645-F2F0-4014-96AB-053319688FD3}|UI\\UI.csproj|C:\\Dev Projects\\UIA\\PROYECTOV1\\UI\\ui\\views\\clientes\\modificarcliente_ent.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B941D645-F2F0-4014-96AB-053319688FD3}|UI\\UI.csproj|solutionrelative:ui\\views\\clientes\\modificarcliente_ent.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B941D645-F2F0-4014-96AB-053319688FD3}|UI\\UI.csproj|C:\\Dev Projects\\UIA\\PROYECTOV1\\UI\\ui\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{B941D645-F2F0-4014-96AB-053319688FD3}|UI\\UI.csproj|solutionrelative:ui\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B941D645-F2F0-4014-96AB-053319688FD3}|UI\\UI.csproj|C:\\Dev Projects\\UIA\\PROYECTOV1\\UI\\ui\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B941D645-F2F0-4014-96AB-053319688FD3}|UI\\UI.csproj|solutionrelative:ui\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "eliminarCliente_ENT.cshtml",
+              "DocumentMoniker": "C:\\Dev Projects\\UIA\\PROYECTOV1\\UI\\UI\\Views\\Clientes\\eliminarCliente_ENT.cshtml",
+              "RelativeDocumentMoniker": "UI\\Views\\Clientes\\eliminarCliente_ENT.cshtml",
+              "ToolTip": "C:\\Dev Projects\\UIA\\PROYECTOV1\\UI\\UI\\Views\\Clientes\\eliminarCliente_ENT.cshtml",
+              "RelativeToolTip": "UI\\Views\\Clientes\\eliminarCliente_ENT.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-04T06:07:40.543Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "detalleCliente_ENT.cshtml",
+              "DocumentMoniker": "C:\\Dev Projects\\UIA\\PROYECTOV1\\UI\\UI\\Views\\Clientes\\detalleCliente_ENT.cshtml",
+              "RelativeDocumentMoniker": "UI\\Views\\Clientes\\detalleCliente_ENT.cshtml",
+              "ToolTip": "C:\\Dev Projects\\UIA\\PROYECTOV1\\UI\\UI\\Views\\Clientes\\detalleCliente_ENT.cshtml",
+              "RelativeToolTip": "UI\\Views\\Clientes\\detalleCliente_ENT.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAADwAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-03T17:32:52.82Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "agregarCliente_ENT.cshtml",
+              "DocumentMoniker": "C:\\Dev Projects\\UIA\\PROYECTOV1\\UI\\UI\\Views\\Clientes\\agregarCliente_ENT.cshtml",
+              "RelativeDocumentMoniker": "UI\\Views\\Clientes\\agregarCliente_ENT.cshtml",
+              "ToolTip": "C:\\Dev Projects\\UIA\\PROYECTOV1\\UI\\UI\\Views\\Clientes\\agregarCliente_ENT.cshtml",
+              "RelativeToolTip": "UI\\Views\\Clientes\\agregarCliente_ENT.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAA1AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-03T19:06:39.394Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ClientesController.cs",
+              "DocumentMoniker": "C:\\Dev Projects\\UIA\\PROYECTOV1\\UI\\UI\\Controllers\\ClientesController.cs",
+              "RelativeDocumentMoniker": "UI\\Controllers\\ClientesController.cs",
+              "ToolTip": "C:\\Dev Projects\\UIA\\PROYECTOV1\\UI\\UI\\Controllers\\ClientesController.cs",
+              "RelativeToolTip": "UI\\Controllers\\ClientesController.cs",
+              "ViewState": "AQIAAAUBAAAAAAAAAAAcwCABAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-03T16:44:39.011Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Web.config",
+              "DocumentMoniker": "C:\\Dev Projects\\UIA\\PROYECTOV1\\UI\\UI\\Web.config",
+              "RelativeDocumentMoniker": "UI\\Web.config",
+              "ToolTip": "C:\\Dev Projects\\UIA\\PROYECTOV1\\UI\\UI\\Web.config",
+              "RelativeToolTip": "UI\\Web.config",
+              "ViewState": "AQIAADAAAAAAAAAAAAAAAEEAAAA8AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2024-04-04T03:44:16.284Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Clientes.cs",
+              "DocumentMoniker": "C:\\Dev Projects\\UIA\\PROYECTOV1\\UI\\UI\\Models\\Clientes.cs",
+              "RelativeDocumentMoniker": "UI\\Models\\Clientes.cs",
+              "ToolTip": "C:\\Dev Projects\\UIA\\PROYECTOV1\\UI\\UI\\Models\\Clientes.cs",
+              "RelativeToolTip": "UI\\Models\\Clientes.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-03T16:52:29.681Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "modificarCliente_ENT.cshtml",
+              "DocumentMoniker": "C:\\Dev Projects\\UIA\\PROYECTOV1\\UI\\UI\\Views\\Clientes\\modificarCliente_ENT.cshtml",
+              "RelativeDocumentMoniker": "UI\\Views\\Clientes\\modificarCliente_ENT.cshtml",
+              "ToolTip": "C:\\Dev Projects\\UIA\\PROYECTOV1\\UI\\UI\\Views\\Clientes\\modificarCliente_ENT.cshtml",
+              "RelativeToolTip": "UI\\Views\\Clientes\\modificarCliente_ENT.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-03T17:32:18.756Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "C:\\Dev Projects\\UIA\\PROYECTOV1\\UI\\UI\\Views\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "UI\\Views\\_ViewStart.cshtml",
+              "ToolTip": "C:\\Dev Projects\\UIA\\PROYECTOV1\\UI\\UI\\Views\\_ViewStart.cshtml",
+              "RelativeToolTip": "UI\\Views\\_ViewStart.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-03T17:00:24.541Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Dev Projects\\UIA\\PROYECTOV1\\UI\\UI\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "UI\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Dev Projects\\UIA\\PROYECTOV1\\UI\\UI\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "UI\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-03T17:00:23.4Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
