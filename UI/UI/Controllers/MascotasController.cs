@@ -107,61 +107,61 @@ namespace UI.Controllers
             return View(mascota);
         }
 
-        // DELETE Cliente
-        //public ActionResult eliminarMascotaENT(int pIdMascota)
-        //{
-        //    Mascotas mascota = new Mascotas();
-        //    try
-        //    {
-        //        using (srvMascotas.IsrvMascotasClient srvMs = new srvMascotas.IsrvMascotasClient())
-        //        {
-        //            var lstMascotas = srvMs.obtenerMascotasXId_ENT(pIdMascota);
-        //            mascota.TN_IdMascota = lstMascotas.TN_IdMascota;
-        //            mascota.TC_NombreMascota = lstMascotas.TC_NombreMascota;
-        //            mascota.TN_IdCliente = lstMascotas.TN_IdCliente;
-        //        }
-        //    }
-        //    catch (Exception ex)
-        //    {
-        //        throw ex;
-        //    }
-        //    return View(mascota);
-        //}
-
         public ActionResult eliminarMascotaENT(int pIdMascota)
         {
+            Mascotas mascota = new Mascotas();
             try
             {
                 using (srvMascotas.IsrvMascotasClient srvMs = new srvMascotas.IsrvMascotasClient())
                 {
-                    // Obtener la mascota por su ID
-                    var mascota = srvMs.obtenerMascotasXId_ENT(pIdMascota);
-
-                    // Verificar si la mascota existe
-                    if (mascota != null)
-                    {
-                        // Eliminar la mascota
-                        srvMs.eliminaMascotas_ENT(mascota);
-
-                        // Redirigir a la acción obtenerMascotasENT para actualizar la lista de mascotas
-                        return RedirectToAction("obtenerMascotasENT");
-                    }
-                    else
-                    {
-                        // La mascota no existe, mostrar un mensaje de error o redirigir a una página de error
-                        return HttpNotFound();
-                    }
+                    var lstMascotas = srvMs.obtenerMascotasXId_ENT(pIdMascota);
+                    mascota.TN_IdMascota = lstMascotas.TN_IdMascota;
+                    mascota.TC_NombreMascota = lstMascotas.TC_NombreMascota;
+                    mascota.TN_IdCliente = lstMascotas.TN_IdCliente;
                 }
             }
             catch (Exception ex)
             {
-                // Manejar cualquier excepción que ocurra durante el proceso
-                ViewBag.ErrorMessage = "An error occurred while deleting the pet: " + ex.Message;
-                return View("Error"); // Vista de error personalizada
+                throw ex;
             }
+            return View(mascota);
         }
 
-        // DETAIL Cliente
+        //public ActionResult eliminarMascotaENT(int pIdMascota)
+        //{
+        //    try
+        //    {
+        //        using (srvMascotas.IsrvMascotasClient srvMs = new srvMascotas.IsrvMascotasClient())
+        //        {
+        //            // Obtener la mascota por su ID
+        //            var mascota = srvMs.obtenerMascotasXId_ENT(pIdMascota);
+
+        //            // Verificar si la mascota existe
+        //            if (mascota != null)
+        //            {
+        //                // Eliminar la mascota
+        //                srvMs.eliminaMascotas_ENT(mascota);
+
+        //                // Redirigir a la acción obtenerMascotasENT para actualizar la lista de mascotas
+        //                //return RedirectToAction("obtenerMascotasENT");
+
+        //                return View(mascota);
+        //            }
+        //            else
+        //            {
+        //                // La mascota no existe, mostrar un mensaje de error o redirigir a una página de error
+        //                return HttpNotFound();
+        //            }
+        //        }
+        //    }
+        //    catch (Exception ex)
+        //    {
+        //        // Manejar cualquier excepción que ocurra durante el proceso
+        //        ViewBag.ErrorMessage = "An error occurred while deleting the pet: " + ex.Message;
+        //        return View("Error"); // Vista de error personalizada
+        //    }
+        //}
+
         public ActionResult detalleMascotaENT(int pIdMascota)
         {
             Mascotas mascota = new Mascotas();
@@ -173,6 +173,12 @@ namespace UI.Controllers
                     mascota.TN_IdMascota = lstMascotas.TN_IdMascota;
                     mascota.TC_NombreMascota = lstMascotas.TC_NombreMascota;
                     mascota.TN_IdCliente = lstMascotas.TN_IdCliente;
+                }
+
+                // Retrieve client data and assign it to ViewBag.Clientes
+                using (srvClientes.IsrvClientesClient srvCl = new srvClientes.IsrvClientesClient())
+                {
+                    ViewBag.Clientes = ConvertirClientes(srvCl.obtenerCliente_ENT());
                 }
             }
             catch (Exception ex)
@@ -221,7 +227,7 @@ namespace UI.Controllers
         }
 
         // Actualizar
-        public ActionResult actualizarClienteENT(Mascotas pMascota)
+        public ActionResult actualizarMascotasENT(Mascotas pMascota)
         {
             List<Mascotas> lstMascotas = new List<Mascotas>();
             Mascotas mascota;
@@ -253,11 +259,11 @@ namespace UI.Controllers
             {
                 throw lEx;
             }
-            return View("obtenerMascotasENT", lstMascotas);
+            return View("obtenerMascotasENT");
         }
 
         // Borrar
-        public ActionResult borrarClienteENT(Mascotas pMascota)
+        public ActionResult borrarMascotasENT(Mascotas pMascota)
         {
             List<Mascotas> lstMascotas = new List<Mascotas>();
             Mascotas mascota;
@@ -289,7 +295,7 @@ namespace UI.Controllers
             {
                 throw lEx;
             }
-            return View("obtenerMascotasENT", lstMascotas);
+            return RedirectToAction("obtenerMascotasENT");
         }
 
         // Acciones
@@ -303,10 +309,10 @@ namespace UI.Controllers
                         return insertarMascotaENT(pMascota);
 
                     case "Modificar":
-                        return actualizarClienteENT(pMascota);
+                        return actualizarMascotasENT(pMascota);
 
                     case "Borrar":
-                        return borrarClienteENT(pMascota);
+                        return borrarMascotasENT(pMascota);
 
                     default:
                         return RedirectToAction("obtenerMascotasENT");

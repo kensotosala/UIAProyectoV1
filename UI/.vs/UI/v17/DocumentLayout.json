@@ -3,35 +3,27 @@
   "WorkspaceRootPath": "C:\\Dev Projects\\UIA\\PROYECTOV1\\UI\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B941D645-F2F0-4014-96AB-053319688FD3}|UI\\UI.csproj|C:\\Dev Projects\\UIA\\PROYECTOV1\\UI\\ui\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{B941D645-F2F0-4014-96AB-053319688FD3}|UI\\UI.csproj|solutionrelative:ui\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{B941D645-F2F0-4014-96AB-053319688FD3}|UI\\UI.csproj|C:\\Dev Projects\\UIA\\PROYECTOV1\\UI\\ui\\views\\mascotas\\detallemascotaent.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B941D645-F2F0-4014-96AB-053319688FD3}|UI\\UI.csproj|solutionrelative:ui\\views\\mascotas\\detallemascotaent.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B941D645-F2F0-4014-96AB-053319688FD3}|UI\\UI.csproj|C:\\Dev Projects\\UIA\\PROYECTOV1\\UI\\ui\\views\\mascotas\\obtenermascotasent.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{B941D645-F2F0-4014-96AB-053319688FD3}|UI\\UI.csproj|solutionrelative:ui\\views\\mascotas\\obtenermascotasent.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B941D645-F2F0-4014-96AB-053319688FD3}|UI\\UI.csproj|c:\\dev projects\\uia\\proyectov1\\ui\\ui\\views\\mascotas\\eliminarmascotaent.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{B941D645-F2F0-4014-96AB-053319688FD3}|UI\\UI.csproj|solutionrelative:ui\\views\\mascotas\\eliminarmascotaent.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B941D645-F2F0-4014-96AB-053319688FD3}|UI\\UI.csproj|c:\\dev projects\\uia\\proyectov1\\ui\\ui\\controllers\\mascotascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B941D645-F2F0-4014-96AB-053319688FD3}|UI\\UI.csproj|solutionrelative:ui\\controllers\\mascotascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B941D645-F2F0-4014-96AB-053319688FD3}|UI\\UI.csproj|C:\\Dev Projects\\UIA\\PROYECTOV1\\UI\\ui\\models\\mascotas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B941D645-F2F0-4014-96AB-053319688FD3}|UI\\UI.csproj|solutionrelative:ui\\models\\mascotas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B941D645-F2F0-4014-96AB-053319688FD3}|UI\\UI.csproj|C:\\Dev Projects\\UIA\\PROYECTOV1\\UI\\ui\\views\\clientes\\detallecliente_ent.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B941D645-F2F0-4014-96AB-053319688FD3}|UI\\UI.csproj|solutionrelative:ui\\views\\clientes\\detallecliente_ent.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B941D645-F2F0-4014-96AB-053319688FD3}|UI\\UI.csproj|C:\\Dev Projects\\UIA\\PROYECTOV1\\UI\\ui\\views\\mascotas\\agregarmascotaent.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{B941D645-F2F0-4014-96AB-053319688FD3}|UI\\UI.csproj|solutionrelative:ui\\views\\mascotas\\agregarmascotaent.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B941D645-F2F0-4014-96AB-053319688FD3}|UI\\UI.csproj|c:\\dev projects\\uia\\proyectov1\\ui\\ui\\views\\clientes\\eliminarcliente_ent.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{B941D645-F2F0-4014-96AB-053319688FD3}|UI\\UI.csproj|solutionrelative:ui\\views\\clientes\\eliminarcliente_ent.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{B941D645-F2F0-4014-96AB-053319688FD3}|UI\\UI.csproj|C:\\Dev Projects\\UIA\\PROYECTOV1\\UI\\ui\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B941D645-F2F0-4014-96AB-053319688FD3}|UI\\UI.csproj|solutionrelative:ui\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B941D645-F2F0-4014-96AB-053319688FD3}|UI\\UI.csproj|C:\\Dev Projects\\UIA\\PROYECTOV1\\UI\\ui\\controllers\\clientescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B941D645-F2F0-4014-96AB-053319688FD3}|UI\\UI.csproj|C:\\Dev Projects\\UIA\\PROYECTOV1\\UI\\ui\\controllers\\mascotascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B941D645-F2F0-4014-96AB-053319688FD3}|UI\\UI.csproj|solutionrelative:ui\\controllers\\mascotascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B941D645-F2F0-4014-96AB-053319688FD3}|UI\\UI.csproj|c:\\dev projects\\uia\\proyectov1\\ui\\ui\\controllers\\clientescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B941D645-F2F0-4014-96AB-053319688FD3}|UI\\UI.csproj|solutionrelative:ui\\controllers\\clientescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -39,12 +31,40 @@
       "RelativeMoniker": "D:0:0:{B941D645-F2F0-4014-96AB-053319688FD3}|UI\\UI.csproj|solutionrelative:ui\\views\\clientes\\obtenerclientes_ent.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{B941D645-F2F0-4014-96AB-053319688FD3}|UI\\UI.csproj|c:\\dev projects\\uia\\proyectov1\\ui\\ui\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B941D645-F2F0-4014-96AB-053319688FD3}|UI\\UI.csproj|solutionrelative:ui\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B941D645-F2F0-4014-96AB-053319688FD3}|UI\\UI.csproj|C:\\Dev Projects\\UIA\\PROYECTOV1\\UI\\ui\\views\\mascotas\\eliminarmascotaent.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B941D645-F2F0-4014-96AB-053319688FD3}|UI\\UI.csproj|solutionrelative:ui\\views\\mascotas\\eliminarmascotaent.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B941D645-F2F0-4014-96AB-053319688FD3}|UI\\UI.csproj|C:\\Dev Projects\\UIA\\PROYECTOV1\\UI\\ui\\views\\mascotas\\obtenermascotasent.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B941D645-F2F0-4014-96AB-053319688FD3}|UI\\UI.csproj|solutionrelative:ui\\views\\mascotas\\obtenermascotasent.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{B941D645-F2F0-4014-96AB-053319688FD3}|UI\\UI.csproj|C:\\Dev Projects\\UIA\\PROYECTOV1\\UI\\ui\\models\\clientes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B941D645-F2F0-4014-96AB-053319688FD3}|UI\\UI.csproj|solutionrelative:ui\\models\\clientes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B941D645-F2F0-4014-96AB-053319688FD3}|UI\\UI.csproj|c:\\dev projects\\uia\\proyectov1\\ui\\ui\\views\\clientes\\agregarcliente_ent.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{B941D645-F2F0-4014-96AB-053319688FD3}|UI\\UI.csproj|C:\\Dev Projects\\UIA\\PROYECTOV1\\UI\\ui\\views\\clientes\\agregarcliente_ent.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{B941D645-F2F0-4014-96AB-053319688FD3}|UI\\UI.csproj|solutionrelative:ui\\views\\clientes\\agregarcliente_ent.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B941D645-F2F0-4014-96AB-053319688FD3}|UI\\UI.csproj|C:\\Dev Projects\\UIA\\PROYECTOV1\\UI\\ui\\views\\clientes\\modificarcliente_ent.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B941D645-F2F0-4014-96AB-053319688FD3}|UI\\UI.csproj|solutionrelative:ui\\views\\clientes\\modificarcliente_ent.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B941D645-F2F0-4014-96AB-053319688FD3}|UI\\UI.csproj|C:\\Dev Projects\\UIA\\PROYECTOV1\\UI\\ui\\views\\clientes\\eliminarcliente_ent.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B941D645-F2F0-4014-96AB-053319688FD3}|UI\\UI.csproj|solutionrelative:ui\\views\\clientes\\eliminarcliente_ent.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B941D645-F2F0-4014-96AB-053319688FD3}|UI\\UI.csproj|C:\\Dev Projects\\UIA\\PROYECTOV1\\UI\\ui\\models\\mascotas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B941D645-F2F0-4014-96AB-053319688FD3}|UI\\UI.csproj|solutionrelative:ui\\models\\mascotas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B941D645-F2F0-4014-96AB-053319688FD3}|UI\\UI.csproj|C:\\Dev Projects\\UIA\\PROYECTOV1\\UI\\ui\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B941D645-F2F0-4014-96AB-053319688FD3}|UI\\UI.csproj|solutionrelative:ui\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -54,7 +74,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Bookmark",
@@ -62,26 +82,78 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "eliminarMascotaENT.cshtml",
-              "DocumentMoniker": "C:\\Dev Projects\\UIA\\PROYECTOV1\\UI\\UI\\Views\\Mascotas\\eliminarMascotaENT.cshtml",
-              "RelativeDocumentMoniker": "UI\\Views\\Mascotas\\eliminarMascotaENT.cshtml",
-              "ToolTip": "C:\\Dev Projects\\UIA\\PROYECTOV1\\UI\\UI\\Views\\Mascotas\\eliminarMascotaENT.cshtml",
-              "RelativeToolTip": "UI\\Views\\Mascotas\\eliminarMascotaENT.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAA9AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-05T03:24:06.915Z",
+              "DocumentIndex": 7,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Dev Projects\\UIA\\PROYECTOV1\\UI\\UI\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "UI\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Dev Projects\\UIA\\PROYECTOV1\\UI\\UI\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "UI\\Controllers\\HomeController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-05T23:07:03.42Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 3,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Dev Projects\\UIA\\PROYECTOV1\\UI\\UI\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "UI\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Dev Projects\\UIA\\PROYECTOV1\\UI\\UI\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "UI\\Views\\Home\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-05T23:05:43.173Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Dev Projects\\UIA\\PROYECTOV1\\UI\\UI\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "UI\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Dev Projects\\UIA\\PROYECTOV1\\UI\\UI\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "UI\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACYAAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-04T17:51:04.151Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MascotasController.cs",
+              "DocumentMoniker": "C:\\Dev Projects\\UIA\\PROYECTOV1\\UI\\UI\\Controllers\\MascotasController.cs",
+              "RelativeDocumentMoniker": "UI\\Controllers\\MascotasController.cs",
+              "ToolTip": "C:\\Dev Projects\\UIA\\PROYECTOV1\\UI\\UI\\Controllers\\MascotasController.cs",
+              "RelativeToolTip": "UI\\Controllers\\MascotasController.cs",
+              "ViewState": "AQIAAE0AAAAAAAAAAAA2wFUAAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-04T17:26:09.772Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "obtenerMascotasENT.cshtml",
+              "DocumentMoniker": "C:\\Dev Projects\\UIA\\PROYECTOV1\\UI\\UI\\Views\\Mascotas\\obtenerMascotasENT.cshtml",
+              "RelativeDocumentMoniker": "UI\\Views\\Mascotas\\obtenerMascotasENT.cshtml",
+              "ToolTip": "C:\\Dev Projects\\UIA\\PROYECTOV1\\UI\\UI\\Views\\Mascotas\\obtenerMascotasENT.cshtml",
+              "RelativeToolTip": "UI\\Views\\Mascotas\\obtenerMascotasENT.cshtml",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAAACoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-04T17:45:13.884Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "agregarMascotaENT.cshtml",
               "DocumentMoniker": "C:\\Dev Projects\\UIA\\PROYECTOV1\\UI\\UI\\Views\\Mascotas\\agregarMascotaENT.cshtml",
               "RelativeDocumentMoniker": "UI\\Views\\Mascotas\\agregarMascotaENT.cshtml",
               "ToolTip": "C:\\Dev Projects\\UIA\\PROYECTOV1\\UI\\UI\\Views\\Mascotas\\agregarMascotaENT.cshtml",
               "RelativeToolTip": "UI\\Views\\Mascotas\\agregarMascotaENT.cshtml",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAAA4AAAAZAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-04-04T17:53:29.177Z",
               "EditorCaption": ""
@@ -89,67 +161,52 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Dev Projects\\UIA\\PROYECTOV1\\UI\\UI\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "UI\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Dev Projects\\UIA\\PROYECTOV1\\UI\\UI\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "UI\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AQIAAA4AAAAAAAAAAAAAAB4AAAAOAAAA",
+              "Title": "detalleMascotaENT.cshtml",
+              "DocumentMoniker": "C:\\Dev Projects\\UIA\\PROYECTOV1\\UI\\UI\\Views\\Mascotas\\detalleMascotaENT.cshtml",
+              "RelativeDocumentMoniker": "UI\\Views\\Mascotas\\detalleMascotaENT.cshtml",
+              "ToolTip": "C:\\Dev Projects\\UIA\\PROYECTOV1\\UI\\UI\\Views\\Mascotas\\detalleMascotaENT.cshtml",
+              "RelativeToolTip": "UI\\Views\\Mascotas\\detalleMascotaENT.cshtml",
+              "ViewState": "AQIAAAcAAAAAAAAAAAAmwBEAAAANAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-04T17:51:04.151Z",
+              "WhenOpened": "2024-04-05T22:51:17.731Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "obtenerMascotasENT.cshtml",
-              "DocumentMoniker": "C:\\Dev Projects\\UIA\\PROYECTOV1\\UI\\UI\\Views\\Mascotas\\obtenerMascotasENT.cshtml",
-              "RelativeDocumentMoniker": "UI\\Views\\Mascotas\\obtenerMascotasENT.cshtml",
-              "ToolTip": "C:\\Dev Projects\\UIA\\PROYECTOV1\\UI\\UI\\Views\\Mascotas\\obtenerMascotasENT.cshtml",
-              "RelativeToolTip": "UI\\Views\\Mascotas\\obtenerMascotasENT.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAACoAAABjAAAA",
+              "DocumentIndex": 8,
+              "Title": "eliminarMascotaENT.cshtml",
+              "DocumentMoniker": "C:\\Dev Projects\\UIA\\PROYECTOV1\\UI\\UI\\Views\\Mascotas\\eliminarMascotaENT.cshtml",
+              "RelativeDocumentMoniker": "UI\\Views\\Mascotas\\eliminarMascotaENT.cshtml",
+              "ToolTip": "C:\\Dev Projects\\UIA\\PROYECTOV1\\UI\\UI\\Views\\Mascotas\\eliminarMascotaENT.cshtml",
+              "RelativeToolTip": "UI\\Views\\Mascotas\\eliminarMascotaENT.cshtml",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAAB4AAABIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-04T17:45:13.884Z",
+              "WhenOpened": "2024-04-05T03:24:06.915Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "MascotasController.cs",
-              "DocumentMoniker": "C:\\Dev Projects\\UIA\\PROYECTOV1\\UI\\UI\\Controllers\\MascotasController.cs",
-              "RelativeDocumentMoniker": "UI\\Controllers\\MascotasController.cs",
-              "ToolTip": "C:\\Dev Projects\\UIA\\PROYECTOV1\\UI\\UI\\Controllers\\MascotasController.cs",
-              "RelativeToolTip": "UI\\Controllers\\MascotasController.cs",
-              "ViewState": "AQIAAMoAAAAAAAAAAAAAANUAAAANAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-04T17:26:09.772Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 14,
               "Title": "Mascotas.cs",
               "DocumentMoniker": "C:\\Dev Projects\\UIA\\PROYECTOV1\\UI\\UI\\Models\\Mascotas.cs",
               "RelativeDocumentMoniker": "UI\\Models\\Mascotas.cs",
               "ToolTip": "C:\\Dev Projects\\UIA\\PROYECTOV1\\UI\\UI\\Models\\Mascotas.cs",
               "RelativeToolTip": "UI\\Models\\Mascotas.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAcAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-04T17:24:57.569Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-04T17:24:57.569Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "Clientes.cs",
               "DocumentMoniker": "C:\\Dev Projects\\UIA\\PROYECTOV1\\UI\\UI\\Models\\Clientes.cs",
               "RelativeDocumentMoniker": "UI\\Models\\Clientes.cs",
               "ToolTip": "C:\\Dev Projects\\UIA\\PROYECTOV1\\UI\\UI\\Models\\Clientes.cs",
               "RelativeToolTip": "UI\\Models\\Clientes.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAABAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAfAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-04T17:24:56.866Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-04T17:24:56.866Z"
             }
           ]
         }
@@ -159,13 +216,13 @@
       "Orientation": 0,
       "VerticalTabListWidth": 256,
       "FloatingWindowState": {
-        "Id": "6b929c64-9829-4d4c-b6ec-2b0150fde697",
+        "Id": "9e5a38dd-ee62-41df-982e-3c7e001c8389",
         "Display": 0,
-        "X": 434,
-        "Y": 164,
+        "X": 178,
+        "Y": 96,
         "Width": 1554,
         "Height": 958,
-        "WindowState": 0
+        "WindowState": 2
       },
       "DocumentGroups": [
         {
@@ -174,54 +231,78 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 5,
               "Title": "ClientesController.cs",
               "DocumentMoniker": "C:\\Dev Projects\\UIA\\PROYECTOV1\\UI\\UI\\Controllers\\ClientesController.cs",
               "RelativeDocumentMoniker": "UI\\Controllers\\ClientesController.cs",
               "ToolTip": "C:\\Dev Projects\\UIA\\PROYECTOV1\\UI\\UI\\Controllers\\ClientesController.cs",
               "RelativeToolTip": "UI\\Controllers\\ClientesController.cs",
-              "ViewState": "AQIAAFcAAAAAAAAAAAAowFcAAAAuAAAA",
+              "ViewState": "AQIAAE4AAAAAAAAAAAAowGsAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-04T17:24:59.105Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "obtenerClientes_ENT.cshtml",
-              "DocumentMoniker": "C:\\Dev Projects\\UIA\\PROYECTOV1\\UI\\UI\\Views\\Clientes\\obtenerClientes_ENT.cshtml",
-              "RelativeDocumentMoniker": "UI\\Views\\Clientes\\obtenerClientes_ENT.cshtml",
-              "ToolTip": "C:\\Dev Projects\\UIA\\PROYECTOV1\\UI\\UI\\Views\\Clientes\\obtenerClientes_ENT.cshtml",
-              "RelativeToolTip": "UI\\Views\\Clientes\\obtenerClientes_ENT.cshtml",
-              "ViewState": "AQIAAC0AAAAAAAAAAAAAAAMAAAAqAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-04T17:49:11.301Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "agregarCliente_ENT.cshtml",
-              "DocumentMoniker": "C:\\Dev Projects\\UIA\\PROYECTOV1\\UI\\UI\\Views\\Clientes\\agregarCliente_ENT.cshtml",
-              "RelativeDocumentMoniker": "UI\\Views\\Clientes\\agregarCliente_ENT.cshtml",
-              "ToolTip": "C:\\Dev Projects\\UIA\\PROYECTOV1\\UI\\UI\\Views\\Clientes\\agregarCliente_ENT.cshtml",
-              "RelativeToolTip": "UI\\Views\\Clientes\\agregarCliente_ENT.cshtml",
-              "ViewState": "AQIAACQAAAAAAAAAAAAAAAUAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-04T17:53:57.201Z",
+              "WhenOpened": "2024-04-05T22:26:49.379Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
+              "Title": "obtenerClientes_ENT.cshtml",
+              "DocumentMoniker": "C:\\Dev Projects\\UIA\\PROYECTOV1\\UI\\UI\\Views\\Clientes\\obtenerClientes_ENT.cshtml",
+              "RelativeDocumentMoniker": "UI\\Views\\Clientes\\obtenerClientes_ENT.cshtml",
+              "ToolTip": "C:\\Dev Projects\\UIA\\PROYECTOV1\\UI\\UI\\Views\\Clientes\\obtenerClientes_ENT.cshtml",
+              "RelativeToolTip": "UI\\Views\\Clientes\\obtenerClientes_ENT.cshtml",
+              "ViewState": "AQIAACcAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-05T22:27:49.591Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "agregarCliente_ENT.cshtml",
+              "DocumentMoniker": "C:\\Dev Projects\\UIA\\PROYECTOV1\\UI\\UI\\Views\\Clientes\\agregarCliente_ENT.cshtml",
+              "RelativeDocumentMoniker": "UI\\Views\\Clientes\\agregarCliente_ENT.cshtml",
+              "ToolTip": "C:\\Dev Projects\\UIA\\PROYECTOV1\\UI\\UI\\Views\\Clientes\\agregarCliente_ENT.cshtml",
+              "RelativeToolTip": "UI\\Views\\Clientes\\agregarCliente_ENT.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-05T22:27:25.895Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "detalleCliente_ENT.cshtml",
+              "DocumentMoniker": "C:\\Dev Projects\\UIA\\PROYECTOV1\\UI\\UI\\Views\\Clientes\\detalleCliente_ENT.cshtml",
+              "RelativeDocumentMoniker": "UI\\Views\\Clientes\\detalleCliente_ENT.cshtml",
+              "ToolTip": "C:\\Dev Projects\\UIA\\PROYECTOV1\\UI\\UI\\Views\\Clientes\\detalleCliente_ENT.cshtml",
+              "RelativeToolTip": "UI\\Views\\Clientes\\detalleCliente_ENT.cshtml",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABIAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-05T22:27:32.351Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
               "Title": "eliminarCliente_ENT.cshtml",
               "DocumentMoniker": "C:\\Dev Projects\\UIA\\PROYECTOV1\\UI\\UI\\Views\\Clientes\\eliminarCliente_ENT.cshtml",
               "RelativeDocumentMoniker": "UI\\Views\\Clientes\\eliminarCliente_ENT.cshtml",
               "ToolTip": "C:\\Dev Projects\\UIA\\PROYECTOV1\\UI\\UI\\Views\\Clientes\\eliminarCliente_ENT.cshtml",
               "RelativeToolTip": "UI\\Views\\Clientes\\eliminarCliente_ENT.cshtml",
-              "ViewState": "AQIAACEAAAAAAAAAAAAAADUAAAAXAAAA",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-05T03:24:21.953Z",
+              "WhenOpened": "2024-04-05T22:27:36.742Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "modificarCliente_ENT.cshtml",
+              "DocumentMoniker": "C:\\Dev Projects\\UIA\\PROYECTOV1\\UI\\UI\\Views\\Clientes\\modificarCliente_ENT.cshtml",
+              "RelativeDocumentMoniker": "UI\\Views\\Clientes\\modificarCliente_ENT.cshtml",
+              "ToolTip": "C:\\Dev Projects\\UIA\\PROYECTOV1\\UI\\UI\\Views\\Clientes\\modificarCliente_ENT.cshtml",
+              "RelativeToolTip": "UI\\Views\\Clientes\\modificarCliente_ENT.cshtml",
+              "ViewState": "AQIAABIAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-05T22:27:42.37Z",
               "EditorCaption": ""
             }
           ]

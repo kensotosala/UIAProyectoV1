@@ -242,6 +242,7 @@
     <Content Include="Views\Mascotas\obtenerMascotasENT.cshtml" />
     <Content Include="Views\Mascotas\agregarMascotaENT.cshtml" />
     <Content Include="Views\Mascotas\eliminarMascotaENT.cshtml" />
+    <Content Include="Views\Mascotas\detalleMascotaENT.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

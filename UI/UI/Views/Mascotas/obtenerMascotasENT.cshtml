@@ -40,9 +40,9 @@
                 }
             </td>
             <td>
-                @Html.ActionLink("Editar", "modificarMascotaENT", new { id = item.TN_IdMascota }) |
-                @Html.ActionLink("Detalles", "detalleMascotaENT", new { id = item.TN_IdMascota }) |
-                @Html.ActionLink("Eliminar", "eliminarMascotaENT", new { id = item.TN_IdMascota })
+                @Html.ActionLink("Editar", "modificarMascotaENT", new { pIdMascota = item.TN_IdMascota }) |
+                @Html.ActionLink("Detalles", "detalleMascotaENT", new { pIdMascota = item.TN_IdMascota }) |
+                @Html.ActionLink("Eliminar", "eliminarMascotaENT", new { pIdMascota = item.TN_IdMascota })
             </td>
         </tr>
     }

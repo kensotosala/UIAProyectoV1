@@ -1,0 +1,46 @@
+﻿@model UI.Models.Mascotas
+
+@{
+    ViewBag.Title = "detalleMascotaENT";
+}
+
+<h2>Detalle Mascotas</h2>
+
+<div>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.TN_IdMascota)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.TN_IdMascota)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.TC_NombreMascota)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.TC_NombreMascota)
+        </dd>
+        <dt>
+            Cliente
+        </dt>
+        <dd>
+            @{
+                var cliente = ViewBag.Clientes as IEnumerable<UI.Models.Clientes>;
+                if (cliente != null)
+                {
+                    var clienteSeleccionado = cliente.FirstOrDefault(c => c.TN_IdCliente == Model.TN_IdCliente);
+                    if (clienteSeleccionado != null)
+                    {
+                        @clienteSeleccionado.TC_Nombre
+                    }
+                }
+            }
+        </dd>
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Editar", "modificarMascotaENT", new { pIdMascota = Model.TN_IdMascota }) |
+    @Html.ActionLink("Regresar", "obtenerMascotasENT")
+</p>
