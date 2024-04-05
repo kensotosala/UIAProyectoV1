@@ -1,0 +1,44 @@
+﻿@model UI.Models.Mascotas
+
+@{
+    ViewBag.Title = "eliminarMascotaENT";
+}
+
+<h2>Eliminar Mascota</h2>
+
+<h3>Are you sure you want to delete this?</h3>
+<div>
+    <h4>Mascotas</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.TC_NombreMascota)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.TC_NombreMascota)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.TN_IdCliente)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.TN_IdCliente)
+        </dd>
+    </dl>
+
+    @using (Html.BeginForm("accionesEjecucion", "Mascotas", FormMethod.Post))
+    {
+        @Html.AntiForgeryToken()
+
+        @Html.HiddenFor(model => model.TN_IdMascota)
+
+        <div class="form-actions no-color mt-2">
+            <button type="submit" name="accionEjecutar" value="Borrar" class="btn btn-warning" formaction="@Url.Action("accionesEjecucion", "Mascotas")">
+                Eliminar 🗑️
+            </button> |
+            @Html.ActionLink("Regresar", "obtenerMascotasENT")
+        </div>
+    }
+</div>

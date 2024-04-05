@@ -3,7 +3,15 @@
   "WorkspaceRootPath": "C:\\Dev Projects\\UIA\\PROYECTOV1\\Backend\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{2DD20597-CBC0-4262-8C6B-FA6D5C1B3F5C}|AccesoDatos\\AccesoDatos.csproj|c:\\dev projects\\uia\\proyectov1\\backend\\accesodatos\\implementacion\\clientesad.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{C1CC2099-8B7D-4D7B-895B-FD51A3AAEE85}|Entidades\\Entidades.csproj|c:\\dev projects\\uia\\proyectov1\\backend\\entidades\\tvet_mascotas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C1CC2099-8B7D-4D7B-895B-FD51A3AAEE85}|Entidades\\Entidades.csproj|solutionrelative:entidades\\tvet_mascotas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1CC2099-8B7D-4D7B-895B-FD51A3AAEE85}|Entidades\\Entidades.csproj|C:\\Dev Projects\\UIA\\PROYECTOV1\\Backend\\entidades\\tvet_citas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C1CC2099-8B7D-4D7B-895B-FD51A3AAEE85}|Entidades\\Entidades.csproj|solutionrelative:entidades\\tvet_citas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2DD20597-CBC0-4262-8C6B-FA6D5C1B3F5C}|AccesoDatos\\AccesoDatos.csproj|C:\\Dev Projects\\UIA\\PROYECTOV1\\Backend\\accesodatos\\implementacion\\clientesad.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2DD20597-CBC0-4262-8C6B-FA6D5C1B3F5C}|AccesoDatos\\AccesoDatos.csproj|solutionrelative:accesodatos\\implementacion\\clientesad.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -35,6 +43,31 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "TVET_Mascotas.cs",
+              "DocumentMoniker": "C:\\Dev Projects\\UIA\\PROYECTOV1\\Backend\\Entidades\\TVET_Mascotas.cs",
+              "RelativeDocumentMoniker": "Entidades\\TVET_Mascotas.cs",
+              "ToolTip": "C:\\Dev Projects\\UIA\\PROYECTOV1\\Backend\\Entidades\\TVET_Mascotas.cs",
+              "RelativeToolTip": "Entidades\\TVET_Mascotas.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAArwBYAAAAHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-04T17:24:32.375Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "TVET_Citas.cs",
+              "DocumentMoniker": "C:\\Dev Projects\\UIA\\PROYECTOV1\\Backend\\Entidades\\TVET_Citas.cs",
+              "RelativeDocumentMoniker": "Entidades\\TVET_Citas.cs",
+              "ToolTip": "C:\\Dev Projects\\UIA\\PROYECTOV1\\Backend\\Entidades\\TVET_Citas.cs",
+              "RelativeToolTip": "Entidades\\TVET_Citas.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAArwBYAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-04T17:23:51.19Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "ClientesAD.cs",
               "DocumentMoniker": "C:\\Dev Projects\\UIA\\PROYECTOV1\\Backend\\AccesoDatos\\Implementacion\\ClientesAD.cs",
               "RelativeDocumentMoniker": "AccesoDatos\\Implementacion\\ClientesAD.cs",
@@ -42,12 +75,11 @@
               "RelativeToolTip": "AccesoDatos\\Implementacion\\ClientesAD.cs",
               "ViewState": "AQIAAFwAAAAAAAAAAAAYwHMAAAAZAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-04T06:21:07.418Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-04T06:21:07.418Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "ClienteLN.cs",
               "DocumentMoniker": "C:\\Dev Projects\\UIA\\PROYECTOV1\\Backend\\LogicaNegocio\\Implementacion\\ClienteLN.cs",
               "RelativeDocumentMoniker": "LogicaNegocio\\Implementacion\\ClienteLN.cs",
@@ -59,7 +91,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "srvClientes.cs",
               "DocumentMoniker": "C:\\Dev Projects\\UIA\\PROYECTOV1\\Backend\\WCFProyecto\\App_Code\\srvClientes.cs",
               "RelativeDocumentMoniker": "WCFProyecto\\App_Code\\srvClientes.cs",
@@ -71,7 +103,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "srvClientes.svc",
               "DocumentMoniker": "C:\\Dev Projects\\UIA\\PROYECTOV1\\Backend\\WCFProyecto\\srvClientes.svc",
               "RelativeDocumentMoniker": "WCFProyecto\\srvClientes.svc",
@@ -83,7 +115,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "Web.config",
               "DocumentMoniker": "C:\\Dev Projects\\UIA\\PROYECTOV1\\Backend\\WCFProyecto\\Web.config",
               "RelativeDocumentMoniker": "WCFProyecto\\Web.config",

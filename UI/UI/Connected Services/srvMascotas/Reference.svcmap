@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="10b70b63-718e-45b7-9433-c71bc34bd55c" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:51022/srvMascotas.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="srvMascotas.disco" MetadataType="Disco" ID="bac2c3e6-eb2b-4d22-86ad-616ae852375a" SourceId="1" SourceUrl="http://localhost:51022/srvMascotas.svc?disco" />
+    <MetadataFile FileName="srvMascotas.xsd" MetadataType="Schema" ID="40caeec2-2ca0-4ba9-8541-52b6141741c9" SourceId="1" SourceUrl="http://localhost:51022/srvMascotas.svc?xsd=xsd2" />
+    <MetadataFile FileName="srvMascotas1.xsd" MetadataType="Schema" ID="807d4e37-670d-4abd-b4f9-6ed9ac9ad2a7" SourceId="1" SourceUrl="http://localhost:51022/srvMascotas.svc?xsd=xsd0" />
+    <MetadataFile FileName="srvMascotas2.xsd" MetadataType="Schema" ID="d5c2a798-a433-43e5-8241-95f921fb3e29" SourceId="1" SourceUrl="http://localhost:51022/srvMascotas.svc?xsd=xsd1" />
+    <MetadataFile FileName="srvMascotas.wsdl" MetadataType="Wsdl" ID="aa4cabb7-a576-44d6-8317-01366f85268b" SourceId="1" SourceUrl="http://localhost:51022/srvMascotas.svc?wsdl" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

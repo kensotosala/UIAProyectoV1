@@ -127,12 +127,19 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>Reference.svcmap</DependentUpon>
     </Compile>
+    <Compile Include="Connected Services\srvMascotas\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
     <Compile Include="Controllers\ClientesController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\MascotasController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Models\Clientes.cs" />
+    <Compile Include="Models\Mascotas.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -141,6 +148,13 @@
     <None Include="Connected Services\srvClientes\configuration91.svcinfo" />
     <None Include="Connected Services\srvClientes\configuration.svcinfo" />
     <None Include="Connected Services\srvClientes\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+    <None Include="Connected Services\srvMascotas\srvMascotas.disco" />
+    <None Include="Connected Services\srvMascotas\configuration91.svcinfo" />
+    <None Include="Connected Services\srvMascotas\configuration.svcinfo" />
+    <None Include="Connected Services\srvMascotas\Reference.svcmap">
       <Generator>WCF Proxy Generator</Generator>
       <LastGenOutput>Reference.cs</LastGenOutput>
     </None>
@@ -182,6 +196,19 @@
     <Content Include="Connected Services\srvClientes\UI.srvClientes.TVE_Clientes.datasource">
       <DependentUpon>Reference.svcmap</DependentUpon>
     </Content>
+    <None Include="Connected Services\srvMascotas\srvMascotas.wsdl" />
+    <None Include="Connected Services\srvMascotas\srvMascotas.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Connected Services\srvMascotas\srvMascotas1.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Connected Services\srvMascotas\srvMascotas2.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <Content Include="Connected Services\srvMascotas\UI.srvMascotas.TVET_Mascotas.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Content>
     <None Include="Scripts\jquery-3.4.1.intellisense.js" />
     <Content Include="Scripts\jquery-3.4.1.js" />
     <Content Include="Scripts\jquery-3.4.1.min.js" />
@@ -212,6 +239,9 @@
     <Content Include="Views\Clientes\detalleCliente_ENT.cshtml" />
     <Content Include="Views\Clientes\obtenerClientes_ENT.cshtml" />
     <Content Include="Views\Clientes\agregarCliente_ENT.cshtml" />
+    <Content Include="Views\Mascotas\obtenerMascotasENT.cshtml" />
+    <Content Include="Views\Mascotas\agregarMascotaENT.cshtml" />
+    <Content Include="Views\Mascotas\eliminarMascotaENT.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
@@ -248,6 +278,7 @@
   </ItemGroup>
   <ItemGroup>
     <WCFMetadataStorage Include="Connected Services\srvClientes\" />
+    <WCFMetadataStorage Include="Connected Services\srvMascotas\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

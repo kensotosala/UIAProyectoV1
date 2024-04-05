@@ -1,0 +1,49 @@
+﻿@model IEnumerable<UI.Models.Mascotas>
+
+@{
+    ViewBag.Title = "obtenerMascotasENT";
+}
+
+<h2>Mascotas</h2>
+
+<p>
+    @Html.ActionLink("Nuevo Mascota", "agregarMascotaENT")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.TC_NombreMascota)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.TN_IdCliente)
+        </th>
+        <th></th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.TC_NombreMascota)
+            </td>
+            <td>
+                @{
+                    var cliente = ViewBag.Clientes as IEnumerable<UI.Models.Clientes>;
+                    if (cliente != null)
+                    {
+                        var clienteSeleccionado = cliente.FirstOrDefault(c => c.TN_IdCliente == item.TN_IdCliente);
+                        if (clienteSeleccionado != null)
+                        {
+                            @clienteSeleccionado.TC_Nombre
+                        }
+                    }
+                }
+            </td>
+            <td>
+                @Html.ActionLink("Editar", "modificarMascotaENT", new { id = item.TN_IdMascota }) |
+                @Html.ActionLink("Detalles", "detalleMascotaENT", new { id = item.TN_IdMascota }) |
+                @Html.ActionLink("Eliminar", "eliminarMascotaENT", new { id = item.TN_IdMascota })
+            </td>
+        </tr>
+    }
+</table>

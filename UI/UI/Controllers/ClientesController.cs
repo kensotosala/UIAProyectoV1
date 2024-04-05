@@ -69,15 +69,11 @@ namespace UI.Controllers
             }
             catch (FaultException ex)
             {
-                // Handle the FaultException
                 ViewBag.ErrorMessage = ex.Message;
-                // You can also log the exception or take additional actions as needed
             }
             catch (Exception ex)
             {
-                // Handle other exceptions
                 ViewBag.ErrorMessage = "An error occurred while retrieving the client details." + ex.Message;
-                // You can also log the exception or take additional actions as needed
             }
             return View(clientes);
         }
