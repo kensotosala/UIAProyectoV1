@@ -46,7 +46,7 @@ namespace UI.Controllers
                     }
                 }
 
-                ViewBag.Clientes = baseClientes;
+                ViewBag.Clientes = baseClientes; // Ensure ViewBag.Clientes is populated
             }
             catch (Exception ex)
             {
@@ -55,13 +55,17 @@ namespace UI.Controllers
             return View(baseMascotas);
         }
 
-        // POST Cliente
         public ActionResult agregarMascotaENT()
         {
             Mascotas mascota = new Mascotas();
             using (srvClientes.IsrvClientesClient srvCl = new srvClientes.IsrvClientesClient())
             {
-                mascota.Clientes = ConvertirClientes(srvCl.obtenerCliente_ENT());
+                var clientes = ConvertirClientes(srvCl.obtenerCliente_ENT());
+                mascota.Clientes = clientes.Select(c => new SelectListItem
+                {
+                    Value = c.TN_IdCliente.ToString(),
+                    Text = c.TC_Nombre
+                });
             }
 
             return View(mascota);
@@ -82,18 +86,32 @@ namespace UI.Controllers
             return listaClientes;
         }
 
-        // PUT Cliente
         public ActionResult modificarMascotaENT(int pIdMascota)
         {
             Mascotas mascota = new Mascotas();
             try
             {
+                // Retrieve the details of the specific pet
                 using (srvMascotas.IsrvMascotasClient srvMs = new srvMascotas.IsrvMascotasClient())
                 {
                     var lstMascotas = srvMs.obtenerMascotasXId_ENT(pIdMascota);
                     mascota.TN_IdMascota = lstMascotas.TN_IdMascota;
                     mascota.TC_NombreMascota = lstMascotas.TC_NombreMascota;
                     mascota.TN_IdCliente = lstMascotas.TN_IdCliente;
+                }
+
+                // Retrieve the list of clients and convert them to SelectListItem
+                using (srvClientes.IsrvClientesClient srvCl = new srvClientes.IsrvClientesClient())
+                {
+                    var lstClientes = srvCl.obtenerCliente_ENT();
+                    var clientesList = lstClientes.Select(c => new SelectListItem
+                    {
+                        Value = c.TN_IdCliente.ToString(),
+                        Text = c.TC_Nombre
+                    });
+
+                    // Assign the client list to Clientes property
+                    mascota.Clientes = clientesList;
                 }
             }
             catch (FaultException ex)
@@ -104,7 +122,10 @@ namespace UI.Controllers
             {
                 ViewBag.ErrorMessage = "An error occurred while retrieving the client details." + ex.Message;
             }
+
+            // Pass the mascota object to the view
             return View(mascota);
+
         }
 
         public ActionResult eliminarMascotaENT(int pIdMascota)
@@ -259,7 +280,7 @@ namespace UI.Controllers
             {
                 throw lEx;
             }
-            return View("obtenerMascotasENT");
+            return RedirectToAction("obtenerMascotasENT");
         }
 
         // Borrar

@@ -243,6 +243,7 @@
     <Content Include="Views\Mascotas\agregarMascotaENT.cshtml" />
     <Content Include="Views\Mascotas\eliminarMascotaENT.cshtml" />
     <Content Include="Views\Mascotas\detalleMascotaENT.cshtml" />
+    <Content Include="Views\Mascotas\modificarMascotaENT.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

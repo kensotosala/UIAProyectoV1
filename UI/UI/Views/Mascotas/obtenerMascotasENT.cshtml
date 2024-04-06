@@ -9,41 +9,57 @@
 <p>
     @Html.ActionLink("Nuevo Mascota", "agregarMascotaENT")
 </p>
-<table class="table">
-    <tr>
-        <th>
-            @Html.DisplayNameFor(model => model.TC_NombreMascota)
-        </th>
-        <th>
-            @Html.DisplayNameFor(model => model.TN_IdCliente)
-        </th>
-        <th></th>
-    </tr>
 
-    @foreach (var item in Model)
-    {
+@if (Model != null && Model.Any())
+{
+    <table class="table">
         <tr>
-            <td>
-                @Html.DisplayFor(modelItem => item.TC_NombreMascota)
-            </td>
-            <td>
-                @{
-                    var cliente = ViewBag.Clientes as IEnumerable<UI.Models.Clientes>;
-                    if (cliente != null)
-                    {
-                        var clienteSeleccionado = cliente.FirstOrDefault(c => c.TN_IdCliente == item.TN_IdCliente);
-                        if (clienteSeleccionado != null)
+            <th>
+                @Html.DisplayNameFor(model => model.TC_NombreMascota)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.TN_IdCliente)
+            </th>
+            <th></th>
+        </tr>
+
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.TC_NombreMascota)
+                </td>
+                <td>
+                    @{
+                        var cliente = ViewBag.Clientes as IEnumerable<UI.Models.Clientes>;
+                        if (cliente != null)
                         {
-                            @clienteSeleccionado.TC_Nombre
+                            var clienteSeleccionado = cliente.FirstOrDefault(c => c.TN_IdCliente == item.TN_IdCliente);
+                            if (clienteSeleccionado != null)
+                            {
+                                @clienteSeleccionado.TC_Nombre
+                            }
+                            else
+                            {
+                                <text>No se encontró el cliente</text>
+                            }
+                        }
+                        else
+                        {
+                            <text>ViewBag.Clientes is null</text>
                         }
                     }
-                }
-            </td>
-            <td>
-                @Html.ActionLink("Editar", "modificarMascotaENT", new { pIdMascota = item.TN_IdMascota }) |
-                @Html.ActionLink("Detalles", "detalleMascotaENT", new { pIdMascota = item.TN_IdMascota }) |
-                @Html.ActionLink("Eliminar", "eliminarMascotaENT", new { pIdMascota = item.TN_IdMascota })
-            </td>
-        </tr>
-    }
-</table>
+                </td>
+                <td>
+                    @Html.ActionLink("Editar", "modificarMascotaENT", new { pIdMascota = item.TN_IdMascota }) |
+                    @Html.ActionLink("Detalles", "detalleMascotaENT", new { pIdMascota = item.TN_IdMascota }) |
+                    @Html.ActionLink("Eliminar", "eliminarMascotaENT", new { pIdMascota = item.TN_IdMascota })
+                </td>
+            </tr>
+        }
+    </table>
+}
+else
+{
+    <p>No hay mascotas para mostrar.</p>
+}
