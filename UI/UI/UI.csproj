@@ -127,6 +127,11 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>Reference.svcmap</DependentUpon>
     </Compile>
+    <Compile Include="Connected Services\srvDetalleMascota\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
     <Compile Include="Connected Services\srvMascotas\Reference.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -139,6 +144,8 @@
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Models\Clientes.cs" />
+    <Compile Include="Controllers\DetallesMascotaController.cs" />
+    <Compile Include="Models\DetallesMascota.cs" />
     <Compile Include="Models\Mascotas.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -151,10 +158,29 @@
       <Generator>WCF Proxy Generator</Generator>
       <LastGenOutput>Reference.cs</LastGenOutput>
     </None>
+    <None Include="Connected Services\srvDetalleMascota\srvDetalleMascota.wsdl" />
+    <None Include="Connected Services\srvDetalleMascota\srvDetalleMascota.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Connected Services\srvDetalleMascota\srvDetalleMascota1.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Connected Services\srvDetalleMascota\srvDetalleMascota2.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <Content Include="Connected Services\srvDetalleMascota\UI.srvDetalleMascota.TVET_DetalleMascota.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Content>
     <None Include="Connected Services\srvMascotas\srvMascotas.disco" />
     <None Include="Connected Services\srvMascotas\configuration91.svcinfo" />
     <None Include="Connected Services\srvMascotas\configuration.svcinfo" />
     <None Include="Connected Services\srvMascotas\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+    <None Include="Connected Services\srvDetalleMascota\configuration91.svcinfo" />
+    <None Include="Connected Services\srvDetalleMascota\configuration.svcinfo" />
+    <None Include="Connected Services\srvDetalleMascota\Reference.svcmap">
       <Generator>WCF Proxy Generator</Generator>
       <LastGenOutput>Reference.cs</LastGenOutput>
     </None>
@@ -244,6 +270,11 @@
     <Content Include="Views\Mascotas\eliminarMascotaENT.cshtml" />
     <Content Include="Views\Mascotas\detalleMascotaENT.cshtml" />
     <Content Include="Views\Mascotas\modificarMascotaENT.cshtml" />
+    <Content Include="Views\DetallesMascota\obtenerDetallesMascota.cshtml" />
+    <Content Include="Views\DetallesMascota\agregarDetalleMascota.cshtml" />
+    <Content Include="Views\DetallesMascota\detallesDetalleMascota.cshtml" />
+    <Content Include="Views\DetallesMascota\eliminarDetalleMascota.cshtml" />
+    <Content Include="Views\DetallesMascota\modificarDetalles.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
@@ -280,6 +311,7 @@
   </ItemGroup>
   <ItemGroup>
     <WCFMetadataStorage Include="Connected Services\srvClientes\" />
+    <WCFMetadataStorage Include="Connected Services\srvDetalleMascota\" />
     <WCFMetadataStorage Include="Connected Services\srvMascotas\" />
   </ItemGroup>
   <PropertyGroup>

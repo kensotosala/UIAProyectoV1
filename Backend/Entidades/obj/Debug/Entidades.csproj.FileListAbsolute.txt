@@ -22,3 +22,9 @@ C:\Dev Projects\UIA\Backend\Entidades\obj\Debug\Entidades.csproj.AssemblyReferen
 C:\Dev Projects\UIA\Backend\Entidades\obj\Debug\Entidades.csproj.CoreCompileInputs.cache
 C:\Dev Projects\UIA\Backend\Entidades\obj\Debug\Entidades.dll
 C:\Dev Projects\UIA\Backend\Entidades\obj\Debug\Entidades.pdb
+C:\Dev Projects\UIA\PROYECTOV1\Backend\Entidades\bin\Debug\Entidades.dll
+C:\Dev Projects\UIA\PROYECTOV1\Backend\Entidades\bin\Debug\Entidades.pdb
+C:\Dev Projects\UIA\PROYECTOV1\Backend\Entidades\obj\Debug\Entidades.csproj.AssemblyReference.cache
+C:\Dev Projects\UIA\PROYECTOV1\Backend\Entidades\obj\Debug\Entidades.csproj.CoreCompileInputs.cache
+C:\Dev Projects\UIA\PROYECTOV1\Backend\Entidades\obj\Debug\Entidades.dll
+C:\Dev Projects\UIA\PROYECTOV1\Backend\Entidades\obj\Debug\Entidades.pdb

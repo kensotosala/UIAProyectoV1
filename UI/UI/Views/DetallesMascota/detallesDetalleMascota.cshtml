@@ -1,0 +1,63 @@
+﻿@model UI.Models.DetallesMascota
+
+@{
+    ViewBag.Title = "detallesDetalleMascota";
+}
+
+<h2>detallesDetalleMascota</h2>
+
+<div>
+    <h4>DetallesMascota</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.TN_IdMascota)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.TN_IdMascota)
+        </dd>
+
+        <dd>
+            @{
+                var mascota = ViewBag.mascotas as IEnumerable<UI.Models.Mascotas>;
+                if (mascota != null)
+                {
+                    var mascotaSeleccionado = mascota.FirstOrDefault(c => c.TN_IdMascota == Model.TN_IdMascota);
+                    if (mascotaSeleccionado != null)
+                    {
+                        @mascotaSeleccionado.TC_NombreMascota
+                    }
+                }
+            }
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.TC_Raza)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.TC_Raza)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.TN_Peso)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.TN_Peso)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.TC_Color)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.TC_Color)
+        </dd>
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Editar", "modificarDetalles", new { pIdDetalle = Model.TN_IdMascota }) |
+    @Html.ActionLink("Regresar", "obtenerDetallesMascota")
+</p>

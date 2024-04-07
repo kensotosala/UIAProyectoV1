@@ -1,0 +1,72 @@
+﻿@model IEnumerable<UI.Models.DetallesMascota>
+
+@{
+    ViewBag.Title = "obtenerDetallesMascota";
+}
+
+<h2>Detalles de Mascotas 🐕</h2>
+
+<p>
+    @Html.ActionLink("Agregar detalles a Mascota", "agregarDetalleMascota")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.TN_IdMascota)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.TC_Raza)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.TN_Peso)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.TC_Color)
+        </th>
+        <th></th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            @*<td>
+                    @Html.DisplayFor(modelItem => item.TN_IdMascota)
+                </td>*@
+            <td>
+                @{
+                    var mascota = ViewBag.Mascotas as IEnumerable<UI.Models.Mascotas>;
+                    if (mascota != null)
+                    {
+                        var mascotaSeleccionado = mascota.FirstOrDefault(c => c.TN_IdMascota == item.TN_IdMascota);
+                        if (mascotaSeleccionado != null)
+                        {
+                            @mascotaSeleccionado.TC_NombreMascota
+                        }
+                        else
+                        {
+                            <text>No se encontró la mascota</text>
+                        }
+                    }
+                    else
+                    {
+                        <text>ViewBag.Mascotas is null</text>
+                    }
+                }
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.TC_Raza)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.TN_Peso)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.TC_Color)
+            </td>
+            <td>
+                @Html.ActionLink("Editar", "modificarDetalles", new { pIdDetalle = item.TN_IdMascota }) |
+                @Html.ActionLink("Detalles", "detallesDetalleMascota", new { pIdDetalle = item.TN_IdMascota }) |
+                @Html.ActionLink("Eliminar", "eliminarDetalleMascota", new { pIdDetalle = item.TN_IdMascota })
+            </td>
+        </tr>
+    }
+</table>

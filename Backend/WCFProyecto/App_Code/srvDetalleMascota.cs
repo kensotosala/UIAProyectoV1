@@ -65,12 +65,12 @@ public class srvDetalleMascota : IsrvDetalleMascota
         return respuesta;
     }
 
-    public bool eliminaDetalle_ENT(TVET_DetalleMascota pDiagnostico)
+    public bool eliminaDetalle_ENT(TVET_DetalleMascota pDetalle)
     {
         bool respuesta = false;
         try
         {
-            respuesta = _detalleMascotaLN.eliminaDetalle_ENT(pDiagnostico);
+            respuesta = _detalleMascotaLN.eliminaDetalle_ENT(pDetalle);
         }
         catch (Exception lEx)
         {

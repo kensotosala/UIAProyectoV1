@@ -70,12 +70,12 @@ namespace LogicaNegocio.Implementacion
             return lObjRespuesta;
         }
 
-        public bool eliminaDetalle_ENT(TVET_DetalleMascota pDiagnostico)
+        public bool eliminaDetalle_ENT(TVET_DetalleMascota pDetalle)
         {
             bool lObjRespuesta = false;
             try
             {
-                lObjRespuesta = gObjDetalleAD.eliminaDetalle_ENT(pDiagnostico);
+                lObjRespuesta = gObjDetalleAD.eliminaDetalle_ENT(pDetalle);
             }
             catch (Exception lEx)
             {

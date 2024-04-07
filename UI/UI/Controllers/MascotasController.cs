@@ -46,7 +46,7 @@ namespace UI.Controllers
                     }
                 }
 
-                ViewBag.Clientes = baseClientes; // Ensure ViewBag.Clientes is populated
+                ViewBag.Clientes = baseClientes;
             }
             catch (Exception ex)
             {
@@ -91,7 +91,6 @@ namespace UI.Controllers
             Mascotas mascota = new Mascotas();
             try
             {
-                // Retrieve the details of the specific pet
                 using (srvMascotas.IsrvMascotasClient srvMs = new srvMascotas.IsrvMascotasClient())
                 {
                     var lstMascotas = srvMs.obtenerMascotasXId_ENT(pIdMascota);
@@ -100,7 +99,6 @@ namespace UI.Controllers
                     mascota.TN_IdCliente = lstMascotas.TN_IdCliente;
                 }
 
-                // Retrieve the list of clients and convert them to SelectListItem
                 using (srvClientes.IsrvClientesClient srvCl = new srvClientes.IsrvClientesClient())
                 {
                     var lstClientes = srvCl.obtenerCliente_ENT();
@@ -110,7 +108,6 @@ namespace UI.Controllers
                         Text = c.TC_Nombre
                     });
 
-                    // Assign the client list to Clientes property
                     mascota.Clientes = clientesList;
                 }
             }
@@ -123,9 +120,7 @@ namespace UI.Controllers
                 ViewBag.ErrorMessage = "An error occurred while retrieving the client details." + ex.Message;
             }
 
-            // Pass the mascota object to the view
             return View(mascota);
-
         }
 
         public ActionResult eliminarMascotaENT(int pIdMascota)
@@ -148,41 +143,6 @@ namespace UI.Controllers
             return View(mascota);
         }
 
-        //public ActionResult eliminarMascotaENT(int pIdMascota)
-        //{
-        //    try
-        //    {
-        //        using (srvMascotas.IsrvMascotasClient srvMs = new srvMascotas.IsrvMascotasClient())
-        //        {
-        //            // Obtener la mascota por su ID
-        //            var mascota = srvMs.obtenerMascotasXId_ENT(pIdMascota);
-
-        //            // Verificar si la mascota existe
-        //            if (mascota != null)
-        //            {
-        //                // Eliminar la mascota
-        //                srvMs.eliminaMascotas_ENT(mascota);
-
-        //                // Redirigir a la acción obtenerMascotasENT para actualizar la lista de mascotas
-        //                //return RedirectToAction("obtenerMascotasENT");
-
-        //                return View(mascota);
-        //            }
-        //            else
-        //            {
-        //                // La mascota no existe, mostrar un mensaje de error o redirigir a una página de error
-        //                return HttpNotFound();
-        //            }
-        //        }
-        //    }
-        //    catch (Exception ex)
-        //    {
-        //        // Manejar cualquier excepción que ocurra durante el proceso
-        //        ViewBag.ErrorMessage = "An error occurred while deleting the pet: " + ex.Message;
-        //        return View("Error"); // Vista de error personalizada
-        //    }
-        //}
-
         public ActionResult detalleMascotaENT(int pIdMascota)
         {
             Mascotas mascota = new Mascotas();
@@ -196,7 +156,6 @@ namespace UI.Controllers
                     mascota.TN_IdCliente = lstMascotas.TN_IdCliente;
                 }
 
-                // Retrieve client data and assign it to ViewBag.Clientes
                 using (srvClientes.IsrvClientesClient srvCl = new srvClientes.IsrvClientesClient())
                 {
                     ViewBag.Clientes = ConvertirClientes(srvCl.obtenerCliente_ENT());
@@ -208,8 +167,6 @@ namespace UI.Controllers
             }
             return View(mascota);
         }
-
-        //  🌱 Ejecución 🌱
 
         public ActionResult insertarMascotaENT(Mascotas pMascota)
         {
@@ -243,11 +200,9 @@ namespace UI.Controllers
             {
                 throw lEx;
             }
-            //return View("obtenerMascotasENT", lstMascotas);
             return RedirectToAction("obtenerMascotasENT");
         }
 
-        // Actualizar
         public ActionResult actualizarMascotasENT(Mascotas pMascota)
         {
             List<Mascotas> lstMascotas = new List<Mascotas>();
@@ -283,7 +238,6 @@ namespace UI.Controllers
             return RedirectToAction("obtenerMascotasENT");
         }
 
-        // Borrar
         public ActionResult borrarMascotasENT(Mascotas pMascota)
         {
             List<Mascotas> lstMascotas = new List<Mascotas>();
@@ -319,7 +273,6 @@ namespace UI.Controllers
             return RedirectToAction("obtenerMascotasENT");
         }
 
-        // Acciones
         public ActionResult accionesEjecucion(string accionEjecutar, Mascotas pMascota)
         {
             try
