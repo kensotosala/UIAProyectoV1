@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" xmlns:wsx="http://schemas.xmlsoap.org/ws/2004/09/mex" xmlns:wsap="http://schemas.xmlsoap.org/ws/2004/08/addressing/policy" xmlns:msc="http://schemas.microsoft.com/ws/2005/12/wsdl/contract" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:tns="http://tempuri.org/" xmlns:wsa10="http://www.w3.org/2005/08/addressing" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" name="srvCitas" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <xsd:schema targetNamespace="http://tempuri.org/Imports">
+      <xsd:import schemaLocation="http://localhost:51022/srvCitas.svc?xsd=xsd0" namespace="http://tempuri.org/" />
+      <xsd:import schemaLocation="http://localhost:51022/srvCitas.svc?xsd=xsd1" namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
+      <xsd:import schemaLocation="http://localhost:51022/srvCitas.svc?xsd=xsd2" namespace="http://schemas.datacontract.org/2004/07/Entidades" />
+    </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="IsrvCitas_DoWork_InputMessage">
+    <wsdl:part name="parameters" element="tns:DoWork" />
+  </wsdl:message>
+  <wsdl:message name="IsrvCitas_DoWork_OutputMessage">
+    <wsdl:part name="parameters" element="tns:DoWorkResponse" />
+  </wsdl:message>
+  <wsdl:message name="IsrvCitas_obtenerCita_ENT_InputMessage">
+    <wsdl:part name="parameters" element="tns:obtenerCita_ENT" />
+  </wsdl:message>
+  <wsdl:message name="IsrvCitas_obtenerCita_ENT_OutputMessage">
+    <wsdl:part name="parameters" element="tns:obtenerCita_ENTResponse" />
+  </wsdl:message>
+  <wsdl:message name="IsrvCitas_obtenerCitaXId_ENT_InputMessage">
+    <wsdl:part name="parameters" element="tns:obtenerCitaXId_ENT" />
+  </wsdl:message>
+  <wsdl:message name="IsrvCitas_obtenerCitaXId_ENT_OutputMessage">
+    <wsdl:part name="parameters" element="tns:obtenerCitaXId_ENTResponse" />
+  </wsdl:message>
+  <wsdl:message name="IsrvCitas_agregaCita_ENT_InputMessage">
+    <wsdl:part name="parameters" element="tns:agregaCita_ENT" />
+  </wsdl:message>
+  <wsdl:message name="IsrvCitas_agregaCita_ENT_OutputMessage">
+    <wsdl:part name="parameters" element="tns:agregaCita_ENTResponse" />
+  </wsdl:message>
+  <wsdl:message name="IsrvCitas_modificaCita_ENT_InputMessage">
+    <wsdl:part name="parameters" element="tns:modificaCita_ENT" />
+  </wsdl:message>
+  <wsdl:message name="IsrvCitas_modificaCita_ENT_OutputMessage">
+    <wsdl:part name="parameters" element="tns:modificaCita_ENTResponse" />
+  </wsdl:message>
+  <wsdl:message name="IsrvCitas_eliminaCita_ENT_InputMessage">
+    <wsdl:part name="parameters" element="tns:eliminaCita_ENT" />
+  </wsdl:message>
+  <wsdl:message name="IsrvCitas_eliminaCita_ENT_OutputMessage">
+    <wsdl:part name="parameters" element="tns:eliminaCita_ENTResponse" />
+  </wsdl:message>
+  <wsdl:portType name="IsrvCitas">
+    <wsdl:operation name="DoWork">
+      <wsdl:input wsaw:Action="http://tempuri.org/IsrvCitas/DoWork" message="tns:IsrvCitas_DoWork_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IsrvCitas/DoWorkResponse" message="tns:IsrvCitas_DoWork_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="obtenerCita_ENT">
+      <wsdl:input wsaw:Action="http://tempuri.org/IsrvCitas/obtenerCita_ENT" message="tns:IsrvCitas_obtenerCita_ENT_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IsrvCitas/obtenerCita_ENTResponse" message="tns:IsrvCitas_obtenerCita_ENT_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="obtenerCitaXId_ENT">
+      <wsdl:input wsaw:Action="http://tempuri.org/IsrvCitas/obtenerCitaXId_ENT" message="tns:IsrvCitas_obtenerCitaXId_ENT_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IsrvCitas/obtenerCitaXId_ENTResponse" message="tns:IsrvCitas_obtenerCitaXId_ENT_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="agregaCita_ENT">
+      <wsdl:input wsaw:Action="http://tempuri.org/IsrvCitas/agregaCita_ENT" message="tns:IsrvCitas_agregaCita_ENT_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IsrvCitas/agregaCita_ENTResponse" message="tns:IsrvCitas_agregaCita_ENT_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="modificaCita_ENT">
+      <wsdl:input wsaw:Action="http://tempuri.org/IsrvCitas/modificaCita_ENT" message="tns:IsrvCitas_modificaCita_ENT_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IsrvCitas/modificaCita_ENTResponse" message="tns:IsrvCitas_modificaCita_ENT_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="eliminaCita_ENT">
+      <wsdl:input wsaw:Action="http://tempuri.org/IsrvCitas/eliminaCita_ENT" message="tns:IsrvCitas_eliminaCita_ENT_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IsrvCitas/eliminaCita_ENTResponse" message="tns:IsrvCitas_eliminaCita_ENT_OutputMessage" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="BasicHttpBinding_IsrvCitas" type="tns:IsrvCitas">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="DoWork">
+      <soap:operation soapAction="http://tempuri.org/IsrvCitas/DoWork" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="obtenerCita_ENT">
+      <soap:operation soapAction="http://tempuri.org/IsrvCitas/obtenerCita_ENT" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="obtenerCitaXId_ENT">
+      <soap:operation soapAction="http://tempuri.org/IsrvCitas/obtenerCitaXId_ENT" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="agregaCita_ENT">
+      <soap:operation soapAction="http://tempuri.org/IsrvCitas/agregaCita_ENT" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="modificaCita_ENT">
+      <soap:operation soapAction="http://tempuri.org/IsrvCitas/modificaCita_ENT" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="eliminaCita_ENT">
+      <soap:operation soapAction="http://tempuri.org/IsrvCitas/eliminaCita_ENT" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="srvCitas">
+    <wsdl:port name="BasicHttpBinding_IsrvCitas" binding="tns:BasicHttpBinding_IsrvCitas">
+      <soap:address location="http://localhost:51022/srvCitas.svc" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

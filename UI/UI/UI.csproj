@@ -122,6 +122,11 @@
     <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="Connected Services\srvCitas\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
     <Compile Include="Connected Services\srvClientes\Reference.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -143,6 +148,8 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Controllers\CitaController.cs" />
+    <Compile Include="Models\Cita.cs" />
     <Compile Include="Models\Clientes.cs" />
     <Compile Include="Controllers\DetallesMascotaController.cs" />
     <Compile Include="Models\DetallesMascota.cs" />
@@ -151,6 +158,19 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Connected Services\.editorconfig" />
+    <None Include="Connected Services\srvCitas\srvCitas.wsdl" />
+    <None Include="Connected Services\srvCitas\srvCitas.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Connected Services\srvCitas\srvCitas1.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Connected Services\srvCitas\srvCitas2.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <Content Include="Connected Services\srvCitas\UI.srvCitas.TVET_Citas.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Content>
     <None Include="Connected Services\srvClientes\srvClientes.disco" />
     <None Include="Connected Services\srvClientes\configuration91.svcinfo" />
     <None Include="Connected Services\srvClientes\configuration.svcinfo" />
@@ -167,6 +187,13 @@
     </None>
     <None Include="Connected Services\srvDetalleMascota\srvDetalleMascota2.xsd">
       <SubType>Designer</SubType>
+    </None>
+    <None Include="Connected Services\srvCitas\srvCitas.disco" />
+    <None Include="Connected Services\srvCitas\configuration91.svcinfo" />
+    <None Include="Connected Services\srvCitas\configuration.svcinfo" />
+    <None Include="Connected Services\srvCitas\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
     </None>
     <Content Include="Connected Services\srvDetalleMascota\UI.srvDetalleMascota.TVET_DetalleMascota.datasource">
       <DependentUpon>Reference.svcmap</DependentUpon>
@@ -275,6 +302,11 @@
     <Content Include="Views\DetallesMascota\detallesDetalleMascota.cshtml" />
     <Content Include="Views\DetallesMascota\eliminarDetalleMascota.cshtml" />
     <Content Include="Views\DetallesMascota\modificarDetalles.cshtml" />
+    <Content Include="Views\Cita\obtenerCitas.cshtml" />
+    <Content Include="Views\Cita\modificarCitas.cshtml" />
+    <Content Include="Views\Cita\agregarCita.cshtml" />
+    <Content Include="Views\Cita\eliminarCita.cshtml" />
+    <Content Include="Views\Cita\detalleCita.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
@@ -310,6 +342,7 @@
     <WCFMetadata Include="Connected Services\" />
   </ItemGroup>
   <ItemGroup>
+    <WCFMetadataStorage Include="Connected Services\srvCitas\" />
     <WCFMetadataStorage Include="Connected Services\srvClientes\" />
     <WCFMetadataStorage Include="Connected Services\srvDetalleMascota\" />
     <WCFMetadataStorage Include="Connected Services\srvMascotas\" />

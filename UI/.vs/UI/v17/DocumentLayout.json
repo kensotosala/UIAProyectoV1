@@ -3,40 +3,80 @@
   "WorkspaceRootPath": "C:\\Dev Projects\\UIA\\PROYECTOV1\\UI\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{B941D645-F2F0-4014-96AB-053319688FD3}|UI\\UI.csproj|c:\\dev projects\\uia\\proyectov1\\ui\\ui\\views\\cita\\detallecita.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B941D645-F2F0-4014-96AB-053319688FD3}|UI\\UI.csproj|solutionrelative:ui\\views\\cita\\detallecita.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{B941D645-F2F0-4014-96AB-053319688FD3}|UI\\UI.csproj|C:\\Dev Projects\\UIA\\PROYECTOV1\\UI\\ui\\views\\detallesmascota\\detallesdetallemascota.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{B941D645-F2F0-4014-96AB-053319688FD3}|UI\\UI.csproj|solutionrelative:ui\\views\\detallesmascota\\detallesdetallemascota.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B941D645-F2F0-4014-96AB-053319688FD3}|UI\\UI.csproj|c:\\dev projects\\uia\\proyectov1\\ui\\ui\\views\\detallesmascota\\modificardetalles.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{B941D645-F2F0-4014-96AB-053319688FD3}|UI\\UI.csproj|solutionrelative:ui\\views\\detallesmascota\\modificardetalles.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{B941D645-F2F0-4014-96AB-053319688FD3}|UI\\UI.csproj|c:\\dev projects\\uia\\proyectov1\\ui\\ui\\controllers\\citacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B941D645-F2F0-4014-96AB-053319688FD3}|UI\\UI.csproj|solutionrelative:ui\\controllers\\citacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B941D645-F2F0-4014-96AB-053319688FD3}|UI\\UI.csproj|c:\\dev projects\\uia\\proyectov1\\ui\\ui\\controllers\\detallesmascotacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B941D645-F2F0-4014-96AB-053319688FD3}|UI\\UI.csproj|c:\\dev projects\\uia\\proyectov1\\ui\\ui\\views\\cita\\eliminarcita.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B941D645-F2F0-4014-96AB-053319688FD3}|UI\\UI.csproj|solutionrelative:ui\\views\\cita\\eliminarcita.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B941D645-F2F0-4014-96AB-053319688FD3}|UI\\UI.csproj|C:\\Dev Projects\\UIA\\PROYECTOV1\\UI\\ui\\views\\mascotas\\eliminarmascotaent.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B941D645-F2F0-4014-96AB-053319688FD3}|UI\\UI.csproj|solutionrelative:ui\\views\\mascotas\\eliminarmascotaent.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B941D645-F2F0-4014-96AB-053319688FD3}|UI\\UI.csproj|c:\\dev projects\\uia\\proyectov1\\ui\\ui\\views\\cita\\agregarcita.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B941D645-F2F0-4014-96AB-053319688FD3}|UI\\UI.csproj|solutionrelative:ui\\views\\cita\\agregarcita.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B941D645-F2F0-4014-96AB-053319688FD3}|UI\\UI.csproj|c:\\dev projects\\uia\\proyectov1\\ui\\ui\\views\\mascotas\\agregarmascotaent.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B941D645-F2F0-4014-96AB-053319688FD3}|UI\\UI.csproj|solutionrelative:ui\\views\\mascotas\\agregarmascotaent.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B941D645-F2F0-4014-96AB-053319688FD3}|UI\\UI.csproj|C:\\Dev Projects\\UIA\\PROYECTOV1\\UI\\ui\\controllers\\mascotascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B941D645-F2F0-4014-96AB-053319688FD3}|UI\\UI.csproj|solutionrelative:ui\\controllers\\mascotascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B941D645-F2F0-4014-96AB-053319688FD3}|UI\\UI.csproj|c:\\dev projects\\uia\\proyectov1\\ui\\ui\\models\\cita.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B941D645-F2F0-4014-96AB-053319688FD3}|UI\\UI.csproj|solutionrelative:ui\\models\\cita.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B941D645-F2F0-4014-96AB-053319688FD3}|UI\\UI.csproj|C:\\Dev Projects\\UIA\\PROYECTOV1\\UI\\ui\\controllers\\detallesmascotacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B941D645-F2F0-4014-96AB-053319688FD3}|UI\\UI.csproj|solutionrelative:ui\\controllers\\detallesmascotacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B941D645-F2F0-4014-96AB-053319688FD3}|UI\\UI.csproj|C:\\Dev Projects\\UIA\\PROYECTOV1\\UI\\ui\\views\\detallesmascota\\obtenerdetallesmascota.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{B941D645-F2F0-4014-96AB-053319688FD3}|UI\\UI.csproj|solutionrelative:ui\\views\\detallesmascota\\obtenerdetallesmascota.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{B941D645-F2F0-4014-96AB-053319688FD3}|UI\\UI.csproj|c:\\dev projects\\uia\\proyectov1\\ui\\ui\\views\\cita\\obtenercitas.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B941D645-F2F0-4014-96AB-053319688FD3}|UI\\UI.csproj|solutionrelative:ui\\views\\cita\\obtenercitas.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B941D645-F2F0-4014-96AB-053319688FD3}|UI\\UI.csproj|c:\\dev projects\\uia\\proyectov1\\ui\\ui\\views\\cita\\modificarcitas.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B941D645-F2F0-4014-96AB-053319688FD3}|UI\\UI.csproj|solutionrelative:ui\\views\\cita\\modificarcitas.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B941D645-F2F0-4014-96AB-053319688FD3}|UI\\UI.csproj|c:\\dev projects\\uia\\proyectov1\\ui\\ui\\views\\mascotas\\modificarmascotaent.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{B941D645-F2F0-4014-96AB-053319688FD3}|UI\\UI.csproj|solutionrelative:ui\\views\\mascotas\\modificarmascotaent.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B941D645-F2F0-4014-96AB-053319688FD3}|UI\\UI.csproj|c:\\dev projects\\uia\\proyectov1\\ui\\ui\\controllers\\mascotascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B941D645-F2F0-4014-96AB-053319688FD3}|UI\\UI.csproj|solutionrelative:ui\\controllers\\mascotascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B941D645-F2F0-4014-96AB-053319688FD3}|UI\\UI.csproj|c:\\dev projects\\uia\\proyectov1\\ui\\ui\\models\\mascotas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B941D645-F2F0-4014-96AB-053319688FD3}|UI\\UI.csproj|solutionrelative:ui\\models\\mascotas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B941D645-F2F0-4014-96AB-053319688FD3}|UI\\UI.csproj|c:\\dev projects\\uia\\proyectov1\\ui\\ui\\views\\mascotas\\obtenermascotasent.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B941D645-F2F0-4014-96AB-053319688FD3}|UI\\UI.csproj|solutionrelative:ui\\views\\mascotas\\obtenermascotasent.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B941D645-F2F0-4014-96AB-053319688FD3}|UI\\UI.csproj|C:\\Dev Projects\\UIA\\PROYECTOV1\\UI\\ui\\models\\detallesmascota.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B941D645-F2F0-4014-96AB-053319688FD3}|UI\\UI.csproj|solutionrelative:ui\\models\\detallesmascota.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B941D645-F2F0-4014-96AB-053319688FD3}|UI\\UI.csproj|C:\\Dev Projects\\UIA\\PROYECTOV1\\UI\\ui\\views\\detallesmascota\\eliminardetallemascota.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{B941D645-F2F0-4014-96AB-053319688FD3}|UI\\UI.csproj|solutionrelative:ui\\views\\detallesmascota\\eliminardetallemascota.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{B941D645-F2F0-4014-96AB-053319688FD3}|UI\\UI.csproj|c:\\dev projects\\uia\\proyectov1\\ui\\ui\\views\\detallesmascota\\obtenerdetallesmascota.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B941D645-F2F0-4014-96AB-053319688FD3}|UI\\UI.csproj|solutionrelative:ui\\views\\detallesmascota\\obtenerdetallesmascota.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B941D645-F2F0-4014-96AB-053319688FD3}|UI\\UI.csproj|c:\\dev projects\\uia\\proyectov1\\ui\\ui\\views\\mascotas\\eliminarmascotaent.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{B941D645-F2F0-4014-96AB-053319688FD3}|UI\\UI.csproj|solutionrelative:ui\\views\\mascotas\\eliminarmascotaent.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{B941D645-F2F0-4014-96AB-053319688FD3}|UI\\UI.csproj|C:\\Dev Projects\\UIA\\PROYECTOV1\\UI\\ui\\views\\detallesmascota\\modificardetalles.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B941D645-F2F0-4014-96AB-053319688FD3}|UI\\UI.csproj|solutionrelative:ui\\views\\detallesmascota\\modificardetalles.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B941D645-F2F0-4014-96AB-053319688FD3}|UI\\UI.csproj|C:\\Dev Projects\\UIA\\PROYECTOV1\\UI\\ui\\views\\detallesmascota\\eliminardetallemascota.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B941D645-F2F0-4014-96AB-053319688FD3}|UI\\UI.csproj|solutionrelative:ui\\views\\detallesmascota\\eliminardetallemascota.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B941D645-F2F0-4014-96AB-053319688FD3}|UI\\UI.csproj|C:\\Dev Projects\\UIA\\PROYECTOV1\\UI\\ui\\views\\detallesmascota\\agregardetallemascota.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -50,7 +90,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -58,46 +98,98 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "DetallesMascotaController.cs",
-              "DocumentMoniker": "C:\\Dev Projects\\UIA\\PROYECTOV1\\UI\\UI\\Controllers\\DetallesMascotaController.cs",
-              "RelativeDocumentMoniker": "UI\\Controllers\\DetallesMascotaController.cs",
-              "ToolTip": "C:\\Dev Projects\\UIA\\PROYECTOV1\\UI\\UI\\Controllers\\DetallesMascotaController.cs",
-              "RelativeToolTip": "UI\\Controllers\\DetallesMascotaController.cs",
-              "ViewState": "AQIAAA0BAAAAAAAAAAAcwCgBAAABAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-06T23:14:44.812Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "modificarDetalles.cshtml",
-              "DocumentMoniker": "C:\\Dev Projects\\UIA\\PROYECTOV1\\UI\\UI\\Views\\DetallesMascota\\modificarDetalles.cshtml",
-              "RelativeDocumentMoniker": "UI\\Views\\DetallesMascota\\modificarDetalles.cshtml",
-              "ToolTip": "C:\\Dev Projects\\UIA\\PROYECTOV1\\UI\\UI\\Views\\DetallesMascota\\modificarDetalles.cshtml",
-              "RelativeToolTip": "UI\\Views\\DetallesMascota\\modificarDetalles.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAmAAAA",
+              "DocumentIndex": 0,
+              "Title": "detalleCita.cshtml",
+              "DocumentMoniker": "C:\\Dev Projects\\UIA\\PROYECTOV1\\UI\\UI\\Views\\Cita\\detalleCita.cshtml",
+              "RelativeDocumentMoniker": "UI\\Views\\Cita\\detalleCita.cshtml",
+              "ToolTip": "C:\\Dev Projects\\UIA\\PROYECTOV1\\UI\\UI\\Views\\Cita\\detalleCita.cshtml",
+              "RelativeToolTip": "UI\\Views\\Cita\\detalleCita.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAA2AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-07T02:58:33.796Z",
+              "WhenOpened": "2024-04-07T14:06:54.866Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 3,
+              "Title": "eliminarCita.cshtml",
+              "DocumentMoniker": "C:\\Dev Projects\\UIA\\PROYECTOV1\\UI\\UI\\Views\\Cita\\eliminarCita.cshtml",
+              "RelativeDocumentMoniker": "UI\\Views\\Cita\\eliminarCita.cshtml",
+              "ToolTip": "C:\\Dev Projects\\UIA\\PROYECTOV1\\UI\\UI\\Views\\Cita\\eliminarCita.cshtml",
+              "RelativeToolTip": "UI\\Views\\Cita\\eliminarCita.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-07T14:03:49.811Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "agregarCita.cshtml",
+              "DocumentMoniker": "C:\\Dev Projects\\UIA\\PROYECTOV1\\UI\\UI\\Views\\Cita\\agregarCita.cshtml",
+              "RelativeDocumentMoniker": "UI\\Views\\Cita\\agregarCita.cshtml",
+              "ToolTip": "C:\\Dev Projects\\UIA\\PROYECTOV1\\UI\\UI\\Views\\Cita\\agregarCita.cshtml",
+              "RelativeToolTip": "UI\\Views\\Cita\\agregarCita.cshtml",
+              "ViewState": "AQIAACcAAAAAAAAAAAAAAC4AAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-07T14:01:53.199Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CitaController.cs",
+              "DocumentMoniker": "C:\\Dev Projects\\UIA\\PROYECTOV1\\UI\\UI\\Controllers\\CitaController.cs",
+              "RelativeDocumentMoniker": "UI\\Controllers\\CitaController.cs",
+              "ToolTip": "C:\\Dev Projects\\UIA\\PROYECTOV1\\UI\\UI\\Controllers\\CitaController.cs",
+              "RelativeToolTip": "UI\\Controllers\\CitaController.cs",
+              "ViewState": "AQIAAMQAAAAAAAAAAAAuwM0AAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-07T13:06:52.976Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "modificarCitas.cshtml",
+              "DocumentMoniker": "C:\\Dev Projects\\UIA\\PROYECTOV1\\UI\\UI\\Views\\Cita\\modificarCitas.cshtml",
+              "RelativeDocumentMoniker": "UI\\Views\\Cita\\modificarCitas.cshtml",
+              "ToolTip": "C:\\Dev Projects\\UIA\\PROYECTOV1\\UI\\UI\\Views\\Cita\\modificarCitas.cshtml",
+              "RelativeToolTip": "UI\\Views\\Cita\\modificarCitas.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAADQAAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-07T13:38:21.906Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "obtenerCitas.cshtml",
+              "DocumentMoniker": "C:\\Dev Projects\\UIA\\PROYECTOV1\\UI\\UI\\Views\\Cita\\obtenerCitas.cshtml",
+              "RelativeDocumentMoniker": "UI\\Views\\Cita\\obtenerCitas.cshtml",
+              "ToolTip": "C:\\Dev Projects\\UIA\\PROYECTOV1\\UI\\UI\\Views\\Cita\\obtenerCitas.cshtml",
+              "RelativeToolTip": "UI\\Views\\Cita\\obtenerCitas.cshtml",
+              "ViewState": "AQIAADwAAAAAAAAAAAAAAE4AAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-07T13:23:02.078Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
               "Title": "DetallesMascota.cs",
               "DocumentMoniker": "C:\\Dev Projects\\UIA\\PROYECTOV1\\UI\\UI\\Models\\DetallesMascota.cs",
               "RelativeDocumentMoniker": "UI\\Models\\DetallesMascota.cs",
               "ToolTip": "C:\\Dev Projects\\UIA\\PROYECTOV1\\UI\\UI\\Models\\DetallesMascota.cs",
               "RelativeToolTip": "UI\\Models\\DetallesMascota.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAMAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-06T17:32:17.222Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 18,
               "Title": "eliminarDetalleMascota.cshtml",
               "DocumentMoniker": "C:\\Dev Projects\\UIA\\PROYECTOV1\\UI\\UI\\Views\\DetallesMascota\\eliminarDetalleMascota.cshtml",
               "RelativeDocumentMoniker": "UI\\Views\\DetallesMascota\\eliminarDetalleMascota.cshtml",
@@ -105,31 +197,17 @@
               "RelativeToolTip": "UI\\Views\\DetallesMascota\\eliminarDetalleMascota.cshtml",
               "ViewState": "AQIAABUAAAAAAAAAAAAAAAYAAAAUAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-06T22:54:49.9Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-06T22:54:49.9Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "detallesDetalleMascota.cshtml",
-              "DocumentMoniker": "C:\\Dev Projects\\UIA\\PROYECTOV1\\UI\\UI\\Views\\DetallesMascota\\detallesDetalleMascota.cshtml",
-              "RelativeDocumentMoniker": "UI\\Views\\DetallesMascota\\detallesDetalleMascota.cshtml",
-              "ToolTip": "C:\\Dev Projects\\UIA\\PROYECTOV1\\UI\\UI\\Views\\DetallesMascota\\detallesDetalleMascota.cshtml",
-              "RelativeToolTip": "UI\\Views\\DetallesMascota\\detallesDetalleMascota.cshtml",
-              "ViewState": "AQIAACEAAAAAAAAAAAAAADkAAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-06T22:45:39.133Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 16,
               "Title": "obtenerDetallesMascota.cshtml",
               "DocumentMoniker": "C:\\Dev Projects\\UIA\\PROYECTOV1\\UI\\UI\\Views\\DetallesMascota\\obtenerDetallesMascota.cshtml",
               "RelativeDocumentMoniker": "UI\\Views\\DetallesMascota\\obtenerDetallesMascota.cshtml",
               "ToolTip": "C:\\Dev Projects\\UIA\\PROYECTOV1\\UI\\UI\\Views\\DetallesMascota\\obtenerDetallesMascota.cshtml",
               "RelativeToolTip": "UI\\Views\\DetallesMascota\\obtenerDetallesMascota.cshtml",
-              "ViewState": "AQIAACEAAAAAAAAAAAAqwDkAAAARAAAA",
+              "ViewState": "AQIAACEAAAAAAAAAAAAuwDIAAAAHAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-04-06T17:38:25.605Z",
               "EditorCaption": ""
@@ -137,6 +215,31 @@
             {
               "$type": "Document",
               "DocumentIndex": 9,
+              "Title": "DetallesMascotaController.cs",
+              "DocumentMoniker": "C:\\Dev Projects\\UIA\\PROYECTOV1\\UI\\UI\\Controllers\\DetallesMascotaController.cs",
+              "RelativeDocumentMoniker": "UI\\Controllers\\DetallesMascotaController.cs",
+              "ToolTip": "C:\\Dev Projects\\UIA\\PROYECTOV1\\UI\\UI\\Controllers\\DetallesMascotaController.cs",
+              "RelativeToolTip": "UI\\Controllers\\DetallesMascotaController.cs",
+              "ViewState": "AQIAAO8AAAAAAAAAAAAcwBoBAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-06T23:14:44.812Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "modificarDetalles.cshtml",
+              "DocumentMoniker": "C:\\Dev Projects\\UIA\\PROYECTOV1\\UI\\UI\\Views\\DetallesMascota\\modificarDetalles.cshtml",
+              "RelativeDocumentMoniker": "UI\\Views\\DetallesMascota\\modificarDetalles.cshtml",
+              "ToolTip": "C:\\Dev Projects\\UIA\\PROYECTOV1\\UI\\UI\\Views\\DetallesMascota\\modificarDetalles.cshtml",
+              "RelativeToolTip": "UI\\Views\\DetallesMascota\\modificarDetalles.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-07T02:58:33.796Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
               "Title": "agregarDetalleMascota.cshtml",
               "DocumentMoniker": "C:\\Dev Projects\\UIA\\PROYECTOV1\\UI\\UI\\Views\\DetallesMascota\\agregarDetalleMascota.cshtml",
               "RelativeDocumentMoniker": "UI\\Views\\DetallesMascota\\agregarDetalleMascota.cshtml",
@@ -144,8 +247,7 @@
               "RelativeToolTip": "UI\\Views\\DetallesMascota\\agregarDetalleMascota.cshtml",
               "ViewState": "AQIAAAgAAAAAAAAAAAAcwCUAAAALAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-06T17:52:21.504Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-06T17:52:21.504Z"
             }
           ]
         }
@@ -158,7 +260,7 @@
         "Id": "131e9903-06fa-4bac-b06d-05b810df8c39",
         "Display": 0,
         "X": 109,
-        "Y": 55,
+        "Y": 54,
         "Width": 1554,
         "Height": 958,
         "WindowState": 2
@@ -166,45 +268,110 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
               "Title": "MascotasController.cs",
               "DocumentMoniker": "C:\\Dev Projects\\UIA\\PROYECTOV1\\UI\\UI\\Controllers\\MascotasController.cs",
               "RelativeDocumentMoniker": "UI\\Controllers\\MascotasController.cs",
               "ToolTip": "C:\\Dev Projects\\UIA\\PROYECTOV1\\UI\\UI\\Controllers\\MascotasController.cs",
               "RelativeToolTip": "UI\\Controllers\\MascotasController.cs",
-              "ViewState": "AQIAAGAAAAAAAAAAAAAUwF8AAABPAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAJEAAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-07T02:41:29.618Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 1,
+              "Title": "detallesDetalleMascota.cshtml",
+              "DocumentMoniker": "C:\\Dev Projects\\UIA\\PROYECTOV1\\UI\\UI\\Views\\DetallesMascota\\detallesDetalleMascota.cshtml",
+              "RelativeDocumentMoniker": "UI\\Views\\DetallesMascota\\detallesDetalleMascota.cshtml",
+              "ToolTip": "C:\\Dev Projects\\UIA\\PROYECTOV1\\UI\\UI\\Views\\DetallesMascota\\detallesDetalleMascota.cshtml",
+              "RelativeToolTip": "UI\\Views\\DetallesMascota\\detallesDetalleMascota.cshtml",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAADkAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-06T22:45:39.133Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "obtenerMascotasENT.cshtml",
+              "DocumentMoniker": "C:\\Dev Projects\\UIA\\PROYECTOV1\\UI\\UI\\Views\\Mascotas\\obtenerMascotasENT.cshtml",
+              "RelativeDocumentMoniker": "UI\\Views\\Mascotas\\obtenerMascotasENT.cshtml",
+              "ToolTip": "C:\\Dev Projects\\UIA\\PROYECTOV1\\UI\\UI\\Views\\Mascotas\\obtenerMascotasENT.cshtml",
+              "RelativeToolTip": "UI\\Views\\Mascotas\\obtenerMascotasENT.cshtml",
+              "ViewState": "AQIAACcAAAAAAAAAAAAAACAAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-07T13:23:16.916Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "agregarMascotaENT.cshtml",
+              "DocumentMoniker": "C:\\Dev Projects\\UIA\\PROYECTOV1\\UI\\UI\\Views\\Mascotas\\agregarMascotaENT.cshtml",
+              "RelativeDocumentMoniker": "UI\\Views\\Mascotas\\agregarMascotaENT.cshtml",
+              "ToolTip": "C:\\Dev Projects\\UIA\\PROYECTOV1\\UI\\UI\\Views\\Mascotas\\agregarMascotaENT.cshtml",
+              "RelativeToolTip": "UI\\Views\\Mascotas\\agregarMascotaENT.cshtml",
+              "ViewState": "AQIAABgAAAAAAAAAAAAAACYAAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-07T14:02:05.325Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "eliminarMascotaENT.cshtml",
               "DocumentMoniker": "C:\\Dev Projects\\UIA\\PROYECTOV1\\UI\\UI\\Views\\Mascotas\\eliminarMascotaENT.cshtml",
               "RelativeDocumentMoniker": "UI\\Views\\Mascotas\\eliminarMascotaENT.cshtml",
               "ToolTip": "C:\\Dev Projects\\UIA\\PROYECTOV1\\UI\\UI\\Views\\Mascotas\\eliminarMascotaENT.cshtml",
               "RelativeToolTip": "UI\\Views\\Mascotas\\eliminarMascotaENT.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "ViewState": "AQIAABgAAAAAAAAAAAAAACIAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-04-07T02:41:44.36Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 12,
               "Title": "modificarMascotaENT.cshtml",
               "DocumentMoniker": "C:\\Dev Projects\\UIA\\PROYECTOV1\\UI\\UI\\Views\\Mascotas\\modificarMascotaENT.cshtml",
               "RelativeDocumentMoniker": "UI\\Views\\Mascotas\\modificarMascotaENT.cshtml",
               "ToolTip": "C:\\Dev Projects\\UIA\\PROYECTOV1\\UI\\UI\\Views\\Mascotas\\modificarMascotaENT.cshtml",
               "RelativeToolTip": "UI\\Views\\Mascotas\\modificarMascotaENT.cshtml",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAgAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACIAAAAgAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-04-07T02:58:47.508Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Cita.cs",
+              "DocumentMoniker": "C:\\Dev Projects\\UIA\\PROYECTOV1\\UI\\UI\\Models\\Cita.cs",
+              "RelativeDocumentMoniker": "UI\\Models\\Cita.cs",
+              "ToolTip": "C:\\Dev Projects\\UIA\\PROYECTOV1\\UI\\UI\\Models\\Cita.cs",
+              "RelativeToolTip": "UI\\Models\\Cita.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABUAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-07T13:07:26.167Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Mascotas.cs",
+              "DocumentMoniker": "C:\\Dev Projects\\UIA\\PROYECTOV1\\UI\\UI\\Models\\Mascotas.cs",
+              "RelativeDocumentMoniker": "UI\\Models\\Mascotas.cs",
+              "ToolTip": "C:\\Dev Projects\\UIA\\PROYECTOV1\\UI\\UI\\Models\\Mascotas.cs",
+              "RelativeToolTip": "UI\\Models\\Mascotas.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-07T13:21:59.593Z",
               "EditorCaption": ""
             }
           ]

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="9254f68b-2e65-4cbe-89d8-35e7c0179891" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:51022/srvCitas.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="srvCitas.wsdl" MetadataType="Wsdl" ID="178d78fe-3fcd-4ba8-9d6a-2f62afab63aa" SourceId="1" SourceUrl="http://localhost:51022/srvCitas.svc?wsdl" />
+    <MetadataFile FileName="srvCitas.xsd" MetadataType="Schema" ID="9fb2ad9f-4b40-4077-a282-beff1bf7e5bf" SourceId="1" SourceUrl="http://localhost:51022/srvCitas.svc?xsd=xsd2" />
+    <MetadataFile FileName="srvCitas1.xsd" MetadataType="Schema" ID="1789227c-3800-4690-8ce5-981fd418795c" SourceId="1" SourceUrl="http://localhost:51022/srvCitas.svc?xsd=xsd1" />
+    <MetadataFile FileName="srvCitas.disco" MetadataType="Disco" ID="eeeb544d-9840-426e-abe0-c033d1746ce6" SourceId="1" SourceUrl="http://localhost:51022/srvCitas.svc?disco" />
+    <MetadataFile FileName="srvCitas2.xsd" MetadataType="Schema" ID="ceae41b4-51a1-40f5-8de4-cfdadd7e5a5a" SourceId="1" SourceUrl="http://localhost:51022/srvCitas.svc?xsd=xsd0" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>
