@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ReferenceGroup xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="6fc9916a-c4b4-4779-855d-9da19cbfad2f" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+<ReferenceGroup xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="fed53e1b-089a-4657-8ea6-edb9f19a25d9" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
   <ClientOptions>
     <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
     <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
@@ -19,13 +19,14 @@
     <ServiceContractMappings />
   </ClientOptions>
   <MetadataSources>
-    <MetadataSource Address="http://localhost:51022/srvDetalleMascota.svc?wsdl" Protocol="http" SourceId="1" />
+    <MetadataSource Address="http://localhost:51022/srvDetalleMascota.svc" Protocol="http" SourceId="1" />
   </MetadataSources>
   <Metadata>
-    <MetadataFile FileName="srvDetalleMascota.wsdl" MetadataType="Wsdl" ID="34a8a4df-bf0a-42a0-9151-01b6ea14ca6a" SourceId="1" SourceUrl="http://localhost:51022/srvDetalleMascota.svc?wsdl" />
-    <MetadataFile FileName="srvDetalleMascota.xsd" MetadataType="Schema" ID="45cc925a-992e-473e-9d9d-d26b988fc932" SourceId="1" SourceUrl="http://localhost:51022/srvDetalleMascota.svc?xsd=xsd2" />
-    <MetadataFile FileName="srvDetalleMascota1.xsd" MetadataType="Schema" ID="126c1d1f-e29e-4a6e-a6a9-d5c89b2b073f" SourceId="1" SourceUrl="http://localhost:51022/srvDetalleMascota.svc?xsd=xsd1" />
-    <MetadataFile FileName="srvDetalleMascota2.xsd" MetadataType="Schema" ID="6cb675c8-1a7e-4de4-b907-d08ae60bd635" SourceId="1" SourceUrl="http://localhost:51022/srvDetalleMascota.svc?xsd=xsd0" />
+    <MetadataFile FileName="srvDetalleMascota.wsdl" MetadataType="Wsdl" ID="04a58d3c-54a1-4ab3-b120-887c04d8b481" SourceId="1" SourceUrl="http://localhost:51022/srvDetalleMascota.svc?wsdl" />
+    <MetadataFile FileName="srvDetalleMascota.disco" MetadataType="Disco" ID="93669e3d-3b5f-41cb-9227-984dc56c2c8b" SourceId="1" SourceUrl="http://localhost:51022/srvDetalleMascota.svc?disco" />
+    <MetadataFile FileName="srvDetalleMascota.xsd" MetadataType="Schema" ID="faa50c33-fa27-4c5e-b2ca-bc310a717513" SourceId="1" SourceUrl="http://localhost:51022/srvDetalleMascota.svc?xsd=xsd2" />
+    <MetadataFile FileName="srvDetalleMascota1.xsd" MetadataType="Schema" ID="00579285-66f4-4e0a-baaf-3dc046d1d1d3" SourceId="1" SourceUrl="http://localhost:51022/srvDetalleMascota.svc?xsd=xsd1" />
+    <MetadataFile FileName="srvDetalleMascota2.xsd" MetadataType="Schema" ID="4182b0d1-59e2-4c88-a2d4-bb0c2e3a0101" SourceId="1" SourceUrl="http://localhost:51022/srvDetalleMascota.svc?xsd=xsd0" />
   </Metadata>
   <Extensions>
     <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />

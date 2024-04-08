@@ -29,10 +29,10 @@ namespace UI.srvCitas {
         private int TN_IdCitaField;
         
         [System.Runtime.Serialization.OptionalFieldAttribute()]
-        private System.Nullable<int> TN_IdClienteField;
+        private int TN_IdClienteField;
         
         [System.Runtime.Serialization.OptionalFieldAttribute()]
-        private System.Nullable<int> TN_IdMascotaField;
+        private int TN_IdMascotaField;
         
         [System.Runtime.Serialization.OptionalFieldAttribute()]
         private UI.srvCitas.TVET_Diagnostico[] TVET_DiagnosticoField;
@@ -80,7 +80,7 @@ namespace UI.srvCitas {
         }
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public System.Nullable<int> TN_IdCliente {
+        public int TN_IdCliente {
             get {
                 return this.TN_IdClienteField;
             }
@@ -93,7 +93,7 @@ namespace UI.srvCitas {
         }
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public System.Nullable<int> TN_IdMascota {
+        public int TN_IdMascota {
             get {
                 return this.TN_IdMascotaField;
             }

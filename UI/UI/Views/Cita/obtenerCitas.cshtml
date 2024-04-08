@@ -7,7 +7,7 @@
 <h2>Citas</h2>
 
 <p>
-    @Html.ActionLink("Nueva Cita", "Create")
+    @Html.ActionLink("Nueva Cita", "agregarCita")
 </p>
 <table class="table">
     <tr>
@@ -79,8 +79,8 @@
             </td>
             <td>
                 @Html.ActionLink("Editar", "modificarCitas", new { pIdCita = item.TN_IdCita }) |
-                @Html.ActionLink("Detalles", "detalleMascotaENT", new { pIdCita = item.TN_IdCita }) |
-                @Html.ActionLink("Eliminar", "eliminarMascotaENT", new { pIdCita = item.TN_IdCita })
+                @Html.ActionLink("Detalles", "detalleCita", new { pIdCita = item.TN_IdCita }) |
+                @Html.ActionLink("Eliminar", "eliminarCita", new { pIdCita = item.TN_IdCita })
             </td>
         </tr>
     }

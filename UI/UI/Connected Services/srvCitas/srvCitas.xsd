@@ -10,8 +10,8 @@
     <xs:sequence>
       <xs:element minOccurs="0" name="TF_FecCita" type="xs:dateTime" />
       <xs:element minOccurs="0" name="TN_IdCita" type="xs:int" />
-      <xs:element minOccurs="0" name="TN_IdCliente" nillable="true" type="xs:int" />
-      <xs:element minOccurs="0" name="TN_IdMascota" nillable="true" type="xs:int" />
+      <xs:element minOccurs="0" name="TN_IdCliente" type="xs:int" />
+      <xs:element minOccurs="0" name="TN_IdMascota" type="xs:int" />
       <xs:element minOccurs="0" name="TVET_Diagnostico" nillable="true" type="tns:ArrayOfTVET_Diagnostico" />
       <xs:element minOccurs="0" name="TVET_Mascotas" nillable="true" type="tns:TVET_Mascotas" />
       <xs:element minOccurs="0" name="TVE_Clientes" nillable="true" type="tns:TVE_Clientes" />

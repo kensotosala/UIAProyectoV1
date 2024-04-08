@@ -205,6 +205,7 @@
       <Generator>WCF Proxy Generator</Generator>
       <LastGenOutput>Reference.cs</LastGenOutput>
     </None>
+    <None Include="Connected Services\srvDetalleMascota\srvDetalleMascota.disco" />
     <None Include="Connected Services\srvDetalleMascota\configuration91.svcinfo" />
     <None Include="Connected Services\srvDetalleMascota\configuration.svcinfo" />
     <None Include="Connected Services\srvDetalleMascota\Reference.svcmap">

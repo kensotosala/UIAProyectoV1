@@ -1,24 +1,7 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Dev Projects\\UIA\\PROYECTOV1\\Backend\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{C1CC2099-8B7D-4D7B-895B-FD51A3AAEE85}|Entidades\\Entidades.csproj|C:\\Dev Projects\\UIA\\PROYECTOV1\\Backend\\entidades\\tvet_citas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C1CC2099-8B7D-4D7B-895B-FD51A3AAEE85}|Entidades\\Entidades.csproj|solutionrelative:entidades\\tvet_citas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C1CC2099-8B7D-4D7B-895B-FD51A3AAEE85}|Entidades\\Entidades.csproj|c:\\dev projects\\uia\\proyectov1\\backend\\entidades\\tvet_diagnostico.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C1CC2099-8B7D-4D7B-895B-FD51A3AAEE85}|Entidades\\Entidades.csproj|solutionrelative:entidades\\tvet_diagnostico.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{12CF7AB4-67A6-481D-8634-EF8DBCEA588A}|C:\\Dev Projects\\UIA\\PROYECTOV1\\Backend\\WCFProyecto|C:\\Dev Projects\\UIA\\PROYECTOV1\\Backend\\wcfproyecto\\app_code\\srvdetallemascota.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{12CF7AB4-67A6-481D-8634-EF8DBCEA588A}|C:\\Dev Projects\\UIA\\PROYECTOV1\\Backend\\WCFProyecto|solutionrelative:wcfproyecto\\app_code\\srvdetallemascota.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{12CF7AB4-67A6-481D-8634-EF8DBCEA588A}|C:\\Dev Projects\\UIA\\PROYECTOV1\\Backend\\WCFProyecto|C:\\Dev Projects\\UIA\\PROYECTOV1\\Backend\\wcfproyecto\\app_code\\isrvdetallemascota.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{12CF7AB4-67A6-481D-8634-EF8DBCEA588A}|C:\\Dev Projects\\UIA\\PROYECTOV1\\Backend\\WCFProyecto|solutionrelative:wcfproyecto\\app_code\\isrvdetallemascota.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    }
-  ],
+  "Documents": [],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -26,61 +9,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": -1,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "TVET_Diagnostico.cs",
-              "DocumentMoniker": "C:\\Dev Projects\\UIA\\PROYECTOV1\\Backend\\Entidades\\TVET_Diagnostico.cs",
-              "RelativeDocumentMoniker": "Entidades\\TVET_Diagnostico.cs",
-              "ToolTip": "C:\\Dev Projects\\UIA\\PROYECTOV1\\Backend\\Entidades\\TVET_Diagnostico.cs",
-              "RelativeToolTip": "Entidades\\TVET_Diagnostico.cs",
-              "ViewState": "AQIAAAkAAAAAAAAAAAArwBcAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-07T03:21:37.697Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "TVET_Citas.cs",
-              "DocumentMoniker": "C:\\Dev Projects\\UIA\\PROYECTOV1\\Backend\\Entidades\\TVET_Citas.cs",
-              "RelativeDocumentMoniker": "Entidades\\TVET_Citas.cs",
-              "ToolTip": "C:\\Dev Projects\\UIA\\PROYECTOV1\\Backend\\Entidades\\TVET_Citas.cs",
-              "RelativeToolTip": "Entidades\\TVET_Citas.cs",
-              "ViewState": "AQIAAAwAAAAAAAAAAAArwBYAAAAIAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-07T03:21:02.727Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "srvDetalleMascota.cs",
-              "DocumentMoniker": "C:\\Dev Projects\\UIA\\PROYECTOV1\\Backend\\WCFProyecto\\App_Code\\srvDetalleMascota.cs",
-              "RelativeDocumentMoniker": "WCFProyecto\\App_Code\\srvDetalleMascota.cs",
-              "ToolTip": "C:\\Dev Projects\\UIA\\PROYECTOV1\\Backend\\WCFProyecto\\App_Code\\srvDetalleMascota.cs",
-              "RelativeToolTip": "WCFProyecto\\App_Code\\srvDetalleMascota.cs",
-              "ViewState": "AQIAAD0AAAAAAAAAAAA1wEMAAAAEAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-07T03:09:26.385Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "IsrvDetalleMascota.cs",
-              "DocumentMoniker": "C:\\Dev Projects\\UIA\\PROYECTOV1\\Backend\\WCFProyecto\\App_Code\\IsrvDetalleMascota.cs",
-              "RelativeDocumentMoniker": "WCFProyecto\\App_Code\\IsrvDetalleMascota.cs",
-              "ToolTip": "C:\\Dev Projects\\UIA\\PROYECTOV1\\Backend\\WCFProyecto\\App_Code\\IsrvDetalleMascota.cs",
-              "RelativeToolTip": "WCFProyecto\\App_Code\\IsrvDetalleMascota.cs",
-              "ViewState": "AQIAAAgAAAAAAAAAAAAiwBgAAAABAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-07T03:09:12.337Z"
             }
           ]
         }

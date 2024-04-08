@@ -23,7 +23,17 @@
         </dt>
 
         <dd>
-            @Html.DisplayFor(model => model.TN_IdCliente)
+            @{
+                var cliente = ViewBag.clientes as IEnumerable<UI.Models.Clientes>;
+                if (cliente != null)
+                {
+                    var clienteSeleccionado = cliente.FirstOrDefault(c => c.TN_IdCliente == Model.TN_IdCliente);
+                    if (clienteSeleccionado != null)
+                    {
+                        @clienteSeleccionado.TC_Nombre
+                    }
+                }
+            }
         </dd>
 
         <dt>
@@ -31,7 +41,17 @@
         </dt>
 
         <dd>
-            @Html.DisplayFor(model => model.TN_IdMascota)
+            @{
+                var mascota = ViewBag.mascotas as IEnumerable<UI.Models.Mascotas>;
+                if (mascota != null)
+                {
+                    var mascotaSeleccionado = mascota.FirstOrDefault(c => c.TN_IdMascota == Model.TN_IdMascota);
+                    if (mascotaSeleccionado != null)
+                    {
+                        @mascotaSeleccionado.TC_NombreMascota
+                    }
+                }
+            }
         </dd>
 
         <dt>

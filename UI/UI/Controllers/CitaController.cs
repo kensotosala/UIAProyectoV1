@@ -1,24 +1,26 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.ServiceModel;
 using System.Web.Mvc;
+using UI.Models;
 
-namespace UI.Models
+namespace UI.Controllers
 {
     public class CitaController : Controller
     {
         public ActionResult obtenerCitas()
         {
-            List<Citas> baseCitas = new List<Citas>();
+            List<Cita> baseCitas = new List<Cita>();
             List<Clientes> baseClientes = new List<Clientes>();
             List<Mascotas> baseMascotas = new List<Mascotas>();
             Cita cita;
 
             try
             {
-                using (srvCita.IsrvCitasClient srvCT = new srvCita.IsrvCitasClient())
+                using (srvCitas.IsrvCitasClient srvCT = new srvCitas.IsrvCitasClient())
                 {
-                    var respuesta = srvCT.obtenerCitas_ENT();
+                    var respuesta = srvCT.obtenerCita_ENT();
                     if (respuesta.Count() > 0)
                     {
                         foreach (var item in respuesta)
@@ -45,7 +47,7 @@ namespace UI.Models
                                 TN_IdMascota = item.TN_IdMascota,
                                 TC_NombreMascota = item.TC_NombreMascota,
                             };
-                            baseClientes.Add(nuevoMascota);
+                            baseMascotas.Add(nuevoMascota);
                         }
                     }
                 }
@@ -82,20 +84,20 @@ namespace UI.Models
             using (srvClientes.IsrvClientesClient srvCl = new srvClientes.IsrvClientesClient())
             {
                 var clientes = ConvertirClientes(srvCl.obtenerCliente_ENT());
-                mascota.Clientes = clientes.Select(c => new SelectListItem
+                cita.Clientes = clientes.Select(c => new SelectListItem
                 {
                     Value = c.TN_IdCliente.ToString(),
                     Text = c.TC_Nombre
                 });
             }
 
-            using (srvMascotas.IsrvMascotasClient srvCM = new srvMascotas.IsrvMascotasClient())
+            using (srvMascotas.IsrvMascotasClient srvMS = new srvMascotas.IsrvMascotasClient())
             {
-                var mascotas = ConvertirClientes(srvCl.obtenerCliente_ENT());
-                mascota.Clientes = clientes.Select(c => new SelectListItem
+                var mascotas = ConvertirMascotas(srvMS.obtenerMascotas_ENT());
+                cita.Mascotas = mascotas.Select(c => new SelectListItem
                 {
-                    Value = c.TN_IdCliente.ToString(),
-                    Text = c.TC_Nombre
+                    Value = c.TN_IdMascota.ToString(),
+                    Text = c.TC_NombreMascota
                 });
             }
 
@@ -143,31 +145,31 @@ namespace UI.Models
                     cita.TN_IdCita = respuesta.TN_IdCita;
                     cita.TN_IdCliente = respuesta.TN_IdCliente;
                     cita.TN_IdMascota = respuesta.TN_IdMascota;
-                    cita.TF_FecCita = respuesta.TF_FecCita;
+                    cita.TF_FecCita = respuesta.TF_FecCita.Date;
                 }
 
                 using (srvClientes.IsrvClientesClient srvCl = new srvClientes.IsrvClientesClient())
                 {
-                    var lstClientes = srvCl.obtenerCliente_ENT();
-                    var clientesList = lstClientes.Select(c => new SelectListItem
+                    var respuesta = srvCl.obtenerCliente_ENT();
+                    var lstClientes = respuesta.Select(c => new SelectListItem
                     {
                         Value = c.TN_IdCliente.ToString(),
                         Text = c.TC_Nombre
                     });
 
-                    mascota.Clientes = clientesList;
+                    cita.Clientes = lstClientes;
                 }
 
-                using (srvMascotas.IsrvMascotas srvMS = new srvMascotas.IsrvMascotasClient())
+                using (srvMascotas.IsrvMascotasClient srvMS = new srvMascotas.IsrvMascotasClient())
                 {
                     var respuesta = srvMS.obtenerMascotas_ENT();
-                    var mascotasList = respuesta.Select(c => new SelectListItem
+                    var lstMascotas = respuesta.Select(m => new SelectListItem
                     {
-                        Value = c.TN_IdMascota.ToString(),
-                        Text = c.TC_NombreMascota
+                        Value = m.TN_IdMascota.ToString(),
+                        Text = m.TC_NombreMascota
                     });
 
-                    mascota.Clientes = clientesList;
+                    cita.Mascotas = lstMascotas;
                 }
             }
             catch (FaultException ex)
@@ -200,7 +202,7 @@ namespace UI.Models
             {
                 throw ex;
             }
-            return View(mascota);
+            return View(cita);
         }
 
         public ActionResult detalleCita(int pIdCita)
@@ -238,32 +240,33 @@ namespace UI.Models
 
         public ActionResult insertarCita(Cita pCita)
         {
-            List<Cita> lstCita = new List<Cita>();
+            List<Cita> lstCitas = new List<Cita>();
             Cita cita;
+
             try
             {
                 using (srvCitas.IsrvCitasClient srvCT = new srvCitas.IsrvCitasClient())
                 {
                     srvCitas.TVET_Citas objCT = new srvCitas.TVET_Citas();
                     objCT.TN_IdCita = pCita.TN_IdCita;
-                    objCT.TN_IdCliente = pCita.TN_IdCliente;
-                    objCT.TN_IdMascota = pCita.TN_IdMascota;
+                    objCT.TN_IdCliente = (int)pCita.TN_IdCliente;
+                    objCT.TN_IdMascota = (int)pCita.TN_IdMascota;
                     objCT.TF_FecCita = pCita.TF_FecCita;
 
                     srvCT.agregaCita_ENT(objCT);
 
                     var respuesta = srvCT.obtenerCita_ENT();
+
                     if (respuesta.Count() > 0)
                     {
                         foreach (var item in respuesta)
                         {
                             cita = new Cita();
-                            objCT.TN_IdCita = item.TN_IdCita;
-                            objCT.TN_IdCliente = item.TN_IdCliente;
-                            objCT.TN_IdMascota = item.TN_IdMascota;
-                            objCT.TF_FecCita = item.TF_FecCita;
-
-                            lstCita.Add(cita);
+                            cita.TN_IdCita = item.TN_IdCita;
+                            cita.TN_IdCliente = item.TN_IdCliente;
+                            cita.TN_IdMascota = item.TN_IdMascota;
+                            cita.TF_FecCita = item.TF_FecCita;
+                            lstCitas.Add(cita);
                         }
                     }
                 }
@@ -277,32 +280,33 @@ namespace UI.Models
 
         public ActionResult actualizarCita(Cita pCita)
         {
-            List<Cita> lstCita = new List<Cita>();
+            List<Cita> lstCitas = new List<Cita>();
             Cita cita;
+
             try
             {
                 using (srvCitas.IsrvCitasClient srvCT = new srvCitas.IsrvCitasClient())
                 {
                     srvCitas.TVET_Citas objCT = new srvCitas.TVET_Citas();
+                    objCT.TF_FecCita = pCita.TF_FecCita;
                     objCT.TN_IdCita = pCita.TN_IdCita;
                     objCT.TN_IdCliente = pCita.TN_IdCliente;
                     objCT.TN_IdMascota = pCita.TN_IdMascota;
-                    objCT.TF_FecCita = pCita.TF_FecCita;
 
                     srvCT.modificaCita_ENT(objCT);
 
-                    var respuesta = srvCT.obtenerCita_ENT();
-                    if (respuesta.Count() > 0)
+                    var listCitas = srvCT.obtenerCita_ENT();
+
+                    if (listCitas.Count() > 0)
                     {
-                        foreach (var item in respuesta)
+                        foreach (var item in listCitas)
                         {
                             cita = new Cita();
-                            objCT.TN_IdCita = item.TN_IdCita;
-                            objCT.TN_IdCliente = item.TN_IdCliente;
-                            objCT.TN_IdMascota = item.TN_IdMascota;
-                            objCT.TF_FecCita = item.TF_FecCita;
-
-                            lstCita.Add(cita);
+                            cita.TN_IdCita = item.TN_IdCita;
+                            cita.TN_IdCliente = item.TN_IdCliente;
+                            cita.TN_IdMascota = item.TN_IdMascota;
+                            cita.TF_FecCita = item.TF_FecCita;
+                            lstCitas.Add(cita);
                         }
                     }
                 }
@@ -316,16 +320,17 @@ namespace UI.Models
 
         public ActionResult borrarCita(Cita pCita)
         {
-            List<Cita> lstCita = new List<Cita>();
+            List<Cita> lstCitas = new List<Cita>();
             Cita cita;
+
             try
             {
                 using (srvCitas.IsrvCitasClient srvCT = new srvCitas.IsrvCitasClient())
                 {
                     srvCitas.TVET_Citas objCT = new srvCitas.TVET_Citas();
                     objCT.TN_IdCita = pCita.TN_IdCita;
-                    objCT.TN_IdCliente = pCita.TN_IdCliente;
-                    objCT.TN_IdMascota = pCita.TN_IdMascota;
+                    objCT.TN_IdCliente = (int)pCita.TN_IdCliente;
+                    objCT.TN_IdMascota = (int)pCita.TN_IdMascota;
                     objCT.TF_FecCita = pCita.TF_FecCita;
 
                     srvCT.eliminaCita_ENT(objCT);
@@ -336,12 +341,11 @@ namespace UI.Models
                         foreach (var item in respuesta)
                         {
                             cita = new Cita();
-                            objCT.TN_IdCita = item.TN_IdCita;
-                            objCT.TN_IdCliente = item.TN_IdCliente;
-                            objCT.TN_IdMascota = item.TN_IdMascota;
-                            objCT.TF_FecCita = item.TF_FecCita;
-
-                            lstCita.Add(cita);
+                            cita.TN_IdCita = item.TN_IdCita;
+                            cita.TN_IdCliente = item.TN_IdCliente;
+                            cita.TF_FecCita = item.TF_FecCita;
+                            cita.TN_IdMascota = item.TN_IdMascota;
+                            lstCitas.Add(cita);
                         }
                     }
                 }

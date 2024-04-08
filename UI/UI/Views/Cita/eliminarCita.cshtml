@@ -51,10 +51,10 @@
         @Html.HiddenFor(model => model.TN_IdCita)
 
         <div class="form-actions no-color mt-2">
-            <button type="submit" name="accionEjecutar" value="Borrar" class="btn btn-warning">
+            <button type="submit" name="accionEjecutar" value="Borrar" class="btn btn-warning" formaction="@Url.Action("accionesEjecucion", "Cita")">
                 Eliminar 🗑️
             </button> |
-            @Html.ActionLink("Regresar", "obtenerMascotasENT")
+            @Html.ActionLink("Regresar", "obtenerCitas")
         </div>
     }
 </div>

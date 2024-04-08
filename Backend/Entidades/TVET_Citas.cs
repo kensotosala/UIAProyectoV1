@@ -11,7 +11,8 @@ namespace Entidades
 {
     using System;
     using System.Collections.Generic;
-    
+    using System.ComponentModel.DataAnnotations;
+
     public partial class TVET_Citas
     {
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2214:DoNotCallOverridableMethodsInConstructors")]
@@ -19,10 +20,11 @@ namespace Entidades
         {
             this.TVET_Diagnostico = new HashSet<TVET_Diagnostico>();
         }
-    
+
+        [Key]    
         public int TN_IdCita { get; set; }
-        public Nullable<int> TN_IdCliente { get; set; }
-        public Nullable<int> TN_IdMascota { get; set; }
+        public int TN_IdCliente { get; set; }
+        public int TN_IdMascota { get; set; }
         public System.DateTime TF_FecCita { get; set; }
     
         public virtual TVE_Clientes TVE_Clientes { get; set; }
