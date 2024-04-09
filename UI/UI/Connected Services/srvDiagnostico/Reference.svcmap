@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="59a2593d-2fd8-4273-a770-1cb11d89b239" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:51022/srvDiagnostico.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="srvDiagnostico.xsd" MetadataType="Schema" ID="06e35260-2dac-4f14-8e9a-a731f50d1459" SourceId="1" SourceUrl="http://localhost:51022/srvDiagnostico.svc?xsd=xsd0" />
+    <MetadataFile FileName="srvDiagnostico.disco" MetadataType="Disco" ID="186d21cc-1541-4718-8ba0-7a94549b984e" SourceId="1" SourceUrl="http://localhost:51022/srvDiagnostico.svc?disco" />
+    <MetadataFile FileName="srvDiagnostico1.xsd" MetadataType="Schema" ID="7ffbb4ef-02aa-4e55-bdfa-746338102d95" SourceId="1" SourceUrl="http://localhost:51022/srvDiagnostico.svc?xsd=xsd1" />
+    <MetadataFile FileName="srvDiagnostico2.xsd" MetadataType="Schema" ID="d9f9c7dc-2ff2-4dee-8fb7-fd7eb91c7992" SourceId="1" SourceUrl="http://localhost:51022/srvDiagnostico.svc?xsd=xsd2" />
+    <MetadataFile FileName="srvDiagnostico.wsdl" MetadataType="Wsdl" ID="229cfaeb-cba1-4d6d-aaa6-5e01a91ddd84" SourceId="1" SourceUrl="http://localhost:51022/srvDiagnostico.svc?wsdl" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

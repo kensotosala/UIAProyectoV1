@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.Web.Mvc;
 
@@ -22,7 +23,7 @@ namespace UI.Models
         [Display(Name = "Fecha")]
         [DataType(DataType.Date)]
         [DisplayFormat(DataFormatString = "{0:dd/MM/yyyy}", ApplyFormatInEditMode = true)]
-        public System.DateTime TF_FecCita { get; set; }
+        public DateTime TF_FecCita { get; set; }
 
         public IEnumerable<SelectListItem> Clientes { get; set; }
         public IEnumerable<SelectListItem> Mascotas { get; set; }

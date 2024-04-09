@@ -1,0 +1,52 @@
+﻿@model UI.Models.Diagnostico
+
+@{
+    ViewBag.Title = "detalleDiagnostico";
+}
+
+<h2>detalleDiagnostico</h2>
+
+<div>
+    <h4>Diagnostico</h4>
+    <hr />
+    <dl class="dl-horizontal">
+
+        <dt>
+            @Html.DisplayNameFor(model => model.TN_IdDiagnostico)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.TN_IdDiagnostico)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.TN_IdCita)
+        </dt>
+
+        <dd>
+            @{
+                var cita = ViewBag.citas as IEnumerable<UI.Models.Cita>;
+                if (cita != null)
+                {
+                    var citaSeleccionado = cita.FirstOrDefault(c => c.TN_IdCita == Model.TN_IdCita);
+                    if (citaSeleccionado != null)
+                    {
+                        @citaSeleccionado.TN_IdCita
+                    }
+                }
+            }
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.TC_DscDiagnostico)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.TC_DscDiagnostico)
+        </dd>
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Editar", "modificarDiagnostico", new { pIdDiagnostico = Model.TN_IdDiagnostico }) |
+    @Html.ActionLink("Regresar", "obtenerDiagnostico")
+</p>

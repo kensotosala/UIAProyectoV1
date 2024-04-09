@@ -77,8 +77,6 @@ C:\Dev Projects\UIA\UI\UI\obj\Debug\UI.csproj.CoreCompileInputs.cache
 C:\Dev Projects\UIA\UI\UI\obj\Debug\UI.csproj.Up2Date
 C:\Dev Projects\UIA\UI\UI\obj\Debug\UI.dll
 C:\Dev Projects\UIA\UI\UI\obj\Debug\UI.pdb
-C:\Dev Projects\UIA\PROYECTOV1\UI\UI\obj\Debug\UI.csproj.AssemblyReference.cache
-C:\Dev Projects\UIA\PROYECTOV1\UI\UI\obj\Debug\UI.csproj.CoreCompileInputs.cache
 C:\Dev Projects\UIA\PROYECTOV1\UI\UI\bin\UI.dll.config
 C:\Dev Projects\UIA\PROYECTOV1\UI\UI\bin\UI.dll
 C:\Dev Projects\UIA\PROYECTOV1\UI\UI\bin\UI.pdb
@@ -153,6 +151,8 @@ C:\Dev Projects\UIA\PROYECTOV1\UI\UI\bin\System.Web.WebPages.Razor.xml
 C:\Dev Projects\UIA\PROYECTOV1\UI\UI\bin\Newtonsoft.Json.xml
 C:\Dev Projects\UIA\PROYECTOV1\UI\UI\bin\Antlr3.Runtime.pdb
 C:\Dev Projects\UIA\PROYECTOV1\UI\UI\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Dev Projects\UIA\PROYECTOV1\UI\UI\obj\Debug\UI.csproj.AssemblyReference.cache
+C:\Dev Projects\UIA\PROYECTOV1\UI\UI\obj\Debug\UI.csproj.CoreCompileInputs.cache
 C:\Dev Projects\UIA\PROYECTOV1\UI\UI\obj\Debug\UI.csproj.Up2Date
 C:\Dev Projects\UIA\PROYECTOV1\UI\UI\obj\Debug\UI.dll
 C:\Dev Projects\UIA\PROYECTOV1\UI\UI\obj\Debug\UI.pdb

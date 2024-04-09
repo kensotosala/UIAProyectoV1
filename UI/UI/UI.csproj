@@ -137,12 +137,18 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>Reference.svcmap</DependentUpon>
     </Compile>
+    <Compile Include="Connected Services\srvDiagnostico\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
     <Compile Include="Connected Services\srvMascotas\Reference.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>Reference.svcmap</DependentUpon>
     </Compile>
     <Compile Include="Controllers\ClientesController.cs" />
+    <Compile Include="Controllers\DiagnosticoController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\MascotasController.cs" />
     <Compile Include="Global.asax.cs">
@@ -153,6 +159,7 @@
     <Compile Include="Models\Clientes.cs" />
     <Compile Include="Controllers\DetallesMascotaController.cs" />
     <Compile Include="Models\DetallesMascota.cs" />
+    <Compile Include="Models\Diagnostico.cs" />
     <Compile Include="Models\Mascotas.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -198,6 +205,19 @@
     <Content Include="Connected Services\srvDetalleMascota\UI.srvDetalleMascota.TVET_DetalleMascota.datasource">
       <DependentUpon>Reference.svcmap</DependentUpon>
     </Content>
+    <None Include="Connected Services\srvDiagnostico\srvDiagnostico.wsdl" />
+    <None Include="Connected Services\srvDiagnostico\srvDiagnostico.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Connected Services\srvDiagnostico\srvDiagnostico1.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Connected Services\srvDiagnostico\srvDiagnostico2.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <Content Include="Connected Services\srvDiagnostico\UI.srvDiagnostico.TVET_Diagnostico.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Content>
     <None Include="Connected Services\srvMascotas\srvMascotas.disco" />
     <None Include="Connected Services\srvMascotas\configuration91.svcinfo" />
     <None Include="Connected Services\srvMascotas\configuration.svcinfo" />
@@ -209,6 +229,13 @@
     <None Include="Connected Services\srvDetalleMascota\configuration91.svcinfo" />
     <None Include="Connected Services\srvDetalleMascota\configuration.svcinfo" />
     <None Include="Connected Services\srvDetalleMascota\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+    <None Include="Connected Services\srvDiagnostico\srvDiagnostico.disco" />
+    <None Include="Connected Services\srvDiagnostico\configuration91.svcinfo" />
+    <None Include="Connected Services\srvDiagnostico\configuration.svcinfo" />
+    <None Include="Connected Services\srvDiagnostico\Reference.svcmap">
       <Generator>WCF Proxy Generator</Generator>
       <LastGenOutput>Reference.cs</LastGenOutput>
     </None>
@@ -308,6 +335,11 @@
     <Content Include="Views\Cita\agregarCita.cshtml" />
     <Content Include="Views\Cita\eliminarCita.cshtml" />
     <Content Include="Views\Cita\detalleCita.cshtml" />
+    <Content Include="Views\Diagnostico\obtenerDiagnosticos.cshtml" />
+    <Content Include="Views\Diagnostico\agregarDiagnostico.cshtml" />
+    <Content Include="Views\Diagnostico\eliminarDiagnostico.cshtml" />
+    <Content Include="Views\Diagnostico\modificarDiagnostico.cshtml" />
+    <Content Include="Views\Diagnostico\detalleDiagnostico.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
@@ -346,6 +378,7 @@
     <WCFMetadataStorage Include="Connected Services\srvCitas\" />
     <WCFMetadataStorage Include="Connected Services\srvClientes\" />
     <WCFMetadataStorage Include="Connected Services\srvDetalleMascota\" />
+    <WCFMetadataStorage Include="Connected Services\srvDiagnostico\" />
     <WCFMetadataStorage Include="Connected Services\srvMascotas\" />
   </ItemGroup>
   <PropertyGroup>

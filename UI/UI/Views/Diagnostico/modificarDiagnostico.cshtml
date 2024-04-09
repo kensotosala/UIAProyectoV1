@@ -1,0 +1,52 @@
+﻿@model UI.Models.Diagnostico
+
+@{
+    ViewBag.Title = "modificarDiagnostico";
+}
+
+<h2>Modificar Diagnostico</h2>
+
+@using (Html.BeginForm("accionesEjecucion", "Diagnostico", FormMethod.Post))
+{
+    @Html.AntiForgeryToken()
+
+    <div class="form-horizontal">
+        <h4>Diagnostico</h4>
+        <hr />
+        @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+        @Html.HiddenFor(model => model.TN_IdDiagnostico)
+
+        <!-- Dropdown Clientes -->
+        <div class="form-group">
+            @Html.LabelFor(model => model.TN_IdCita, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.DropDownListFor(model => model.TN_IdCita, Model.Citas, "Seleccione una cita", new { @class = "form-control" })
+                @Html.ValidationMessageFor(model => model.TN_IdCita, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.TC_DscDiagnostico, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.TC_DscDiagnostico, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.TC_DscDiagnostico, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            <div class="col-md-offset-2 col-md-10 mt-2">
+                <button type="submit" name="accionEjecutar" value="Modificar" class="btn btn-primary">
+                    Guardar 💾
+                </button>
+            </div>
+        </div>
+    </div>
+}
+
+<div>
+    @Html.ActionLink("Regresar", "obtenerDiagnosticos")
+</div>
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}
