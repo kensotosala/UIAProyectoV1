@@ -15,9 +15,7 @@ namespace Entidades
     public partial class TVET_Diagnostico
     {
         public int TN_IdDiagnostico { get; set; }
-
-        // Se eliminó el Nunable
-        public int TN_IdCita { get; set; }
+        public Nullable<int> TN_IdCita { get; set; }
         public string TC_DscDiagnostico { get; set; }
     
         public virtual TVET_Citas TVET_Citas { get; set; }

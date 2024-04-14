@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="UsersVETModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="TBUsuarios">
+    <Key>
+      <PropertyRef Name="IdUsuario" />
+    </Key>
+    <Property Name="IdUsuario" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Usuario" Type="String" MaxLength="75" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Contrasenha" Type="String" MaxLength="30" FixedLength="false" Unicode="false" Nullable="false" />
+  </EntityType>
+  <EntityContainer Name="UsersVETEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="TBUsuarios" EntityType="Self.TBUsuarios" />
+    <FunctionImport Name="SP_Login" ReturnType="Collection(String)">
+      <Parameter Name="Usuario" Mode="In" Type="String" />
+      <Parameter Name="Contrasenha" Mode="In" Type="String" />
+    </FunctionImport>
+  </EntityContainer>
+</Schema>

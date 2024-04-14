@@ -1,63 +1,66 @@
 ﻿@model UI.Models.DetallesMascota
 
-@{
-    ViewBag.Title = "detallesDetalleMascota";
-}
+@{ Layout = "~/Views/Shared/_LayoutObtener.cshtml"; }
 
-<h2>detallesDetalleMascota</h2>
+<main>
+    <section class="container px-lg-5">
+        <div class="row justify-content-center">
+            <div class="col-lg-6">
+                <div class="card mt-3 mb-3 cardWrapper">
+                    <div class="card-body">
+                        <div class="row">
+                            <div class="col text-center">
+                                <img src="/assets/user.png" class="img-fluid rounded-top customImg" alt="" />
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col mb-2 text-center">
+                                <h3 class="cardTitle">Detalles de la Mascota</h3>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col">
+                                <dl>
+                                    <dt class="form-label lblCustom">Nombre Mascota:</dt>
+                                    <dd>
+                                        @{
+                                            var mascota = ViewBag.Mascotas as IEnumerable<UI.Models.Mascotas>;
+                                            if (mascota != null)
+                                            {
+                                                var mascotaSeleccionado = mascota.FirstOrDefault(c => c.TN_IdMascota == Model.TN_IdMascota);
+                                                if (mascotaSeleccionado != null)
+                                                {
+                                                    @mascotaSeleccionado.TC_NombreMascota
+                                                }
+                                            }
+                                        }
+                                    </dd>
 
-<div>
-    <h4>DetallesMascota</h4>
-    <hr />
-    <dl class="dl-horizontal">
-        <dt>
-            @Html.DisplayNameFor(model => model.TN_IdMascota)
-        </dt>
+                                    <dt class="form-label lblCustom">Raza:</dt>
+                                    <dd>@Model.TC_Raza</dd>
 
-        <dd>
-            @Html.DisplayFor(model => model.TN_IdMascota)
-        </dd>
+                                    <dt class="form-label lblCustom">Peso:</dt>
+                                    <dd>@Model.TN_Peso</dd>
 
-        <dd>
-            @{
-                var mascota = ViewBag.mascotas as IEnumerable<UI.Models.Mascotas>;
-                if (mascota != null)
-                {
-                    var mascotaSeleccionado = mascota.FirstOrDefault(c => c.TN_IdMascota == Model.TN_IdMascota);
-                    if (mascotaSeleccionado != null)
-                    {
-                        @mascotaSeleccionado.TC_NombreMascota
-                    }
-                }
-            }
-        </dd>
+                                    <dt class="form-label lblCustom">Color:</dt>
+                                    <dd>@Model.TC_Color</dd>
+                                </dl>
 
-        <dt>
-            @Html.DisplayNameFor(model => model.TC_Raza)
-        </dt>
-
-        <dd>
-            @Html.DisplayFor(model => model.TC_Raza)
-        </dd>
-
-        <dt>
-            @Html.DisplayNameFor(model => model.TN_Peso)
-        </dt>
-
-        <dd>
-            @Html.DisplayFor(model => model.TN_Peso)
-        </dd>
-
-        <dt>
-            @Html.DisplayNameFor(model => model.TC_Color)
-        </dt>
-
-        <dd>
-            @Html.DisplayFor(model => model.TC_Color)
-        </dd>
-    </dl>
-</div>
-<p>
-    @Html.ActionLink("Editar", "modificarDetalles", new { pIdDetalle = Model.TN_IdMascota }) |
-    @Html.ActionLink("Regresar", "obtenerDetallesMascota")
-</p>
+                                <div class="mb-3">
+                                    <div class="text-center">
+                                        <a href="@Url.Action("modificarDetalles", new { pIdDetalle = Model.TN_IdMascota })" class="btn btn-primary w-75 btnAgregar">Editar</a>
+                                    </div>
+                                </div>
+                                <div class="mb-3">
+                                    <div class="text-center">
+                                        <a href="@Url.Action("obtenerDetallesMascota")" class="btn btn-primary w-50 btnCancelar">Regresar</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</main>

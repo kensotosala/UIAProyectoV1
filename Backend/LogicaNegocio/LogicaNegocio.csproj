@@ -46,11 +46,13 @@
     <Compile Include="Implementacion\ClienteLN.cs" />
     <Compile Include="Implementacion\DetalleMascotaLN.cs" />
     <Compile Include="Implementacion\DiagnosticoLN.cs" />
+    <Compile Include="Implementacion\LoginLN.cs" />
     <Compile Include="Implementacion\MascotasLN.cs" />
     <Compile Include="Interfaces\ICitasLN.cs" />
     <Compile Include="Interfaces\IClientesLN.cs" />
     <Compile Include="Interfaces\IDetalleMascotaLN.cs" />
     <Compile Include="Interfaces\IDiagnosticoLN.cs" />
+    <Compile Include="Interfaces\ILoginLN.cs" />
     <Compile Include="Interfaces\IMascotasLN.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

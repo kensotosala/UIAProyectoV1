@@ -1,0 +1,77 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sistema Gestion de Inventarios</title>
+    @Styles.Render("~/Content/css")
+    @Scripts.Render("~/bundles/modernizr")
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+          crossorigin="anonymous" />
+    <link rel="stylesheet" href="~/Content/mainStyle.css" />
+    <link rel="stylesheet" href="~/Content/Obtener.css" />
+    <link rel="stylesheet" href="~/Content/OtrosEstilos.css" />
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-sm">
+            <div class="container px-lg-5">
+                <a class="navbar-brand" href="@Url.Action("Index", "Home")">
+                    <img src="/assets/pet-shop1.png"
+                         class="img-fluid rounded-top"
+                         alt="" />
+                </a>
+                <button class="navbar-toggler d-lg-none"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#collapsibleNavId"
+                        aria-controls="collapsibleNavId"
+                        aria-expanded="false"
+                        aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="collapsibleNavId">
+                    <ul class="navbar-nav ms-auto mt-2 mt-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link" href="@Url.Action("Index", "Home")">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="@Url.Action("obtenerClientes_ENT", "Clientes")">Clientes</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="@Url.Action("obtenerMascotasENT", "Mascotas")">Mascotas</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="@Url.Action("obtenerDetallesMascota", "DetallesMascota")">Detalles Mascota</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="@Url.Action("obtenerCitas", "Cita")">Citas</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="@Url.Action("obtenerDiagnosticos", "Diagnostico")">Diagnósticos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a type="button" name="" id="" class="btn btnSalir" href="@Url.Action("Login", "Login")">
+                                Cerrar Sesión
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        @RenderBody()
+    </main>
+    <footer class="cstFooter py-lg-3">
+        <p class="txtFooter text-center">
+            Sistema de Gestión de Veternarias | © 2024
+        </p>
+    </footer>
+
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/bootstrap")
+    @RenderSection("scripts", required: false)
+</body>
+</html>

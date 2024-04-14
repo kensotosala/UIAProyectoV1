@@ -1,61 +1,80 @@
 ﻿@model UI.Models.Cita
 
 @{
-    ViewBag.Title = "modificarCitas";
+    Layout = "~/Views/Shared/_LayoutObtener.cshtml";
 }
 
-<h2>Modifica Cita</h2>
+<main>
+    <section class="container px-lg-5">
+        <div class="row justify-content-center">
+            <div class="col-lg-4">
+                <div class="card mt-3 mb-3 cardWrapper">
+                    <div class="card-body">
+                        <div class="row">
+                            <div class="col text-center">
+                                <img src="/assets/user.png"
+                                     class="img-fluid rounded-top customImg"
+                                     alt="" />
+                            </div>
+                        </div>
+                        <div class="row justify-content-center">
+                            <div class="col mb-2 text-center">
+                                <h3 class="cardTitle">Modificar Cita</h3>
+                            </div>
+                        </div>
+                        <div class="row justify-content-center">
+                            <div class="col-auto">
+                                @using (Html.BeginForm("accionesEjecucion", "DetallesMascota", FormMethod.Post))
+                                {
+                                    @Html.AntiForgeryToken()
+                                    @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+                                    @Html.HiddenFor(model => model.TN_IdCita)
 
-@using (Html.BeginForm("accionesEjecucion", "Cita", FormMethod.Post))
-{
-    @Html.AntiForgeryToken()
+                                    <div class="mb-3">
+                                        @Html.LabelFor(model => model.TN_IdCliente, "Cliente", htmlAttributes: new { @class = "form-label lblCustom" })
+                                        <div>
+                                            @Html.DropDownListFor(model => model.TN_IdCliente, new SelectList(Model.Clientes, "Value", "Text"), "Seleccione un cliente", new { @class = "form-control inpCustom py-lg-2 w-100" })
+                                            @Html.ValidationMessageFor(model => model.TN_IdCliente, "", new { @class = "text-danger" })
+                                        </div>
+                                    </div>
 
-    <div class="form-horizontal">
-        <h4>Cita</h4>
-        <hr />
-        @Html.ValidationSummary(true, "", new { @class = "text-danger" })
-        @Html.HiddenFor(model => model.TN_IdCita)
+                                    <div class="mb-3">
+                                        @Html.LabelFor(model => model.TN_IdMascota, "Mascota", htmlAttributes: new { @class = "form-label lblCustom" })
+                                        <div>
+                                            @Html.DropDownListFor(model => model.TN_IdMascota, new SelectList(Model.Mascotas, "Value", "Text"), "Seleccione una mascota", new { @class = "form-control inpCustom py-lg-2 w-100" })
+                                            @Html.ValidationMessageFor(model => model.TN_IdMascota, "", new { @class = "text-danger" })
+                                        </div>
+                                    </div>
 
-        <!-- Dropdown Clientes -->
-        <div class="form-group">
-            @Html.LabelFor(model => model.TN_IdCliente, htmlAttributes: new { @class = "control-label col-md-2" })
-            <div class="col-md-10">
-                @Html.DropDownListFor(model => model.TN_IdCliente, Model.Clientes, "Seleccione un cliente", new { @class = "form-control" })
-                @Html.ValidationMessageFor(model => model.TN_IdCliente, "", new { @class = "text-danger" })
+                                    <div class="mb-3 ">
+                                        @Html.LabelFor(model => model.TF_FecCita, htmlAttributes: new { @class = "form-label lblCustom" })
+                                        @Html.EditorFor(model => model.TF_FecCita, new { htmlAttributes = new { @class = "form-control inpCustom py-lg-2 w-100" } })
+                                        @Html.ValidationMessageFor(model => model.TF_FecCita, "", new { @class = "text-danger" })
+                                    </div>
+
+                                    <div class="mb-3">
+                                        <div class="text-center">
+                                            <button type="submit"
+                                                    name="accionEjecutar"
+                                                    value="Modificar"
+                                                    class="btn btn-primary w-75 btnAgregar"
+                                                    formaction="@Url.Action("accionesEjecucion", "Cita")">
+                                                Modificar
+                                            </button>
+                                        </div>
+                                    </div>
+                                }
+                                <div class="mb-3">
+                                    <div class="text-center">
+                                        <a href="@Url.Action("obtenerCitas")"
+                                           class="btn btn-primary w-50 btnCancelar">Cancelar</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
-
-        <!-- Dropdown Mascotas -->
-        <div class="form-group">
-            @Html.LabelFor(model => model.TN_IdMascota, htmlAttributes: new { @class = "control-label col-md-2" })
-            <div class="col-md-10">
-                @Html.DropDownListFor(model => model.TN_IdMascota, Model.Mascotas, "Seleccione una mascota", new { @class = "form-control" })
-                @Html.ValidationMessageFor(model => model.TN_IdMascota, "", new { @class = "text-danger" })
-            </div>
-        </div>
-
-        <div class="form-group">
-            @Html.LabelFor(model => model.TF_FecCita, htmlAttributes: new { @class = "control-label col-md-2" })
-            <div class="col-md-10">
-                @Html.EditorFor(model => model.TF_FecCita, new { htmlAttributes = new { @class = "form-control" } })
-                @Html.ValidationMessageFor(model => model.TF_FecCita, "", new { @class = "text-danger" })
-            </div>
-        </div>
-
-        <div class="form-group">
-            <div class="col-md-offset-2 col-md-10 mt-2">
-                <button type="submit" name="accionEjecutar" value="Modificar" class="btn btn-primary">
-                    Guardar 💾
-                </button>
-            </div>
-        </div>
-    </div>
-}
-
-<div>
-    @Html.ActionLink("Regresar", "obtenerCitas")
-</div>
-
-@section Scripts {
-    @Scripts.Render("~/bundles/jqueryval")
-}
+    </section>
+</main>

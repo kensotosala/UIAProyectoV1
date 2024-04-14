@@ -12,7 +12,7 @@ EndProject
 Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "WCFProyecto", "WCFProyecto\", "{12CF7AB4-67A6-481D-8634-EF8DBCEA588A}"
 	ProjectSection(WebsiteProperties) = preProject
 		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.8"
-		ProjectReferences = "{2dd20597-cbc0-4262-8c6b-fa6d5c1b3f5c}|AccesoDatos.dll;{C1CC2099-8B7D-4D7B-895B-FD51A3AAEE85}|Entidades.dll;{3cc7d525-eebf-4476-bb15-2d6ba6f45ef6}|LogicaNegocio.dll;"
+		ProjectReferences = "{2dd20597-cbc0-4262-8c6b-fa6d5c1b3f5c}|AccesoDatos.dll;{c1cc2099-8b7d-4d7b-895b-fd51a3aaee85}|Entidades.dll;{3cc7d525-eebf-4476-bb15-2d6ba6f45ef6}|LogicaNegocio.dll;"
 		Debug.AspNetCompiler.VirtualPath = "/localhost_51022"
 		Debug.AspNetCompiler.PhysicalPath = "WCFProyecto\"
 		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_51022\"

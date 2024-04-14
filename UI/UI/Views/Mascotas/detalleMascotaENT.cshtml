@@ -1,46 +1,63 @@
 ﻿@model UI.Models.Mascotas
 
-@{
-    ViewBag.Title = "detalleMascotaENT";
-}
+@{ Layout = "~/Views/Shared/_LayoutObtener.cshtml"; }
 
-<h2>Detalle Mascotas</h2>
+<main>
+    <section class="container px-lg-5">
+        <div class="row justify-content-center">
+            <div class="col-lg-6">
+                <div class="card mt-3 mb-3 cardWrapper">
+                    <div class="card-body">
+                        <div class="row">
+                            <div class="col text-center">
+                                <img src="/assets/user.png" class="img-fluid rounded-top customImg" alt="" />
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col mb-2 text-center">
+                                <h3 class="cardTitle">Detalles de la Mascota</h3>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col">
+                                <dl>
+                                    <dt class="form-label lblCustom">ID de la Mascota:</dt>
+                                    <dd>@Model.TN_IdMascota</dd>
 
-<div>
-    <hr />
-    <dl class="dl-horizontal">
-        <dt>
-            @Html.DisplayNameFor(model => model.TN_IdMascota)
-        </dt>
+                                    <dt class="form-label lblCustom">Nombre de la Mascota:</dt>
+                                    <dd>@Model.TC_NombreMascota</dd>
 
-        <dd>
-            @Html.DisplayFor(model => model.TN_IdMascota)
-        </dd>
-        <dt>
-            @Html.DisplayNameFor(model => model.TC_NombreMascota)
-        </dt>
-        <dd>
-            @Html.DisplayFor(model => model.TC_NombreMascota)
-        </dd>
-        <dt>
-            Cliente
-        </dt>
-        <dd>
-            @{
-                var cliente = ViewBag.Clientes as IEnumerable<UI.Models.Clientes>;
-                if (cliente != null)
-                {
-                    var clienteSeleccionado = cliente.FirstOrDefault(c => c.TN_IdCliente == Model.TN_IdCliente);
-                    if (clienteSeleccionado != null)
-                    {
-                        @clienteSeleccionado.TC_Nombre
-                    }
-                }
-            }
-        </dd>
-    </dl>
-</div>
-<p>
-    @Html.ActionLink("Editar", "modificarMascotaENT", new { pIdMascota = Model.TN_IdMascota }) |
-    @Html.ActionLink("Regresar", "obtenerMascotasENT")
-</p>
+                                    <dt class="form-label lblCustom">Cliente:</dt>
+                                    <dd>
+                                        @{
+                                            var cliente = ViewBag.Clientes as IEnumerable<UI.Models.Clientes>;
+                                            if (cliente != null)
+                                            {
+                                                var clienteSeleccionado = cliente.FirstOrDefault(c => c.TN_IdCliente == Model.TN_IdCliente);
+                                                if (clienteSeleccionado != null)
+                                                {
+                                                    @clienteSeleccionado.TC_Nombre
+                                                }
+                                            }
+                                        }
+                                    </dd>
+                                </dl>
+
+                                <div class="mb-3">
+                                    <div class="text-center">
+                                        <a href="@Url.Action("modificarMascotaENT", new { pIdMascota = Model.TN_IdMascota })" class="btn btn-primary w-75 btnAgregar">Editar</a>
+                                    </div>
+                                </div>
+                                <div class="mb-3">
+                                    <div class="text-center">
+                                        <a href="@Url.Action("obtenerMascotasENT")" class="btn btn-primary w-50 btnCancelar">Regresar</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</main>

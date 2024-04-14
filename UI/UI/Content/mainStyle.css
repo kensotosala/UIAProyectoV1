@@ -1,0 +1,110 @@
+﻿@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+    font-family: "Montserrat", Courier, monospace;
+}
+
+main {
+    background-image: url(/assets/bg.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.cstHeader {
+    background: #8576ff;
+}
+
+.main-title {
+    font-size: 34.5px;
+    font-weight: bold;
+    color: #fff;
+}
+
+.cstSalirBtn {
+    font-size: 28.8px;
+    background: #a3ffd6;
+    font-weight: bold;
+    color: #000;
+}
+
+    .cstSalirBtn:hover {
+        background: #fff;
+        color: #8576ff;
+    }
+
+.cardWelcome {
+    background: #a3ffd6;
+    border-radius: 38px;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    border: none;
+}
+
+.titleWelcome {
+    font-weight: bold;
+}
+
+.btnEmpezar {
+    font-weight: bold;
+}
+
+.card {
+    border: none;
+    border-radius: 38px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+
+.cardClientes {
+    background: #7bc9ff;
+}
+
+.cardTitle {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.txtCard {
+    font-size: 20px;
+}
+
+.btnIr {
+    font-weight: bold;
+    font-size: 20px;
+    background: #a3ffd6;
+    box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+
+    .btnIr:hover {
+        font-size: 25px;
+        background: #7bc9ff;
+    }
+
+.cardMascotas {
+    background: #8576ff;
+    color: #fff;
+}
+
+.btnIrV2 {
+    background: #7bc9ff;
+    font-weight: bold;
+    font-size: 20px;
+    box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+
+    .btnIrV2:hover {
+        font-size: 25px;
+        background: #7bc9ff;
+    }
+
+.cardDiag {
+    background: #a3ffd6;
+}
+
+.cstFooter {
+    background: #1c1678;
+}
+
+.txtFooter {
+    font-size: 20.8px;
+    font-weight: bold;
+    color: #d9d9d9;
+}

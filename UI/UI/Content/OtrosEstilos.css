@@ -1,0 +1,90 @@
+﻿@import url(Home.css);
+@import url(Obtener.css);
+
+.cardWrapper {
+    background: #7bc9ff;
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+    border: none;
+    border-radius: 15px;
+}
+
+.customImg {
+    width: 90px;
+}
+
+.cardTitle {
+    font-size: 24px;
+    color: #1c1678;
+}
+
+.cardTitle2 {
+    font-size: 20px;
+    color: #1c1678;
+}
+
+.lblCustom {
+    font-size: 16px;
+    font-weight: bold;
+    color: #1c1678;
+}
+
+.inpCustom {
+    border-radius: 20px;
+    font-size: 16px;
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+}
+
+.btnAgregar {
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+    font-weight: bold;
+    background: #a3ffd6;
+    color: #000;
+    border: none;
+}
+
+    .btnAgregar:hover {
+        font-size: 18px;
+        background: #a3ffd6;
+    }
+
+.btnEliminar {
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+    font-weight: bold;
+    background: #f15249;
+    color: #fff;
+    border: none;
+}
+
+    .btnEliminar:hover {
+        font-size: 18px;
+        background: #f15249;
+    }
+
+.btnCancelar {
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+    font-weight: bold;
+    background: #f15249;
+    color: #fff;
+    border: none;
+}
+
+    .btnCancelar:hover {
+        font-size: 18px;
+        background: #f15249;
+    }
+    
+.lblCustom {
+    font-weight: bold;
+    color: #1c1678;
+}
+
+.inpCustom {
+    border-radius: 10px;
+    font-size: 16px;
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+}
+
+.tblClientes {
+    table-layout: fixed;
+}
+

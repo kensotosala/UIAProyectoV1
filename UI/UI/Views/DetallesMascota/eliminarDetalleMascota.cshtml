@@ -1,61 +1,69 @@
 ﻿@model UI.Models.DetallesMascota
 
-@{
-    ViewBag.Title = "eliminarDetalleMascota";
-}
+@{ Layout = "~/Views/Shared/_LayoutObtener.cshtml"; }
 
-<h2>Eliminar Detalle</h2>
+<main>
+    <section class="container px-lg-5">
+        <div class="row justify-content-center">
+            <div class="col-lg-6">
+                <div class="card mt-3 mb-3 cardWrapper">
+                    <div class="card-body">
+                        <div class="row">
+                            <div class="col text-center">
+                                <img src="/assets/user.png" class="img-fluid rounded-top customImg" alt="" />
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col mb-2 text-center">
+                                <h3 class="cardTitle">
+                                    ¿Estás seguro que deseas eliminar?
+                                </h3>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col">
+                                @using (Html.BeginForm("accionesEjecucion", "DetallesMascota", FormMethod.Post))
+                                {
+                                    @Html.AntiForgeryToken()
+                                    @Html.HiddenFor(model => model.TN_IdMascota)
 
-<h3>Are you sure you want to delete this?</h3>
-<div>
-    <h4>Detalles Mascota</h4>
-    <hr />
-    <dl class="dl-horizontal">
-        <dt>
-            @Html.DisplayNameFor(model => model.TN_IdMascota)
-        </dt>
+                                <dl>
+                                    <dt class="form-label lblCustom">ID Mascota:</dt>
+                                    <dd>@Model.TN_IdMascota</dd>
 
-        <dd>
-            @Html.DisplayFor(model => model.TN_IdMascota)
-        </dd>
+                                    <dt class="form-label lblCustom">Raza:</dt>
+                                    <dd>@Model.TC_Raza</dd>
 
-        <dt>
-            @Html.DisplayNameFor(model => model.TC_Raza)
-        </dt>
+                                    <dt class="form-label lblCustom">Peso:</dt>
+                                    <dd>@Model.TN_Peso</dd>
 
-        <dd>
-            @Html.DisplayFor(model => model.TC_Raza)
-        </dd>
+                                    <dt class="form-label lblCustom">Color:</dt>
+                                    <dd>@Model.TC_Color</dd>
+                                </dl>
 
-        <dt>
-            @Html.DisplayNameFor(model => model.TN_Peso)
-        </dt>
-
-        <dd>
-            @Html.DisplayFor(model => model.TN_Peso)
-        </dd>
-
-        <dt>
-            @Html.DisplayNameFor(model => model.TC_Color)
-        </dt>
-
-        <dd>
-            @Html.DisplayFor(model => model.TC_Color)
-        </dd>
-
-    </dl>
-
-    @using (Html.BeginForm("accionesEjecucion", "DetallesMascota", FormMethod.Post))
-    {
-        @Html.AntiForgeryToken()
-
-        @Html.HiddenFor(model => model.TN_IdMascota)
-
-        <div class="form-actions no-color mt-2">
-            <button type="submit" name="accionEjecutar" value="Borrar" class="btn btn-warning" formaction="@Url.Action("accionesEjecucion", "DetallesMascota")">
-                Eliminar 🗑️
-            </button> |
-            @Html.ActionLink("Regresar", "obtenerDetallesMascota")
+                                    <div class="mb-3">
+                                        <div class="text-center">
+                                            <button type="submit"
+                                                    name="accionEjecutar"
+                                                    value="Borrar"
+                                                    class="btn btn-primary w-75 btnEliminar"
+                                                    formaction="@Url.Action("accionesEjecucion", "DetallesMascota")">
+                                                Eliminar
+                                            </button>
+                                        </div>
+                                    </div>
+                                }
+                                <div class="mb-3">
+                                    <div class="text-center">
+                                        <a href="@Url.Action("obtenerDetallesMascota", "DetallesMascota")"
+                                           class="btn btn-primary w-50 btnAgregar">Regresar</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-    }
-</div>
+    </section>
+</main>

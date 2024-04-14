@@ -1,44 +1,63 @@
 ﻿@model UI.Models.Mascotas
 
-@{
-    ViewBag.Title = "eliminarMascotaENT";
-}
+@{ Layout = "~/Views/Shared/_LayoutObtener.cshtml"; }
 
-<h2>Eliminar Mascota</h2>
+<main>
+    <section class="container px-lg-5">
+        <div class="row justify-content-center">
+            <div class="col-lg-6">
+                <div class="card mt-3 mb-3 cardWrapper">
+                    <div class="card-body">
+                        <div class="row">
+                            <div class="col text-center">
+                                <img src="/assets/user.png" class="img-fluid rounded-top customImg" alt="" />
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col mb-2 text-center">
+                                <h3 class="cardTitle">
+                                    ¿Estás seguro que deseas eliminar?
+                                </h3>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col">
+                                @using (Html.BeginForm("accionesEjecucion", "Mascotas", FormMethod.Post))
+                                {
+                                    @Html.AntiForgeryToken()
+                                    @Html.HiddenFor(model => model.TN_IdMascota)
 
-<h3>Are you sure you want to delete this?</h3>
-<div>
-    <h4>Mascotas</h4>
-    <hr />
-    <dl class="dl-horizontal">
-        <dt>
-            @Html.DisplayNameFor(model => model.TC_NombreMascota)
-        </dt>
+                                    <dl>
+                                        <dt class="form-label lblCustom">Nombre:</dt>
+                                        <dd>@Model.TC_NombreMascota</dd>
 
-        <dd>
-            @Html.DisplayFor(model => model.TC_NombreMascota)
-        </dd>
+                                        <dt class="form-label lblCustom">ID Cliente</dt>
+                                        <dd>@Model.TN_IdCliente</dd>
+                                    </dl>
 
-        <dt>
-            @Html.DisplayNameFor(model => model.TN_IdCliente)
-        </dt>
-
-        <dd>
-            @Html.DisplayFor(model => model.TN_IdCliente)
-        </dd>
-    </dl>
-
-    @using (Html.BeginForm("accionesEjecucion", "Mascotas", FormMethod.Post))
-    {
-        @Html.AntiForgeryToken()
-
-        @Html.HiddenFor(model => model.TN_IdMascota)
-
-        <div class="form-actions no-color mt-2">
-            <button type="submit" name="accionEjecutar" value="Borrar" class="btn btn-warning" formaction="@Url.Action("accionesEjecucion", "Mascotas")">
-                Eliminar 🗑️
-            </button> |
-            @Html.ActionLink("Regresar", "obtenerMascotasENT")
+                                    <div class="mb-3">
+                                        <div class="text-center">
+                                            <button type="submit"
+                                                    name="accionEjecutar"
+                                                    value="Borrar"
+                                                    class="btn btn-primary w-75 btnEliminar"
+                                                    formaction="@Url.Action("accionesEjecucion", "Mascotas")">
+                                                Eliminar
+                                            </button>
+                                        </div>
+                                    </div>
+                                }
+                                <div class="mb-3">
+                                    <div class="text-center">
+                                        <a href="@Url.Action("obtenerMascotasENT", "Mascotas")"
+                                           class="btn btn-primary w-50 btnAgregar">Regresar</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-    }
-</div>
+    </section>
+</main>

@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<configurationSnapshot xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:schemas-microsoft-com:xml-wcfconfigurationsnapshot">
+  <behaviors />
+  <bindings>
+    <binding digest="System.ServiceModel.Configuration.BasicHttpBindingElement, System.ServiceModel, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089:&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-16&quot;?&gt;&lt;Data name=&quot;BasicHttpBinding_IsrvLogin&quot; /&gt;" bindingType="basicHttpBinding" name="BasicHttpBinding_IsrvLogin" />
+  </bindings>
+  <endpoints>
+    <endpoint normalizedDigest="&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-16&quot;?&gt;&lt;Data address=&quot;http://localhost:51022/srvLogin.svc&quot; binding=&quot;basicHttpBinding&quot; bindingConfiguration=&quot;BasicHttpBinding_IsrvLogin&quot; contract=&quot;srvLogin.IsrvLogin&quot; name=&quot;BasicHttpBinding_IsrvLogin&quot; /&gt;" digest="&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-16&quot;?&gt;&lt;Data address=&quot;http://localhost:51022/srvLogin.svc&quot; binding=&quot;basicHttpBinding&quot; bindingConfiguration=&quot;BasicHttpBinding_IsrvLogin&quot; contract=&quot;srvLogin.IsrvLogin&quot; name=&quot;BasicHttpBinding_IsrvLogin&quot; /&gt;" contractName="srvLogin.IsrvLogin" name="BasicHttpBinding_IsrvLogin" />
+  </endpoints>
+</configurationSnapshot>

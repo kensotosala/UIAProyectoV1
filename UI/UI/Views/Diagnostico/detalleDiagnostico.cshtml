@@ -1,52 +1,50 @@
 ﻿@model UI.Models.Diagnostico
 
-@{
-    ViewBag.Title = "detalleDiagnostico";
-}
+@{ Layout = "~/Views/Shared/_LayoutObtener.cshtml"; }
 
-<h2>detalleDiagnostico</h2>
+<main>
+    <section class="container px-lg-5">
+        <div class="row justify-content-center">
+            <div class="col-lg-6">
+                <div class="card mt-3 mb-3 cardWrapper">
+                    <div class="card-body">
+                        <div class="row">
+                            <div class="col text-center">
+                                <img src="~/assets/analysis.png" class="img-fluid rounded-top customImg" alt="" />
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col mb-2 text-center">
+                                <h3 class="cardTitle">Detalles del Dianóstico</h3>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col ">
 
-<div>
-    <h4>Diagnostico</h4>
-    <hr />
-    <dl class="dl-horizontal">
+                                <div class="mb-3">
+                                    <p class="form-label lblCustom">ID:</p>
+                                    <p class="form-label">@Model.TN_IdDiagnostico</p>
+                                </div>
+                                <div class="mb-3">
+                                    <p class="form-label lblCustom">Dianósticos:</p>
+                                    <p class="form-label">@Model.TC_DscDiagnostico</p>
+                                </div>
 
-        <dt>
-            @Html.DisplayNameFor(model => model.TN_IdDiagnostico)
-        </dt>
-
-        <dd>
-            @Html.DisplayFor(model => model.TN_IdDiagnostico)
-        </dd>
-
-        <dt>
-            @Html.DisplayNameFor(model => model.TN_IdCita)
-        </dt>
-
-        <dd>
-            @{
-                var cita = ViewBag.citas as IEnumerable<UI.Models.Cita>;
-                if (cita != null)
-                {
-                    var citaSeleccionado = cita.FirstOrDefault(c => c.TN_IdCita == Model.TN_IdCita);
-                    if (citaSeleccionado != null)
-                    {
-                        @citaSeleccionado.TN_IdCita
-                    }
-                }
-            }
-        </dd>
-
-        <dt>
-            @Html.DisplayNameFor(model => model.TC_DscDiagnostico)
-        </dt>
-
-        <dd>
-            @Html.DisplayFor(model => model.TC_DscDiagnostico)
-        </dd>
-    </dl>
-</div>
-<p>
-    @Html.ActionLink("Editar", "modificarDiagnostico", new { pIdDiagnostico = Model.TN_IdDiagnostico }) |
-    @Html.ActionLink("Regresar", "obtenerDiagnostico")
-</p>
+                                <div class="mb-3">
+                                    <div class="text-center">
+                                        <a href="@Url.Action("modificarDiagnostico", new { pIdDiagnostico = Model.TN_IdDiagnostico })" class="btn btn-primary w-75 btnAgregar">Editar</a>
+                                    </div>
+                                </div>
+                                <div class="mb-3">
+                                    <div class="text-center">
+                                        <a href="@Url.Action("obtenerDiagnosticos")" class="btn btn-primary w-50 btnCancelar">Regresar</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</main>

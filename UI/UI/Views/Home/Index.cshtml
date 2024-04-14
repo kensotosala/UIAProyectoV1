@@ -1,33 +1,194 @@
 ﻿@{
-    ViewBag.Title = "Home Page";
+    Layout = "~/Views/Shared/_LayoutObtener.cshtml";
 }
 
 <main>
-    <section class="row" aria-labelledby="aspnetTitle">
-        <h1 id="title">ASP.NET</h1>
-        <p class="lead">ASP.NET is a free web framework for building great Web sites and Web applications using HTML, CSS and JavaScript.</p>
-        <p><a href="https://asp.net" class="btn btn-primary btn-md">Learn more &raquo;</a></p>
+    <section class="container px-lg-5 containerWelcome">
+        <div class="row">
+            <div class="col">
+                <div class="card cardWelcome p-5 mt-5">
+                    <div class="row">
+                        <div class="col">
+                            <div class="row">
+                                <div class="col">
+                                    <h1 class="titleWelcome">Buen día, Usuario!</h1>
+                                    <p class="mt-3">
+                                        Empieza gestionar tu negocio desde nuestro portal y haz
+                                        que tu negocio escale y todos tus clientes obtengan un
+                                        mejor servicio de la manera más eficiente y eficaz
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col btnEmpezar mt-4">
+                                    Empezar <i class="fa-solid fa-arrow-right-long"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col text-center">
+                            <img src="~/Assets/pet-food1.png"
+                                 class="img-fluid rounded-top"
+                                 alt="" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </section>
 
-    <div class="row">
-        <section class="col-md-4" aria-labelledby="gettingStartedTitle">
-            <h2 id="gettingStartedTitle">Getting started</h2>
-            <p>
-                ASP.NET MVC gives you a powerful, patterns-based way to build dynamic websites that
-                enables a clean separation of concerns and gives you full control over markup
-                for enjoyable, agile development.
-            </p>
-            <p><a class="btn btn-outline-dark" href="https://go.microsoft.com/fwlink/?LinkId=301865">Learn more &raquo;</a></p>
-        </section>
-        <section class="col-md-4" aria-labelledby="librariesTitle">
-            <h2 id="librariesTitle">Get more libraries</h2>
-            <p>NuGet is a free Visual Studio extension that makes it easy to add, remove, and update libraries and tools in Visual Studio projects.</p>
-            <p><a class="btn btn-outline-dark" href="https://go.microsoft.com/fwlink/?LinkId=301866">Learn more &raquo;</a></p>
-        </section>
-        <section class="col-md-4" aria-labelledby="hostingTitle">
-            <h2 id="hostingTitle">Web Hosting</h2>
-            <p>You can easily find a web hosting company that offers the right mix of features and price for your applications.</p>
-            <p><a class="btn btn-outline-dark" href="https://go.microsoft.com/fwlink/?LinkId=301867">Learn more &raquo;</a></p>
-        </section>
-    </div>
+    <!-- Options -->
+    <section class="container mt-5 px-lg-5">
+        <div class="row">
+            <div class="col">
+                <!-- Clientes -->
+                <div class="card cardClientes p-lg-3">
+                    <div class="card-body">
+                        <div class="row">
+                            <h2 class="cardTitle">Clientes</h2>
+                        </div>
+                        <div class="row justify-content-center align-items-center">
+                            <div class="col">
+                                <p class="txtCard">
+                                    En esta sección podrás gestionar todo lo relacionado con
+                                    tus clientes
+                                </p>
+                            </div>
+                            <div class="col">
+                                <img src="~/Assets/man1.png"
+                                     class="img-fluid rounded-top"
+                                     alt="" />
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div>
+                                <a type="button" class="btn btnIr" href="@Url.Action("obtenerClientes_ENT", "Clientes")">
+                                    Ir <i class="fa-solid fa-arrow-right-long"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card cardMascotas p-lg-3">
+                    <div class="card-body">
+                        <div class="row">
+                            <h2 class="cardTitle">Mascotas</h2>
+                        </div>
+                        <div class="row justify-content-center align-items-center">
+                            <div class="col">
+                                <p class="txtCard">
+                                    En esta sección podrás gestionar todo lo relacionado con
+                                    tus mascotas
+                                </p>
+                            </div>
+                            <div class="col">
+                                <img src="~/Assets/animal-care1.png"
+                                     class="img-fluid rounded-top"
+                                     alt="" />
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div>
+                                <a type="button" name="" id="" class="btn btnIr" href="@Url.Action("obtenerMascotasENT", "Mascotas")">
+                                    Ir <i class="fa-solid fa-arrow-right-long"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row mt-2">
+            <div class="col-7">
+                <div class="card cardMascotas p-lg-4">
+                    <div class="card-body">
+                        <div class="row">
+                            <h2 class="cardTitle">Citas</h2>
+                        </div>
+                        <div class="row justify-content-center align-items-center">
+                            <div class="col">
+                                <p class="txtCard">
+                                    En esta sección podrás gestionar todo lo relacionado con
+                                    las citas por y para agendar
+                                </p>
+                            </div>
+                            <div class="col">
+                                <img src="~/Assets/online-survey1.png"
+                                     class="img-fluid rounded-top"
+                                     alt="" />
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div>
+                                <a type="button" name="" id="" class="btn btnIr" href="@Url.Action("obtenerCitas", "Cita")">
+                                    Ir <i class="fa-solid fa-arrow-right-long"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-5">
+                <div class="card cardClientes p-lg-3 py-lg-5">
+                    <div class="card-body">
+                        <div class="row">
+                            <h2 class="cardTitle">Detalles de Mascotas</h2>
+                        </div>
+                        <div class="row justify-content-center align-items-center">
+                            <div class="col">
+                                <p class="txtCard">
+                                    Agrega detalles a las mascotas registradas y datos
+                                    relevantes
+                                </p>
+                            </div>
+                            <div class="col">
+                                <img src="~/Assets/completed-task1.png"
+                                     class="img-fluid rounded-top"
+                                     alt="" />
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div>
+                                <a type="button" name="" id="" class="btn btnIr" href="@Url.Action("obtenerDetallesMascota", "DetallesMascota")">
+                                    Ir <i class="fa-solid fa-arrow-right-long"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row mt-2">
+            <div class="col">
+                <div class="card cardDiag p-lg-5 mb-5">
+                    <div class="card-body">
+                        <div class="row">
+                            <h2 class="cardTitle">Diágnosticos</h2>
+                        </div>
+                        <div class="row justify-content-center align-items-center">
+                            <div class="col">
+                                <p class="txtCard">
+                                    En esta sección podrás gestionar todo lo relacionado con
+                                    las citas y brindar un diagnóstico a cada uno de tus
+                                    pacientes.
+                                </p>
+                                <a type="button"
+                                   name=""
+                                   id=""
+                                   class="btn btnIrV2 w-50 mt-5" href="@Url.Action("obtenerDiagnosticos", "Diagnostico")">
+                                    Ir <i class="fa-solid fa-arrow-right-long"></i>
+                                </a>
+                            </div>
+                            <div class="col text-center">
+                                <img src="~/Assets/doctor1.png"
+                                     class="img-fluid rounded-top"
+                                     alt="" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 </main>

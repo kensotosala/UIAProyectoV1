@@ -3,24 +3,80 @@
   "WorkspaceRootPath": "C:\\Dev Projects\\UIA\\PROYECTOV1\\UI\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B941D645-F2F0-4014-96AB-053319688FD3}|UI\\UI.csproj|c:\\dev projects\\uia\\proyectov1\\ui\\ui\\models\\diagnostico.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B941D645-F2F0-4014-96AB-053319688FD3}|UI\\UI.csproj|solutionrelative:ui\\models\\diagnostico.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B941D645-F2F0-4014-96AB-053319688FD3}|UI\\UI.csproj|c:\\dev projects\\uia\\proyectov1\\ui\\ui\\views\\shared\\_layoutobtener.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B941D645-F2F0-4014-96AB-053319688FD3}|UI\\UI.csproj|solutionrelative:ui\\views\\shared\\_layoutobtener.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B941D645-F2F0-4014-96AB-053319688FD3}|UI\\UI.csproj|c:\\dev projects\\uia\\proyectov1\\ui\\ui\\models\\detallesmascota.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B941D645-F2F0-4014-96AB-053319688FD3}|UI\\UI.csproj|solutionrelative:ui\\models\\detallesmascota.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B941D645-F2F0-4014-96AB-053319688FD3}|UI\\UI.csproj|C:\\Dev Projects\\UIA\\PROYECTOV1\\UI\\ui\\views\\login\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B941D645-F2F0-4014-96AB-053319688FD3}|UI\\UI.csproj|solutionrelative:ui\\views\\login\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B941D645-F2F0-4014-96AB-053319688FD3}|UI\\UI.csproj|c:\\dev projects\\uia\\proyectov1\\ui\\ui\\models\\cita.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B941D645-F2F0-4014-96AB-053319688FD3}|UI\\UI.csproj|solutionrelative:ui\\models\\cita.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B941D645-F2F0-4014-96AB-053319688FD3}|UI\\UI.csproj|c:\\dev projects\\uia\\proyectov1\\ui\\ui\\views\\shared\\_layoutempty.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B941D645-F2F0-4014-96AB-053319688FD3}|UI\\UI.csproj|solutionrelative:ui\\views\\shared\\_layoutempty.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B941D645-F2F0-4014-96AB-053319688FD3}|UI\\UI.csproj|c:\\dev projects\\uia\\proyectov1\\ui\\ui\\models\\mascotas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B941D645-F2F0-4014-96AB-053319688FD3}|UI\\UI.csproj|solutionrelative:ui\\models\\mascotas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B941D645-F2F0-4014-96AB-053319688FD3}|UI\\UI.csproj|C:\\Dev Projects\\UIA\\PROYECTOV1\\UI\\ui\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B941D645-F2F0-4014-96AB-053319688FD3}|UI\\UI.csproj|solutionrelative:ui\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B941D645-F2F0-4014-96AB-053319688FD3}|UI\\UI.csproj|c:\\dev projects\\uia\\proyectov1\\ui\\ui\\models\\clientes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B941D645-F2F0-4014-96AB-053319688FD3}|UI\\UI.csproj|solutionrelative:ui\\models\\clientes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B941D645-F2F0-4014-96AB-053319688FD3}|UI\\UI.csproj|c:\\dev projects\\uia\\proyectov1\\ui\\ui\\content\\login.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{B941D645-F2F0-4014-96AB-053319688FD3}|UI\\UI.csproj|solutionrelative:ui\\content\\login.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B941D645-F2F0-4014-96AB-053319688FD3}|UI\\UI.csproj|c:\\dev projects\\uia\\proyectov1\\ui\\ui\\views\\mascotas\\agregarmascotaent.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B941D645-F2F0-4014-96AB-053319688FD3}|UI\\UI.csproj|solutionrelative:ui\\views\\mascotas\\agregarmascotaent.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B941D645-F2F0-4014-96AB-053319688FD3}|UI\\UI.csproj|C:\\Dev Projects\\UIA\\PROYECTOV1\\UI\\ui\\views\\diagnostico\\agregardiagnostico.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B941D645-F2F0-4014-96AB-053319688FD3}|UI\\UI.csproj|solutionrelative:ui\\views\\diagnostico\\agregardiagnostico.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B941D645-F2F0-4014-96AB-053319688FD3}|UI\\UI.csproj|C:\\Dev Projects\\UIA\\PROYECTOV1\\UI\\ui\\app_start\\routeconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B941D645-F2F0-4014-96AB-053319688FD3}|UI\\UI.csproj|solutionrelative:ui\\app_start\\routeconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B941D645-F2F0-4014-96AB-053319688FD3}|UI\\UI.csproj|C:\\Dev Projects\\UIA\\PROYECTOV1\\UI\\ui\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{B941D645-F2F0-4014-96AB-053319688FD3}|UI\\UI.csproj|solutionrelative:ui\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B941D645-F2F0-4014-96AB-053319688FD3}|UI\\UI.csproj|C:\\Dev Projects\\UIA\\PROYECTOV1\\UI\\ui\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B941D645-F2F0-4014-96AB-053319688FD3}|UI\\UI.csproj|solutionrelative:ui\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B941D645-F2F0-4014-96AB-053319688FD3}|UI\\UI.csproj|C:\\Dev Projects\\UIA\\PROYECTOV1\\UI\\ui\\global.asax.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B941D645-F2F0-4014-96AB-053319688FD3}|UI\\UI.csproj|solutionrelative:ui\\global.asax.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B941D645-F2F0-4014-96AB-053319688FD3}|UI\\UI.csproj|C:\\Dev Projects\\UIA\\PROYECTOV1\\UI\\ui\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B941D645-F2F0-4014-96AB-053319688FD3}|UI\\UI.csproj|solutionrelative:ui\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B941D645-F2F0-4014-96AB-053319688FD3}|UI\\UI.csproj|C:\\Dev Projects\\UIA\\PROYECTOV1\\UI\\ui\\views\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{B941D645-F2F0-4014-96AB-053319688FD3}|UI\\UI.csproj|solutionrelative:ui\\views\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B941D645-F2F0-4014-96AB-053319688FD3}|UI\\UI.csproj|C:\\Dev Projects\\UIA\\PROYECTOV1\\UI\\ui\\views\\diagnostico\\modificardiagnostico.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B941D645-F2F0-4014-96AB-053319688FD3}|UI\\UI.csproj|solutionrelative:ui\\views\\diagnostico\\modificardiagnostico.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B941D645-F2F0-4014-96AB-053319688FD3}|UI\\UI.csproj|C:\\Dev Projects\\UIA\\PROYECTOV1\\UI\\ui\\views\\diagnostico\\eliminardiagnostico.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B941D645-F2F0-4014-96AB-053319688FD3}|UI\\UI.csproj|solutionrelative:ui\\views\\diagnostico\\eliminardiagnostico.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B941D645-F2F0-4014-96AB-053319688FD3}|UI\\UI.csproj|C:\\Dev Projects\\UIA\\PROYECTOV1\\UI\\ui\\views\\diagnostico\\detallediagnostico.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B941D645-F2F0-4014-96AB-053319688FD3}|UI\\UI.csproj|solutionrelative:ui\\views\\diagnostico\\detallediagnostico.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B941D645-F2F0-4014-96AB-053319688FD3}|UI\\UI.csproj|C:\\Dev Projects\\UIA\\PROYECTOV1\\UI\\ui\\views\\diagnostico\\obtenerdiagnosticos.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B941D645-F2F0-4014-96AB-053319688FD3}|UI\\UI.csproj|solutionrelative:ui\\views\\diagnostico\\obtenerdiagnosticos.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B941D645-F2F0-4014-96AB-053319688FD3}|UI\\UI.csproj|C:\\Dev Projects\\UIA\\PROYECTOV1\\UI\\ui\\content\\otrosestilos.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{B941D645-F2F0-4014-96AB-053319688FD3}|UI\\UI.csproj|solutionrelative:ui\\content\\otrosestilos.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B941D645-F2F0-4014-96AB-053319688FD3}|UI\\UI.csproj|C:\\Dev Projects\\UIA\\PROYECTOV1\\UI\\ui\\content\\obtener.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{B941D645-F2F0-4014-96AB-053319688FD3}|UI\\UI.csproj|solutionrelative:ui\\content\\obtener.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,7 +86,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 10,
           "Children": [
             {
               "$type": "Bookmark",
@@ -39,67 +95,239 @@
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Cita.cs",
-              "DocumentMoniker": "C:\\Dev Projects\\UIA\\PROYECTOV1\\UI\\UI\\Models\\Cita.cs",
-              "RelativeDocumentMoniker": "UI\\Models\\Cita.cs",
-              "ToolTip": "C:\\Dev Projects\\UIA\\PROYECTOV1\\UI\\UI\\Models\\Cita.cs",
-              "RelativeToolTip": "UI\\Models\\Cita.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAcAAAAVAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-09T18:24:06.672Z",
+              "Title": "_LayoutEmpty.cshtml",
+              "DocumentMoniker": "C:\\Dev Projects\\UIA\\PROYECTOV1\\UI\\UI\\Views\\Shared\\_LayoutEmpty.cshtml",
+              "RelativeDocumentMoniker": "UI\\Views\\Shared\\_LayoutEmpty.cshtml",
+              "ToolTip": "C:\\Dev Projects\\UIA\\PROYECTOV1\\UI\\UI\\Views\\Shared\\_LayoutEmpty.cshtml",
+              "RelativeToolTip": "UI\\Views\\Shared\\_LayoutEmpty.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB0AAAAHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-14T18:32:04.142Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Clientes.cs",
-              "DocumentMoniker": "C:\\Dev Projects\\UIA\\PROYECTOV1\\UI\\UI\\Models\\Clientes.cs",
-              "RelativeDocumentMoniker": "UI\\Models\\Clientes.cs",
-              "ToolTip": "C:\\Dev Projects\\UIA\\PROYECTOV1\\UI\\UI\\Models\\Clientes.cs",
-              "RelativeToolTip": "UI\\Models\\Clientes.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAtAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-09T18:19:46.753Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Mascotas.cs",
-              "DocumentMoniker": "C:\\Dev Projects\\UIA\\PROYECTOV1\\UI\\UI\\Models\\Mascotas.cs",
-              "RelativeDocumentMoniker": "UI\\Models\\Mascotas.cs",
-              "ToolTip": "C:\\Dev Projects\\UIA\\PROYECTOV1\\UI\\UI\\Models\\Mascotas.cs",
-              "RelativeToolTip": "UI\\Models\\Mascotas.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAA0AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-09T18:19:48.479Z",
+              "DocumentIndex": 5,
+              "Title": "agregarMascotaENT.cshtml",
+              "DocumentMoniker": "C:\\Dev Projects\\UIA\\PROYECTOV1\\UI\\UI\\Views\\Mascotas\\agregarMascotaENT.cshtml",
+              "RelativeDocumentMoniker": "UI\\Views\\Mascotas\\agregarMascotaENT.cshtml",
+              "ToolTip": "C:\\Dev Projects\\UIA\\PROYECTOV1\\UI\\UI\\Views\\Mascotas\\agregarMascotaENT.cshtml",
+              "RelativeToolTip": "UI\\Views\\Mascotas\\agregarMascotaENT.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-14T18:26:01.611Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "DetallesMascota.cs",
-              "DocumentMoniker": "C:\\Dev Projects\\UIA\\PROYECTOV1\\UI\\UI\\Models\\DetallesMascota.cs",
-              "RelativeDocumentMoniker": "UI\\Models\\DetallesMascota.cs",
-              "ToolTip": "C:\\Dev Projects\\UIA\\PROYECTOV1\\UI\\UI\\Models\\DetallesMascota.cs",
-              "RelativeToolTip": "UI\\Models\\DetallesMascota.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAIAAAA",
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Dev Projects\\UIA\\PROYECTOV1\\UI\\UI\\Views\\Login\\Login.cshtml",
+              "RelativeDocumentMoniker": "UI\\Views\\Login\\Login.cshtml",
+              "ToolTip": "C:\\Dev Projects\\UIA\\PROYECTOV1\\UI\\UI\\Views\\Login\\Login.cshtml",
+              "RelativeToolTip": "UI\\Views\\Login\\Login.cshtml",
+              "ViewState": "AQIAAEMAAAAAAAAAAAA1wGEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-13T18:38:50.55Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "LoginController.cs",
+              "DocumentMoniker": "C:\\Dev Projects\\UIA\\PROYECTOV1\\UI\\UI\\Controllers\\LoginController.cs",
+              "RelativeDocumentMoniker": "UI\\Controllers\\LoginController.cs",
+              "ToolTip": "C:\\Dev Projects\\UIA\\PROYECTOV1\\UI\\UI\\Controllers\\LoginController.cs",
+              "RelativeToolTip": "UI\\Controllers\\LoginController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACAAAAANAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-09T18:20:50.67Z",
+              "WhenOpened": "2024-04-13T18:38:15.326Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Dev Projects\\UIA\\PROYECTOV1\\UI\\UI\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "UI\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Dev Projects\\UIA\\PROYECTOV1\\UI\\UI\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "UI\\Controllers\\HomeController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAA2AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-13T18:34:59.915Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "RouteConfig.cs",
+              "DocumentMoniker": "C:\\Dev Projects\\UIA\\PROYECTOV1\\UI\\UI\\App_Start\\RouteConfig.cs",
+              "RelativeDocumentMoniker": "UI\\App_Start\\RouteConfig.cs",
+              "ToolTip": "C:\\Dev Projects\\UIA\\PROYECTOV1\\UI\\UI\\App_Start\\RouteConfig.cs",
+              "RelativeToolTip": "UI\\App_Start\\RouteConfig.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-13T18:15:40.487Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "C:\\Dev Projects\\UIA\\PROYECTOV1\\UI\\UI\\Views\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "UI\\Views\\_ViewStart.cshtml",
+              "ToolTip": "C:\\Dev Projects\\UIA\\PROYECTOV1\\UI\\UI\\Views\\_ViewStart.cshtml",
+              "RelativeToolTip": "UI\\Views\\_ViewStart.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-13T18:15:23.287Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Web.config",
+              "DocumentMoniker": "C:\\Dev Projects\\UIA\\PROYECTOV1\\UI\\UI\\Views\\Web.config",
+              "RelativeDocumentMoniker": "UI\\Views\\Web.config",
+              "ToolTip": "C:\\Dev Projects\\UIA\\PROYECTOV1\\UI\\UI\\Views\\Web.config",
+              "RelativeToolTip": "UI\\Views\\Web.config",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2024-04-13T18:15:15.664Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Web.config",
+              "DocumentMoniker": "C:\\Dev Projects\\UIA\\PROYECTOV1\\UI\\UI\\Web.config",
+              "RelativeDocumentMoniker": "UI\\Web.config",
+              "ToolTip": "C:\\Dev Projects\\UIA\\PROYECTOV1\\UI\\UI\\Web.config",
+              "RelativeToolTip": "UI\\Web.config",
+              "ViewState": "AQIAAEkAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2024-04-13T18:15:02.117Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Diagnostico.cs",
-              "DocumentMoniker": "C:\\Dev Projects\\UIA\\PROYECTOV1\\UI\\UI\\Models\\Diagnostico.cs",
-              "RelativeDocumentMoniker": "UI\\Models\\Diagnostico.cs",
-              "ToolTip": "C:\\Dev Projects\\UIA\\PROYECTOV1\\UI\\UI\\Models\\Diagnostico.cs",
-              "RelativeToolTip": "UI\\Models\\Diagnostico.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAASAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-09T18:27:02.666Z",
+              "Title": "_LayoutObtener.cshtml",
+              "DocumentMoniker": "C:\\Dev Projects\\UIA\\PROYECTOV1\\UI\\UI\\Views\\Shared\\_LayoutObtener.cshtml",
+              "RelativeDocumentMoniker": "UI\\Views\\Shared\\_LayoutObtener.cshtml",
+              "ToolTip": "C:\\Dev Projects\\UIA\\PROYECTOV1\\UI\\UI\\Views\\Shared\\_LayoutObtener.cshtml",
+              "RelativeToolTip": "UI\\Views\\Shared\\_LayoutObtener.cshtml",
+              "ViewState": "AQIAABgAAAAAAAAAAAA1wDYAAAB0AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-14T18:33:14.863Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Login.css",
+              "DocumentMoniker": "C:\\Dev Projects\\UIA\\PROYECTOV1\\UI\\UI\\Content\\Login.css",
+              "RelativeDocumentMoniker": "UI\\Content\\Login.css",
+              "ToolTip": "C:\\Dev Projects\\UIA\\PROYECTOV1\\UI\\UI\\Content\\Login.css",
+              "RelativeToolTip": "UI\\Content\\Login.css",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAIAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-04-14T18:53:01.337Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "agregarDiagnostico.cshtml",
+              "DocumentMoniker": "C:\\Dev Projects\\UIA\\PROYECTOV1\\UI\\UI\\Views\\Diagnostico\\agregarDiagnostico.cshtml",
+              "RelativeDocumentMoniker": "UI\\Views\\Diagnostico\\agregarDiagnostico.cshtml",
+              "ToolTip": "C:\\Dev Projects\\UIA\\PROYECTOV1\\UI\\UI\\Views\\Diagnostico\\agregarDiagnostico.cshtml",
+              "RelativeToolTip": "UI\\Views\\Diagnostico\\agregarDiagnostico.cshtml",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAACgAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-13T17:25:07.041Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Global.asax.cs",
+              "DocumentMoniker": "C:\\Dev Projects\\UIA\\PROYECTOV1\\UI\\UI\\Global.asax.cs",
+              "RelativeDocumentMoniker": "UI\\Global.asax.cs",
+              "ToolTip": "C:\\Dev Projects\\UIA\\PROYECTOV1\\UI\\UI\\Global.asax.cs",
+              "RelativeToolTip": "UI\\Global.asax.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-13T18:14:59.379Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "eliminarDiagnostico.cshtml",
+              "DocumentMoniker": "C:\\Dev Projects\\UIA\\PROYECTOV1\\UI\\UI\\Views\\Diagnostico\\eliminarDiagnostico.cshtml",
+              "RelativeDocumentMoniker": "UI\\Views\\Diagnostico\\eliminarDiagnostico.cshtml",
+              "ToolTip": "C:\\Dev Projects\\UIA\\PROYECTOV1\\UI\\UI\\Views\\Diagnostico\\eliminarDiagnostico.cshtml",
+              "RelativeToolTip": "UI\\Views\\Diagnostico\\eliminarDiagnostico.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-13T18:01:24.656Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "detalleDiagnostico.cshtml",
+              "DocumentMoniker": "C:\\Dev Projects\\UIA\\PROYECTOV1\\UI\\UI\\Views\\Diagnostico\\detalleDiagnostico.cshtml",
+              "RelativeDocumentMoniker": "UI\\Views\\Diagnostico\\detalleDiagnostico.cshtml",
+              "ToolTip": "C:\\Dev Projects\\UIA\\PROYECTOV1\\UI\\UI\\Views\\Diagnostico\\detalleDiagnostico.cshtml",
+              "RelativeToolTip": "UI\\Views\\Diagnostico\\detalleDiagnostico.cshtml",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAACkAAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-13T17:37:43.682Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "modificarDiagnostico.cshtml",
+              "DocumentMoniker": "C:\\Dev Projects\\UIA\\PROYECTOV1\\UI\\UI\\Views\\Diagnostico\\modificarDiagnostico.cshtml",
+              "RelativeDocumentMoniker": "UI\\Views\\Diagnostico\\modificarDiagnostico.cshtml",
+              "ToolTip": "C:\\Dev Projects\\UIA\\PROYECTOV1\\UI\\UI\\Views\\Diagnostico\\modificarDiagnostico.cshtml",
+              "RelativeToolTip": "UI\\Views\\Diagnostico\\modificarDiagnostico.cshtml",
+              "ViewState": "AQIAADIAAAAAAAAAAAAAAEkAAAAHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-13T17:37:42.192Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Obtener.css",
+              "DocumentMoniker": "C:\\Dev Projects\\UIA\\PROYECTOV1\\UI\\UI\\Content\\Obtener.css",
+              "RelativeDocumentMoniker": "UI\\Content\\Obtener.css",
+              "ToolTip": "C:\\Dev Projects\\UIA\\PROYECTOV1\\UI\\UI\\Content\\Obtener.css",
+              "RelativeToolTip": "UI\\Content\\Obtener.css",
+              "ViewState": "AQIAAC0AAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-04-13T17:20:33.736Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "OtrosEstilos.css",
+              "DocumentMoniker": "C:\\Dev Projects\\UIA\\PROYECTOV1\\UI\\UI\\Content\\OtrosEstilos.css",
+              "RelativeDocumentMoniker": "UI\\Content\\OtrosEstilos.css",
+              "ToolTip": "C:\\Dev Projects\\UIA\\PROYECTOV1\\UI\\UI\\Content\\OtrosEstilos.css",
+              "RelativeToolTip": "UI\\Content\\OtrosEstilos.css",
+              "ViewState": "AQIAAEgAAAAAAAAAAAAAAFoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-04-13T17:20:34.601Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "obtenerDiagnosticos.cshtml",
+              "DocumentMoniker": "C:\\Dev Projects\\UIA\\PROYECTOV1\\UI\\UI\\Views\\Diagnostico\\obtenerDiagnosticos.cshtml",
+              "RelativeDocumentMoniker": "UI\\Views\\Diagnostico\\obtenerDiagnosticos.cshtml",
+              "ToolTip": "C:\\Dev Projects\\UIA\\PROYECTOV1\\UI\\UI\\Views\\Diagnostico\\obtenerDiagnosticos.cshtml",
+              "RelativeToolTip": "UI\\Views\\Diagnostico\\obtenerDiagnosticos.cshtml",
+              "ViewState": "AQIAABUAAAAAAAAAAAAAACcAAABDAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-13T17:14:07.68Z"
             }
           ]
         }

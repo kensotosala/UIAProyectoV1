@@ -1,65 +1,95 @@
 ﻿@model IEnumerable<UI.Models.Mascotas>
 
-@{
-    ViewBag.Title = "obtenerMascotasENT";
-}
+@{ Layout = "~/Views/Shared/_LayoutObtener.cshtml"; }
 
-<h2>Mascotas</h2>
-
-<p>
-    @Html.ActionLink("Nuevo Mascota", "agregarMascotaENT")
-</p>
-
-@if (Model != null && Model.Any())
-{
-    <table class="table">
-        <tr>
-            <th>
-                @Html.DisplayNameFor(model => model.TC_NombreMascota)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.TN_IdCliente)
-            </th>
-            <th></th>
-        </tr>
-
-        @foreach (var item in Model)
-        {
-            <tr>
-                <td>
-                    @Html.DisplayFor(modelItem => item.TC_NombreMascota)
-                </td>
-                <td>
-                    @{
-                        var cliente = ViewBag.Clientes as IEnumerable<UI.Models.Clientes>;
-                        if (cliente != null)
+<main>
+    <section class="container px-lg-5">
+        <div class="card cardContainer mt-3 mb-3">
+            <div class="card-body">
+                <div class="row">
+                    <div class="col text-center">
+                        <img src="/assets/user.png" class="img-fluid rounded-top" alt="" />
+                    </div>
+                </div>
+                <div class="row mt-2">
+                    <div class="col text-center">
+                        <h4 class="txtTitle">Lista de Mascotas</h4>
+                    </div>
+                </div>
+                <div class="row mt-2">
+                    <div class="col text-center">
+                        @Html.ActionLink("Nueva Mascota", "agregarMascotaENT", null, new { @class = "btn btn-primary w-50 btnNuevo" })
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        @if (Model != null && Model.Any())
                         {
-                            var clienteSeleccionado = cliente.FirstOrDefault(c => c.TN_IdCliente == item.TN_IdCliente);
-                            if (clienteSeleccionado != null)
-                            {
-                                @clienteSeleccionado.TC_Nombre
-                            }
-                            else
-                            {
-                                <text>No se encontró el cliente</text>
-                            }
+                            <table class="table table-striped mt-4 tblClientes text-center">
+                                <thead>
+                                    <tr>
+                                        <th>@Html.DisplayNameFor(model => model.TC_NombreMascota)</th>
+                                        <th>@Html.DisplayNameFor(model => model.TN_IdCliente)</th>
+                                        <th>Acciones</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    @foreach (var item in Model)
+                                    {
+                                        <tr>
+                                            <td>@Html.DisplayFor(modelItem => item.TC_NombreMascota)</td>
+                                            <td>
+                                                @{
+                                                    var cliente = ViewBag.Clientes as IEnumerable<UI.Models.Clientes>;
+                                                    if (cliente != null)
+                                                    {
+                                                        var clienteSeleccionado = cliente.FirstOrDefault(c => c.TN_IdCliente == item.TN_IdCliente);
+                                                        if (clienteSeleccionado != null)
+                                                        {
+                                                            @clienteSeleccionado.TC_Nombre
+                                                        }
+                                                        else
+                                                        {
+                                                            <text>No se encontró el cliente</text>
+                                                        }
+                                                    }
+                                                    else
+                                                    {
+                                                        <text>ViewBag.Clientes is null</text>
+                                                    }
+                                                }
+                                            </td>
+                                            <td>
+                                                <div class="row mb-2">
+                                                    <div class="col">
+                                                        @Html.ActionLink("Editar", "modificarMascotaENT", new { pIdMascota = item.TN_IdMascota }, new { @class = "btn btn-primary btnEditar" })
+                                                    </div>
+                                                </div>
+
+                                                <div class="row mb-2">
+                                                    <div class="col">
+                                                        @Html.ActionLink("Detalles", "detalleMascotaENT", new { pIdMascota = item.TN_IdMascota }, new { @class = "btn btn-primary btnDetalles" })
+                                                    </div>
+                                                </div>
+
+                                                <div class="row">
+                                                    <div class="col">
+                                                        @Html.ActionLink("Eliminar", "eliminarMascotaENT", new { pIdMascota = item.TN_IdMascota }, new { @class = "btn btn-primary btnEliminar" })
+                                                    </div>
+                                                </div>
+                                            </td>
+                                        </tr>
+                                    }
+                                </tbody>
+                            </table>
                         }
                         else
                         {
-                            <text>ViewBag.Clientes is null</text>
+                            <p>No hay mascotas para mostrar.</p>
                         }
-                    }
-                </td>
-                <td>
-                    @Html.ActionLink("Editar", "modificarMascotaENT", new { pIdMascota = item.TN_IdMascota }) |
-                    @Html.ActionLink("Detalles", "detalleMascotaENT", new { pIdMascota = item.TN_IdMascota }) |
-                    @Html.ActionLink("Eliminar", "eliminarMascotaENT", new { pIdMascota = item.TN_IdMascota })
-                </td>
-            </tr>
-        }
-    </table>
-}
-else
-{
-    <p>No hay mascotas para mostrar.</p>
-}
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</main>

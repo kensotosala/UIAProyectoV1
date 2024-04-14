@@ -1,66 +1,67 @@
 ﻿@model UI.Models.Clientes
 
 @{
-    ViewBag.Title = "detalleCliente_ENT";
+    Layout = "~/Views/Shared/_LayoutObtener.cshtml";
 }
 
-<h2>detalleCliente_ENT</h2>
 
-<div>
-    <h4>Clientes</h4>
-    <hr />
-    <dl class="dl-horizontal">
-        <dt>
-            @Html.DisplayNameFor(model => model.TN_IdCliente)
-        </dt>
+<main>
+    <section class="container px-lg-5">
+        <div class="row justify-content-center">
+            <div class="col-lg-6">
+                <div class="card mt-3 mb-3 cardWrapper">
+                    <div class="card-body">
+                        <div class="row">
+                            <div class="col text-center">
+                                <img src="/assets/user.png"
+                                     class="img-fluid rounded-top customImg"
+                                     alt="" />
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col mb-2 text-center">
+                                <h3 class="cardTitle">Detalles del Cliente</h3>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col">
+                                <dl>
+                                    <dt class="form-label lblCustom">ID del Cliente:</dt>
+                                    <dd>@Model.TN_IdCliente</dd>
 
-        <dd>
-            @Html.DisplayFor(model => model.TN_IdCliente)
-        </dd>
+                                    <dt class="form-label lblCustom">Nombre:</dt>
+                                    <dd>@Model.TC_Nombre</dd>
 
-        <dt>
-            @Html.DisplayNameFor(model => model.TC_Nombre)
-        </dt>
+                                    <dt class="form-label lblCustom">Primer Apellido:</dt>
+                                    <dd>@Model.TC_Ap1</dd>
 
-        <dd>
-            @Html.DisplayFor(model => model.TC_Nombre)
-        </dd>
+                                    <dt class="form-label lblCustom">Segundo Apellido:</dt>
+                                    <dd>@Model.TC_Ap2</dd>
 
-        <dt>
-            @Html.DisplayNameFor(model => model.TC_Ap1)
-        </dt>
+                                    <dt class="form-label lblCustom">Número de Teléfono:</dt>
+                                    <dd>@Model.TC_NumTelefono</dd>
 
-        <dd>
-            @Html.DisplayFor(model => model.TC_Ap1)
-        </dd>
+                                    <dt class="form-label lblCustom">Correo Electrónico:</dt>
+                                    <dd>@Model.TC_CorreoElectronico</dd>
+                                </dl>
 
-        <dt>
-            @Html.DisplayNameFor(model => model.TC_Ap2)
-        </dt>
-
-        <dd>
-            @Html.DisplayFor(model => model.TC_Ap2)
-        </dd>
-
-        <dt>
-            @Html.DisplayNameFor(model => model.TC_NumTelefono)
-        </dt>
-
-        <dd>
-            @Html.DisplayFor(model => model.TC_NumTelefono)
-        </dd>
-
-        <dt>
-            @Html.DisplayNameFor(model => model.TC_CorreoElectronico)
-        </dt>
-
-        <dd>
-            @Html.DisplayFor(model => model.TC_CorreoElectronico)
-        </dd>
-
-    </dl>
-</div>
-<p>
-    @Html.ActionLink("Editar", "modificarCliente_ENT", new { pIdCliente = Model.TN_IdCliente}) |
-    @Html.ActionLink("Rgresar", "obtenerClientes_ENT")
-</p>
+                                <div class="mb-3">
+                                    <div class="text-center">
+                                        <a href="@Url.Action("modificarCliente_ENT", new { pIdCliente = Model.TN_IdCliente })"
+                                           class="btn btn-primary w-75 btnAgregar">Editar</a>
+                                    </div>
+                                </div>
+                                <div class="mb-3">
+                                    <div class="text-center">
+                                        <a href="@Url.Action("obtenerClientes_ENT")"
+                                           class="btn btn-primary w-50 btnCancelar">Regresar</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</main>

@@ -1,0 +1,116 @@
+﻿@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+    font-family: "Montserrat", Courier, monospace;
+}
+
+main {
+    background-image: url(/assets/bg.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.navbar {
+    background: #8576ff;
+}
+
+.nav-link {
+    font-weight: bold;
+    color: #fff;
+}
+
+.btnSalir {
+    background: #a3ffd6;
+    font-weight: bold;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 3px 3px 0px;
+}
+
+.btnSalir:hover {
+        background: #7bc9ff;
+        font-weight: bold;
+        font-size: 18px;
+        box-shadow: rgba(0, 0, 0, 0.15) 0px 3px 3px 0px;
+}
+
+.cardContainer {
+    background: #a3ffd6;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+    border-radius: 15px;
+}
+
+.txtTitle {
+    font-weight: bold;
+}
+
+.btnNuevo {
+    color: #fff;
+    background: #7bc9ff;
+    border: none;
+    font-weight: bold;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+
+    .btnNuevo:hover {
+        font-size: 18px;
+    }
+
+.table thead th {
+    background: #a3ffd6;
+    font-weight: bold;
+}
+
+.table td {
+    background: #a3ffd6;
+}
+
+.btnEditar {
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    font-weight: bold;
+    color: #fff;
+    background: #7bc9ff;
+    border: none;
+}
+
+    .btnEditar:hover {
+        color: #7bc9ff;
+        background: #fff;
+        font-size: 18px;
+    }
+
+.btnDetalles {
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    font-weight: bold;
+    color: #fff;
+    background: #1c1678;
+    border: none;
+}
+
+    .btnDetalles:hover {
+        color: #fff;
+        background: #1c1678;
+        font-size: 18px;
+    }
+
+.btnEliminar {
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    font-weight: bold;
+    color: #fff;
+    background: #ff0000;
+    border: none;
+}
+
+    .btnEliminar:hover {
+        color: #fff;
+        background: #ff0000;
+        font-size: 18px;
+    }
+
+.cstFooter {
+    background: #1c1678;
+}
+
+.txtFooter {
+    font-size: 20.8px;
+    font-weight: bold;
+    color: #d9d9d9;
+}

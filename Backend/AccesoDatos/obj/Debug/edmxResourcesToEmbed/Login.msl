@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="UsersVETModelStoreContainer" CdmEntityContainer="UsersVETEntities">
+    <EntitySetMapping Name="TBUsuarios">
+      <EntityTypeMapping TypeName="UsersVETModel.TBUsuarios">
+        <MappingFragment StoreEntitySet="TBUsuarios">
+          <ScalarProperty Name="IdUsuario" ColumnName="IdUsuario" />
+          <ScalarProperty Name="Usuario" ColumnName="Usuario" />
+          <ScalarProperty Name="Contrasenha" ColumnName="Contrasenha" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <FunctionImportMapping FunctionImportName="SP_Login" FunctionName="UsersVETModel.Store.SP_Login" />
+  </EntityContainerMapping>
+</Mapping>

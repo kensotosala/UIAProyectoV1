@@ -1,39 +1,70 @@
 ﻿@model IEnumerable<UI.Models.Diagnostico>
 
 @{
-    ViewBag.Title = "obtenerDiagnosticos";
+    Layout = "~/Views/Shared/_LayoutObtener.cshtml";
 }
 
-<h2>Obtener Diagnosticos</h2>
+<main>
+    <section class="container px-lg-5 ">
+        <div class="card cardContainer mt-3 mb-3">
+            <div class="card-body">
+                <div class="row">
+                    <div class="col text-center">
+                        <img src="~/assets/analysis.png" class="img-fluid rounded-top" alt="" />
+                    </div>
+                </div>
+                <div class="row mt-2">
+                    <div class="col text-center">
+                        <h4 class="txtTitle">Lista de Diagnósticos</h4>
+                    </div>
+                </div>
+                <div class="row mt-2">
+                    <div class="col text-center">
+                        @Html.ActionLink("Nuevo", "agregarDiagnostico", null, new { @class = "btn btn-primary w-50 btnNuevo" })
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="table-responsive">
+                        <table class="table table-striped mt-4 tblClientes text-center">
+                            <thead>
+                                <tr>
+                                    <th >@Html.DisplayNameFor(model => model.TN_IdCita)</th>
+                                    <th >@Html.DisplayNameFor(model => model.TC_DscDiagnostico)</th>
+                                    <th>Acciones</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                @foreach (var item in Model)
+                                {
+                                    <tr>
+                                        <td class="text-break col-2">@Html.DisplayFor(modelItem => item.TN_IdCita)</td>
+                                        <td class="text-break">@Html.DisplayFor(modelItem => item.TC_DscDiagnostico)</td>
+                                        <td class="text-break col-3">
+                                            <div class="row mb-2">
+                                                <div class="col">
+                                                    @Html.ActionLink("Editar", "modificarDiagnostico", new { pIdDiagnostico = item.TN_IdDiagnostico }, new { @class = "btn btn-primary btnEditar w-50" })
+                                                </div>
+                                            </div>
 
-<p>
-    @Html.ActionLink("Nuevo", "agregarDiagnostico")
-</p>
-<table class="table">
-    <tr>
-        <th>
-            @Html.DisplayNameFor(model => model.TN_IdCita)
-        </th>
-        <th>
-            @Html.DisplayNameFor(model => model.TC_DscDiagnostico)
-        </th>
-        <th></th>
-    </tr>
+                                            <div class="row mb-2">
+                                                <div class="col">
+                                                    @Html.ActionLink("Detalles", "detalleDiagnostico", new { pIdDiagnostico = item.TN_IdDiagnostico }, new { @class = "btn btn-primary btnDetalles w-50" })
+                                                </div>
+                                            </div>
 
-    @foreach (var item in Model)
-    {
-        <tr>
-            <td>
-                @Html.DisplayFor(modelItem => item.TN_IdCita)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.TC_DscDiagnostico)
-            </td>
-            <td>
-                @Html.ActionLink("Editar", "modificarDiagnostico", new { pIdDiagnostico = item.TN_IdDiagnostico }) |
-                @Html.ActionLink("Detalles", "detalleDiagnostico", new { pIdDiagnostico = item.TN_IdDiagnostico }) |
-                @Html.ActionLink("Eliminar", "eliminarDiagnostico", new { pIdDiagnostico = item.TN_IdDiagnostico })
-            </td>
-        </tr>
-    }
-</table>
+                                            <div class="row">
+                                                <div class="col">
+                                                    @Html.ActionLink("Eliminar", "eliminarDiagnostico", new { pIdDiagnostico = item.TN_IdDiagnostico }, new { @class = "btn btn-primary btnEliminar w-50" })
+                                                </div>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                }
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</main>

@@ -1,60 +1,66 @@
 ﻿@model UI.Models.Cita
 
-@{
-    ViewBag.Title = "eliminarCita";
-}
+@{ Layout = "~/Views/Shared/_LayoutObtener.cshtml"; }
 
-<h2>Eliminar Cita</h2>
+<main>
+    <section class="container px-lg-5">
+        <div class="row justify-content-center">
+            <div class="col-lg-6">
+                <div class="card mt-3 mb-3 cardWrapper">
+                    <div class="card-body">
+                        <div class="row">
+                            <div class="col text-center">
+                                <img src="/assets/user.png" class="img-fluid rounded-top customImg" alt="" />
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col mb-2 text-center">
+                                <h3 class="cardTitle">
+                                    ¿Estás seguro que deseas eliminar?
+                                </h3>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col">
+                                @using (Html.BeginForm("accionesEjecucion", "Cita", FormMethod.Post))
+                                {
+                                    @Html.AntiForgeryToken()
+                                    @Html.HiddenFor(model => model.TN_IdCita)
 
-<h3>Are you sure you want to delete this?</h3>
-<div>
-    <h4>Cita</h4>
-    <hr />
-    <dl class="dl-horizontal">
-        <dt>
-            @Html.DisplayNameFor(model => model.TN_IdCita)
-        </dt>
+                                    <dl>
+                                        <dt class="form-label lblCustom">Cliente:</dt>
+                                        <dd>@Model.TN_IdCliente</dd>
 
-        <dd>
-            @Html.DisplayFor(model => model.TN_IdCita)
-        </dd>
+                                        <dt class="form-label lblCustom">Mascota:</dt>
+                                        <dd>@Model.TN_IdMascota</dd>
 
-        <dt>
-            @Html.DisplayNameFor(model => model.TN_IdCliente)
-        </dt>
+                                        <dt class="form-label lblCustom">Fecha:</dt>
+                                        <dd>@Model.TF_FecCita</dd>
+                                    </dl>
 
-        <dd>
-            @Html.DisplayFor(model => model.TN_IdCliente)
-        </dd>
-
-        <dt>
-            @Html.DisplayNameFor(model => model.TN_IdMascota)
-        </dt>
-
-        <dd>
-            @Html.DisplayFor(model => model.TN_IdMascota)
-        </dd>
-
-        <dt>
-            @Html.DisplayNameFor(model => model.TF_FecCita)
-        </dt>
-
-        <dd>
-            @Html.DisplayFor(model => model.TF_FecCita)
-        </dd>
-    </dl>
-
-    @using (Html.BeginForm("accionesEjecucion", "Cita", FormMethod.Post))
-    {
-        @Html.AntiForgeryToken()
-
-        @Html.HiddenFor(model => model.TN_IdCita)
-
-        <div class="form-actions no-color mt-2">
-            <button type="submit" name="accionEjecutar" value="Borrar" class="btn btn-warning" formaction="@Url.Action("accionesEjecucion", "Cita")">
-                Eliminar 🗑️
-            </button> |
-            @Html.ActionLink("Regresar", "obtenerCitas")
+                                    <div class="mb-3">
+                                        <div class="text-center">
+                                            <button type="submit"
+                                                    name="accionEjecutar"
+                                                    value="Borrar"
+                                                    class="btn btn-primary w-75 btnEliminar"
+                                                    formaction="@Url.Action("accionesEjecucion", "Cita")">
+                                                Eliminar
+                                            </button>
+                                        </div>
+                                    </div>
+                                }
+                                <div class="mb-3">
+                                    <div class="text-center">
+                                        <a href="@Url.Action("obtenerCitas", "Cita")"
+                                           class="btn btn-primary w-50 btnAgregar">Regresar</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-    }
-</div>
+    </section>
+</main>

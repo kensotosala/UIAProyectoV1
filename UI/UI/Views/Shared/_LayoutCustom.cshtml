@@ -1,0 +1,47 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sistema Gestion de Inventarios</title>
+    @Styles.Render("~/Content/css")
+    @Scripts.Render("~/bundles/modernizr")
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+          crossorigin="anonymous" />
+    <link rel="stylesheet" href="~/Content/mainStyle.css" />
+</head>
+<body>
+    <header class="cstHeader">
+        <div class="container py-lg-1">
+            <div class="row align-items-center justify-content-around text-center">
+                <div class="col">
+                    <img src="~/Assets/pet-shop1.png"
+                         class="img-fluid rounded-top"
+                         alt="Pet Shop Logo" />
+                </div>
+                <div class="col">
+                    <h1 class="main-title">Sistema de Gestión de Veterinarias</h1>
+                </div>
+                <div class="col">
+                    <div class="cstButton">
+                        <button type="button" class="btn w-50 cstSalirBtn">Salir</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        @RenderBody()
+    </main>
+    <footer class="cstFooter py-lg-3">
+        <p class="txtFooter text-center">
+            Sistema de Gestión de Veternarias | © 2024
+        </p>
+    </footer>
+
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/bootstrap")
+    @RenderSection("scripts", required: false)
+</body>
+</html>
