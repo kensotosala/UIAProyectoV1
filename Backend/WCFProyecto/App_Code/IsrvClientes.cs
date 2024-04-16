@@ -21,5 +21,5 @@ public interface IsrvClientes
     bool modificaCliente_ENT(TVE_Clientes pCliente);
 
     [OperationContract]
-    bool eliminaCliente_ENT(TVE_Clientes pCliente);
+    bool eliminaCliente_ENT(int pIdCliente);
 }

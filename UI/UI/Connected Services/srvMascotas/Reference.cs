@@ -672,11 +672,11 @@ namespace UI.srvMascotas {
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IsrvMascotas/modificaMascotas_ENT", ReplyAction="http://tempuri.org/IsrvMascotas/modificaMascotas_ENTResponse")]
         System.Threading.Tasks.Task<bool> modificaMascotas_ENTAsync(UI.srvMascotas.TVET_Mascotas pMascotas);
         
-        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IsrvMascotas/eliminaMascotas_ENT", ReplyAction="http://tempuri.org/IsrvMascotas/eliminaMascotas_ENTResponse")]
-        bool eliminaMascotas_ENT(UI.srvMascotas.TVET_Mascotas pMascotas);
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IsrvMascotas/eliminarMascota", ReplyAction="http://tempuri.org/IsrvMascotas/eliminarMascotaResponse")]
+        bool eliminarMascota(int pIdMascotas);
         
-        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IsrvMascotas/eliminaMascotas_ENT", ReplyAction="http://tempuri.org/IsrvMascotas/eliminaMascotas_ENTResponse")]
-        System.Threading.Tasks.Task<bool> eliminaMascotas_ENTAsync(UI.srvMascotas.TVET_Mascotas pMascotas);
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IsrvMascotas/eliminarMascota", ReplyAction="http://tempuri.org/IsrvMascotas/eliminarMascotaResponse")]
+        System.Threading.Tasks.Task<bool> eliminarMascotaAsync(int pIdMascotas);
     }
     
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
@@ -746,12 +746,12 @@ namespace UI.srvMascotas {
             return base.Channel.modificaMascotas_ENTAsync(pMascotas);
         }
         
-        public bool eliminaMascotas_ENT(UI.srvMascotas.TVET_Mascotas pMascotas) {
-            return base.Channel.eliminaMascotas_ENT(pMascotas);
+        public bool eliminarMascota(int pIdMascotas) {
+            return base.Channel.eliminarMascota(pIdMascotas);
         }
         
-        public System.Threading.Tasks.Task<bool> eliminaMascotas_ENTAsync(UI.srvMascotas.TVET_Mascotas pMascotas) {
-            return base.Channel.eliminaMascotas_ENTAsync(pMascotas);
+        public System.Threading.Tasks.Task<bool> eliminarMascotaAsync(int pIdMascotas) {
+            return base.Channel.eliminarMascotaAsync(pIdMascotas);
         }
     }
 }

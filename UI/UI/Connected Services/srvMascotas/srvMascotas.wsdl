@@ -37,11 +37,11 @@
   <wsdl:message name="IsrvMascotas_modificaMascotas_ENT_OutputMessage">
     <wsdl:part name="parameters" element="tns:modificaMascotas_ENTResponse" />
   </wsdl:message>
-  <wsdl:message name="IsrvMascotas_eliminaMascotas_ENT_InputMessage">
-    <wsdl:part name="parameters" element="tns:eliminaMascotas_ENT" />
+  <wsdl:message name="IsrvMascotas_eliminarMascota_InputMessage">
+    <wsdl:part name="parameters" element="tns:eliminarMascota" />
   </wsdl:message>
-  <wsdl:message name="IsrvMascotas_eliminaMascotas_ENT_OutputMessage">
-    <wsdl:part name="parameters" element="tns:eliminaMascotas_ENTResponse" />
+  <wsdl:message name="IsrvMascotas_eliminarMascota_OutputMessage">
+    <wsdl:part name="parameters" element="tns:eliminarMascotaResponse" />
   </wsdl:message>
   <wsdl:portType name="IsrvMascotas">
     <wsdl:operation name="DoWork">
@@ -64,9 +64,9 @@
       <wsdl:input wsaw:Action="http://tempuri.org/IsrvMascotas/modificaMascotas_ENT" message="tns:IsrvMascotas_modificaMascotas_ENT_InputMessage" />
       <wsdl:output wsaw:Action="http://tempuri.org/IsrvMascotas/modificaMascotas_ENTResponse" message="tns:IsrvMascotas_modificaMascotas_ENT_OutputMessage" />
     </wsdl:operation>
-    <wsdl:operation name="eliminaMascotas_ENT">
-      <wsdl:input wsaw:Action="http://tempuri.org/IsrvMascotas/eliminaMascotas_ENT" message="tns:IsrvMascotas_eliminaMascotas_ENT_InputMessage" />
-      <wsdl:output wsaw:Action="http://tempuri.org/IsrvMascotas/eliminaMascotas_ENTResponse" message="tns:IsrvMascotas_eliminaMascotas_ENT_OutputMessage" />
+    <wsdl:operation name="eliminarMascota">
+      <wsdl:input wsaw:Action="http://tempuri.org/IsrvMascotas/eliminarMascota" message="tns:IsrvMascotas_eliminarMascota_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IsrvMascotas/eliminarMascotaResponse" message="tns:IsrvMascotas_eliminarMascota_OutputMessage" />
     </wsdl:operation>
   </wsdl:portType>
   <wsdl:binding name="BasicHttpBinding_IsrvMascotas" type="tns:IsrvMascotas">
@@ -116,8 +116,8 @@
         <soap:body use="literal" />
       </wsdl:output>
     </wsdl:operation>
-    <wsdl:operation name="eliminaMascotas_ENT">
-      <soap:operation soapAction="http://tempuri.org/IsrvMascotas/eliminaMascotas_ENT" style="document" />
+    <wsdl:operation name="eliminarMascota">
+      <soap:operation soapAction="http://tempuri.org/IsrvMascotas/eliminarMascota" style="document" />
       <wsdl:input>
         <soap:body use="literal" />
       </wsdl:input>

@@ -10,7 +10,7 @@ namespace LogicaNegocio.Implementacion
 {
     public class MascotasLN : IMascotasLN
     {
-        public static VPEntidades lObjAWCnn = new VPEntidades();
+        public static VeterinariaDBEntities lObjAWCnn = new VeterinariaDBEntities();
         private readonly IMascotasAD gObjMascotasAD = new MascotasAD(lObjAWCnn);
 
         public List<TVET_Mascotas> obtenerMascotas_ENT()
@@ -71,12 +71,12 @@ namespace LogicaNegocio.Implementacion
             return lObjRespuesta;
         }
 
-        public bool eliminaMascotas_ENT(TVET_Mascotas pMascotas)
+        public bool eliminarMascotaLN(int pIdMascotas)
         {
             bool lObjRespuesta = false;
             try
             {
-                lObjRespuesta = gObjMascotasAD.eliminaMascotas_ENT(pMascotas);
+                lObjRespuesta = gObjMascotasAD.eliminarMascotaAD(pIdMascotas);
             }
             catch (Exception lEx)
             {

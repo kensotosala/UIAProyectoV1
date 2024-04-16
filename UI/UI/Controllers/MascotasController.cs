@@ -246,11 +246,7 @@ namespace UI.Controllers
             {
                 using (srvMascotas.IsrvMascotasClient srvMs = new srvMascotas.IsrvMascotasClient())
                 {
-                    srvMascotas.TVET_Mascotas objMS = new srvMascotas.TVET_Mascotas();
-                    objMS.TN_IdMascota = pMascota.TN_IdMascota;
-                    objMS.TC_NombreMascota = pMascota.TC_NombreMascota;
-                    objMS.TN_IdCliente = pMascota.TN_IdCliente;
-                    srvMs.eliminaMascotas_ENT(objMS);
+                    srvMs.eliminarMascota(pMascota.TN_IdMascota);
 
                     var listMascotas = srvMs.obtenerMascotas_ENT();
                     if (listMascotas.Count() > 0)

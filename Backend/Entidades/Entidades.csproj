@@ -49,28 +49,31 @@
       <DependentUpon>Login.tt</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="sysdiagrams.cs">
+      <DependentUpon>VETModelo.tt</DependentUpon>
+    </Compile>
     <Compile Include="TBUsuarios.cs">
       <DependentUpon>Login.tt</DependentUpon>
     </Compile>
     <Compile Include="TVET_Citas.cs">
-      <DependentUpon>VP.tt</DependentUpon>
+      <DependentUpon>VETModelo.tt</DependentUpon>
     </Compile>
     <Compile Include="TVET_DetalleMascota.cs">
-      <DependentUpon>VP.tt</DependentUpon>
+      <DependentUpon>VETModelo.tt</DependentUpon>
     </Compile>
     <Compile Include="TVET_Diagnostico.cs">
-      <DependentUpon>VP.tt</DependentUpon>
+      <DependentUpon>VETModelo.tt</DependentUpon>
     </Compile>
     <Compile Include="TVET_Mascotas.cs">
-      <DependentUpon>VP.tt</DependentUpon>
+      <DependentUpon>VETModelo.tt</DependentUpon>
     </Compile>
     <Compile Include="TVE_Clientes.cs">
-      <DependentUpon>VP.tt</DependentUpon>
+      <DependentUpon>VETModelo.tt</DependentUpon>
     </Compile>
-    <Compile Include="VP.cs">
+    <Compile Include="VETModelo.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
-      <DependentUpon>VP.tt</DependentUpon>
+      <DependentUpon>VETModelo.tt</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
@@ -78,9 +81,9 @@
       <Generator>TextTemplatingFileGenerator</Generator>
       <LastGenOutput>Login.cs</LastGenOutput>
     </Content>
-    <Content Include="VP.tt">
+    <Content Include="VETModelo.tt">
       <Generator>TextTemplatingFileGenerator</Generator>
-      <LastGenOutput>VP.cs</LastGenOutput>
+      <LastGenOutput>VETModelo.cs</LastGenOutput>
     </Content>
   </ItemGroup>
   <ItemGroup>

@@ -22,5 +22,5 @@ public interface IsrvMascotas
     bool modificaMascotas_ENT(TVET_Mascotas pMascotas);
 
     [OperationContract]
-    bool eliminaMascotas_ENT(TVET_Mascotas pMascotas);
+    bool eliminarMascota(int pIdMascotas);
 }

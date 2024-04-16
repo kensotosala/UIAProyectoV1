@@ -22,5 +22,5 @@ public interface IsrvCitas
     bool modificaCita_ENT(TVET_Citas pCita);
 
     [OperationContract]
-    bool eliminaCita_ENT(TVET_Citas pCita);
+    bool eliminaCita_ENT(int pIdCita);
 }

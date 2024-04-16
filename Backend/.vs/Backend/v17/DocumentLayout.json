@@ -1,7 +1,16 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Dev Projects\\UIA\\PROYECTOV1\\Backend\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{2DD20597-CBC0-4262-8C6B-FA6D5C1B3F5C}|AccesoDatos\\AccesoDatos.csproj|c:\\dev projects\\uia\\proyectov1\\backend\\accesodatos\\vetmodelo.context.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2DD20597-CBC0-4262-8C6B-FA6D5C1B3F5C}|AccesoDatos\\AccesoDatos.csproj|solutionrelative:accesodatos\\vetmodelo.context.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2DD20597-CBC0-4262-8C6B-FA6D5C1B3F5C}|AccesoDatos\\AccesoDatos.csproj|c:\\dev projects\\uia\\proyectov1\\backend\\accesodatos\\vetmodelo.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|",
+      "RelativeMoniker": "D:0:0:{2DD20597-CBC0-4262-8C6B-FA6D5C1B3F5C}|AccesoDatos\\AccesoDatos.csproj|solutionrelative:accesodatos\\vetmodelo.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,11 +18,36 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "VETModelo.Context.cs",
+              "DocumentMoniker": "C:\\Dev Projects\\UIA\\PROYECTOV1\\Backend\\AccesoDatos\\VETModelo.Context.cs",
+              "RelativeDocumentMoniker": "AccesoDatos\\VETModelo.Context.cs",
+              "ToolTip": "C:\\Dev Projects\\UIA\\PROYECTOV1\\Backend\\AccesoDatos\\VETModelo.Context.cs",
+              "RelativeToolTip": "AccesoDatos\\VETModelo.Context.cs",
+              "ViewState": "AQIAABUAAAAAAAAAAAAWwBYAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-16T03:06:13.606Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "VETModelo.edmx [Diagram1]",
+              "DocumentMoniker": "C:\\Dev Projects\\UIA\\PROYECTOV1\\Backend\\AccesoDatos\\VETModelo.edmx",
+              "RelativeDocumentMoniker": "AccesoDatos\\VETModelo.edmx",
+              "ToolTip": "C:\\Dev Projects\\UIA\\PROYECTOV1\\Backend\\AccesoDatos\\VETModelo.edmx [Diagram1]",
+              "RelativeToolTip": "AccesoDatos\\VETModelo.edmx [Diagram1]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001116|",
+              "WhenOpened": "2024-04-16T03:05:06.464Z",
+              "EditorCaption": " [Diagram1]"
             }
           ]
         }

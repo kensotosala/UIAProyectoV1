@@ -29,10 +29,10 @@ namespace UI.srvCitas {
         private int TN_IdCitaField;
         
         [System.Runtime.Serialization.OptionalFieldAttribute()]
-        private int TN_IdClienteField;
+        private System.Nullable<int> TN_IdClienteField;
         
         [System.Runtime.Serialization.OptionalFieldAttribute()]
-        private int TN_IdMascotaField;
+        private System.Nullable<int> TN_IdMascotaField;
         
         [System.Runtime.Serialization.OptionalFieldAttribute()]
         private UI.srvCitas.TVET_Diagnostico[] TVET_DiagnosticoField;
@@ -80,7 +80,7 @@ namespace UI.srvCitas {
         }
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public int TN_IdCliente {
+        public System.Nullable<int> TN_IdCliente {
             get {
                 return this.TN_IdClienteField;
             }
@@ -93,7 +93,7 @@ namespace UI.srvCitas {
         }
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public int TN_IdMascota {
+        public System.Nullable<int> TN_IdMascota {
             get {
                 return this.TN_IdMascotaField;
             }
@@ -673,10 +673,10 @@ namespace UI.srvCitas {
         System.Threading.Tasks.Task<bool> modificaCita_ENTAsync(UI.srvCitas.TVET_Citas pCita);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IsrvCitas/eliminaCita_ENT", ReplyAction="http://tempuri.org/IsrvCitas/eliminaCita_ENTResponse")]
-        bool eliminaCita_ENT(UI.srvCitas.TVET_Citas pCita);
+        bool eliminaCita_ENT(int pIdCita);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IsrvCitas/eliminaCita_ENT", ReplyAction="http://tempuri.org/IsrvCitas/eliminaCita_ENTResponse")]
-        System.Threading.Tasks.Task<bool> eliminaCita_ENTAsync(UI.srvCitas.TVET_Citas pCita);
+        System.Threading.Tasks.Task<bool> eliminaCita_ENTAsync(int pIdCita);
     }
     
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
@@ -746,12 +746,12 @@ namespace UI.srvCitas {
             return base.Channel.modificaCita_ENTAsync(pCita);
         }
         
-        public bool eliminaCita_ENT(UI.srvCitas.TVET_Citas pCita) {
-            return base.Channel.eliminaCita_ENT(pCita);
+        public bool eliminaCita_ENT(int pIdCita) {
+            return base.Channel.eliminaCita_ENT(pIdCita);
         }
         
-        public System.Threading.Tasks.Task<bool> eliminaCita_ENTAsync(UI.srvCitas.TVET_Citas pCita) {
-            return base.Channel.eliminaCita_ENTAsync(pCita);
+        public System.Threading.Tasks.Task<bool> eliminaCita_ENTAsync(int pIdCita) {
+            return base.Channel.eliminaCita_ENTAsync(pIdCita);
         }
     }
 }

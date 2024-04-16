@@ -4,6 +4,7 @@ using System.Linq;
 using System.ServiceModel;
 using System.Web.Mvc;
 using UI.Models;
+using UI.srvCitas;
 
 namespace UI.Controllers
 {
@@ -215,7 +216,7 @@ namespace UI.Controllers
         }
 
         // Borrar
-        public ActionResult borrarCliente_ENT(Clientes pClientes)
+        public ActionResult borrarCliente_ENT(Clientes pCliente)
         {
             List<Clientes> lstClientes = new List<Clientes>();
             Clientes clientes;
@@ -224,14 +225,7 @@ namespace UI.Controllers
                 using (srvClientes.IsrvClientesClient srvCl = new
                     srvClientes.IsrvClientesClient())
                 {
-                    srvClientes.TVE_Clientes lObjCl = new srvClientes.TVE_Clientes();
-                    lObjCl.TN_IdCliente = pClientes.TN_IdCliente;
-                    lObjCl.TC_Nombre = pClientes.TC_Nombre;
-                    lObjCl.TC_Ap1 = pClientes.TC_Ap1;
-                    lObjCl.TC_Ap2 = pClientes.TC_Ap2;
-                    lObjCl.TC_NumTelefono = pClientes.TC_NumTelefono;
-                    lObjCl.TC_CorreoElectronico = pClientes.TC_CorreoElectronico;
-                    srvCl.eliminaCliente_ENT(lObjCl);
+                    srvCl.eliminaCliente_ENT(pCliente.TN_IdCliente);
 
                     var lstRegiones = srvCl.obtenerCliente_ENT();
                     if (lstRegiones.Count() > 0)

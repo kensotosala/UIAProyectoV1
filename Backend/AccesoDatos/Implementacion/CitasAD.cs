@@ -3,15 +3,16 @@ using Entidades;
 using System;
 using System.Collections.Generic;
 using System.Data.Entity;
+using System.Data.SqlClient;
 using System.Linq;
 
 namespace AccesoDatos.Implementacion
 {
     public class CitasAD : ICitasAD
     {
-        private VPEntidades gObjCnnAW;
+        private VeterinariaDBEntities gObjCnnAW;
 
-        public CitasAD(VPEntidades lObjCnnAW)
+        public CitasAD(VeterinariaDBEntities lObjCnnAW)
         {
             gObjCnnAW = lObjCnnAW;
         }
@@ -108,29 +109,31 @@ namespace AccesoDatos.Implementacion
             return lObjRespuesta;
         }
 
-        public bool eliminaCita_ENT(TVET_Citas pCita)
+        public bool eliminarCitaAD(int pIdCita)
         {
             bool lObjRespuesta = false;
             try
             {
-                gObjCnnAW.Configuration.ProxyCreationEnabled = false;
-                var lRegistroEncontrado = gObjCnnAW.TVET_Citas.Find(pCita.TN_IdCita);
-                if (lRegistroEncontrado != null)
+                using (var context = new VeterinariaDBEntities())
                 {
-                    gObjCnnAW.Entry(lRegistroEncontrado).CurrentValues.SetValues(pCita);
-                    gObjCnnAW.Entry(lRegistroEncontrado).State = EntityState.Deleted;
-                    gObjCnnAW.SaveChanges();
-                    lObjRespuesta = true;
+                    var resultado = context.Database.ExecuteSqlCommand("EXEC spEliminarCitaYDiagnostico @IdCita",
+                                            new SqlParameter("IdCita", pIdCita));
+
+                    if (resultado > 0)
+                    {
+                        lObjRespuesta = false;
+                    }
+                    else
+                    {
+                        lObjRespuesta = true;
+                    }
                 }
             }
             catch (Exception lEx)
             {
                 throw lEx;
             }
-            finally
-            {
-                gObjCnnAW.Configuration.ProxyCreationEnabled = true;
-            }
+
             return lObjRespuesta;
         }
     }

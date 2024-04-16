@@ -54,8 +54,7 @@ C:\Dev Projects\UIA\Backend\LogicaNegocio\obj\Debug\LogicaNegocio.csproj.CoreCom
 C:\Dev Projects\UIA\Backend\LogicaNegocio\obj\Debug\LogicaNe.53575492.Up2Date
 C:\Dev Projects\UIA\Backend\LogicaNegocio\obj\Debug\LogicaNegocio.dll
 C:\Dev Projects\UIA\Backend\LogicaNegocio\obj\Debug\LogicaNegocio.pdb
-C:\Dev Projects\UIA\PROYECTOV1\Backend\LogicaNegocio\obj\Debug\LogicaNegocio.csproj.AssemblyReference.cache
-C:\Dev Projects\UIA\PROYECTOV1\Backend\LogicaNegocio\obj\Debug\LogicaNegocio.csproj.CoreCompileInputs.cache
+C:\Dev Projects\UIA\PROYECTOV1\Backend\LogicaNegocio\bin\Debug\EntityFramework.xml
 C:\Dev Projects\UIA\PROYECTOV1\Backend\LogicaNegocio\bin\Debug\LogicaNegocio.dll
 C:\Dev Projects\UIA\PROYECTOV1\Backend\LogicaNegocio\bin\Debug\LogicaNegocio.pdb
 C:\Dev Projects\UIA\PROYECTOV1\Backend\LogicaNegocio\bin\Debug\AccesoDatos.dll
@@ -64,7 +63,8 @@ C:\Dev Projects\UIA\PROYECTOV1\Backend\LogicaNegocio\bin\Debug\EntityFramework.d
 C:\Dev Projects\UIA\PROYECTOV1\Backend\LogicaNegocio\bin\Debug\AccesoDatos.pdb
 C:\Dev Projects\UIA\PROYECTOV1\Backend\LogicaNegocio\bin\Debug\AccesoDatos.dll.config
 C:\Dev Projects\UIA\PROYECTOV1\Backend\LogicaNegocio\bin\Debug\Entidades.pdb
-C:\Dev Projects\UIA\PROYECTOV1\Backend\LogicaNegocio\bin\Debug\EntityFramework.xml
+C:\Dev Projects\UIA\PROYECTOV1\Backend\LogicaNegocio\obj\Debug\LogicaNegocio.csproj.AssemblyReference.cache
+C:\Dev Projects\UIA\PROYECTOV1\Backend\LogicaNegocio\obj\Debug\LogicaNegocio.csproj.CoreCompileInputs.cache
 C:\Dev Projects\UIA\PROYECTOV1\Backend\LogicaNegocio\obj\Debug\LogicaNe.53575492.Up2Date
 C:\Dev Projects\UIA\PROYECTOV1\Backend\LogicaNegocio\obj\Debug\LogicaNegocio.dll
 C:\Dev Projects\UIA\PROYECTOV1\Backend\LogicaNegocio\obj\Debug\LogicaNegocio.pdb

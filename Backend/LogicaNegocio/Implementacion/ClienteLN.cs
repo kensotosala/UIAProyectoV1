@@ -9,7 +9,7 @@ namespace LogicaNegocio.Implementacion
 {
     public class ClienteLN : IClientesLN
     {
-        public static VPEntidades lObjAWCnn = new VPEntidades();
+        public static VeterinariaDBEntities lObjAWCnn = new VeterinariaDBEntities();
         private readonly ClientesAD gObjClienteAD = new ClientesAD(lObjAWCnn);
 
         public List<TVE_Clientes> obtenerCliente_ENT()
@@ -70,12 +70,12 @@ namespace LogicaNegocio.Implementacion
             return lObjRespuesta;
         }
 
-        public bool eliminaCliente_ENT(TVE_Clientes pCliente)
+        public bool eliminarClienteLN(int pIdCliente)
         {
             bool lObjRespuesta = false;
             try
             {
-                lObjRespuesta = gObjClienteAD.eliminaCliente_ENT(pCliente);
+                lObjRespuesta = gObjClienteAD.eliminarClienteAD(pIdCliente);
             }
             catch (Exception lEx)
             {

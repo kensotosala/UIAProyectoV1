@@ -13,6 +13,6 @@ namespace AccesoDatos.Interfaces
 
         bool modificaMascotas_ENT(TVET_Mascotas pMascotas);
 
-        bool eliminaMascotas_ENT(TVET_Mascotas pMascotas);
+        bool eliminarMascotaAD(int pIdMascotas);
     }
 }

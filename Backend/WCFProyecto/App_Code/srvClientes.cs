@@ -60,16 +60,16 @@ public class srvClientes : IsrvClientes
         catch (Exception lEx)
         {
             throw lEx;
-        } 
+        }
         return respuesta;
     }
 
-    public bool eliminaCliente_ENT(TVE_Clientes pCliente)
+    public bool eliminaCliente_ENT(int pIdCliente)
     {
         bool respuesta = false;
         try
         {
-            respuesta = _clientesLN.eliminaCliente_ENT(pCliente);
+            respuesta = _clientesLN.eliminarClienteLN(pIdCliente);
         }
         catch (Exception lEx)
         {

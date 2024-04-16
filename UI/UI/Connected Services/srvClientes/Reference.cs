@@ -673,10 +673,10 @@ namespace UI.srvClientes {
         System.Threading.Tasks.Task<bool> modificaCliente_ENTAsync(UI.srvClientes.TVE_Clientes pCliente);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IsrvClientes/eliminaCliente_ENT", ReplyAction="http://tempuri.org/IsrvClientes/eliminaCliente_ENTResponse")]
-        bool eliminaCliente_ENT(UI.srvClientes.TVE_Clientes pCliente);
+        bool eliminaCliente_ENT(int pIdCliente);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IsrvClientes/eliminaCliente_ENT", ReplyAction="http://tempuri.org/IsrvClientes/eliminaCliente_ENTResponse")]
-        System.Threading.Tasks.Task<bool> eliminaCliente_ENTAsync(UI.srvClientes.TVE_Clientes pCliente);
+        System.Threading.Tasks.Task<bool> eliminaCliente_ENTAsync(int pIdCliente);
     }
     
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
@@ -746,12 +746,12 @@ namespace UI.srvClientes {
             return base.Channel.modificaCliente_ENTAsync(pCliente);
         }
         
-        public bool eliminaCliente_ENT(UI.srvClientes.TVE_Clientes pCliente) {
-            return base.Channel.eliminaCliente_ENT(pCliente);
+        public bool eliminaCliente_ENT(int pIdCliente) {
+            return base.Channel.eliminaCliente_ENT(pIdCliente);
         }
         
-        public System.Threading.Tasks.Task<bool> eliminaCliente_ENTAsync(UI.srvClientes.TVE_Clientes pCliente) {
-            return base.Channel.eliminaCliente_ENTAsync(pCliente);
+        public System.Threading.Tasks.Task<bool> eliminaCliente_ENTAsync(int pIdCliente) {
+            return base.Channel.eliminaCliente_ENTAsync(pIdCliente);
         }
     }
 }

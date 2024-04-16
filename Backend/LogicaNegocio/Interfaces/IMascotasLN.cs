@@ -13,6 +13,6 @@ namespace LogicaNegocio.Interfaces
 
         bool modificaMascotas_ENT(TVET_Mascotas pMascotas);
 
-        bool eliminaMascotas_ENT(TVET_Mascotas pMascotas);
+        bool eliminarMascotaLN(int pIdMascotas);
     }
 }

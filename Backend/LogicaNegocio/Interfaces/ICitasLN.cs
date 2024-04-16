@@ -13,6 +13,6 @@ namespace LogicaNegocio.Interfaces
 
         bool modificaCita_ENT(TVET_Citas pCita);
 
-        bool eliminaCita_ENT(TVET_Citas pCita);
+        bool eliminarCitaLN(int pIdCita);
     }
 }

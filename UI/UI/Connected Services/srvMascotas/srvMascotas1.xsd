@@ -65,17 +65,17 @@
       </xs:sequence>
     </xs:complexType>
   </xs:element>
-  <xs:element name="eliminaMascotas_ENT">
+  <xs:element name="eliminarMascota">
     <xs:complexType>
       <xs:sequence>
-        <xs:element xmlns:q5="http://schemas.datacontract.org/2004/07/Entidades" minOccurs="0" name="pMascotas" nillable="true" type="q5:TVET_Mascotas" />
+        <xs:element minOccurs="0" name="pIdMascotas" type="xs:int" />
       </xs:sequence>
     </xs:complexType>
   </xs:element>
-  <xs:element name="eliminaMascotas_ENTResponse">
+  <xs:element name="eliminarMascotaResponse">
     <xs:complexType>
       <xs:sequence>
-        <xs:element minOccurs="0" name="eliminaMascotas_ENTResult" type="xs:boolean" />
+        <xs:element minOccurs="0" name="eliminarMascotaResult" type="xs:boolean" />
       </xs:sequence>
     </xs:complexType>
   </xs:element>

@@ -45,7 +45,7 @@
     <Property Name="TC_NombreMascota" Type="varchar" MaxLength="100" Nullable="false" />
     <Property Name="TN_IdCliente" Type="int" />
   </EntityType>
-  <Association Name="FK__TVET_Cita__TN_Id__3F466844">
+  <Association Name="FK__TVET_Cita__TN_Id__5C6CB6D7">
     <End Role="TVE_Clientes" Type="Self.TVE_Clientes" Multiplicity="0..1" />
     <End Role="TVET_Citas" Type="Self.TVET_Citas" Multiplicity="*" />
     <ReferentialConstraint>
@@ -57,7 +57,7 @@
       </Dependent>
     </ReferentialConstraint>
   </Association>
-  <Association Name="FK__TVET_Cita__TN_Id__403A8C7D">
+  <Association Name="FK__TVET_Cita__TN_Id__5D60DB10">
     <End Role="TVET_Mascotas" Type="Self.TVET_Mascotas" Multiplicity="0..1" />
     <End Role="TVET_Citas" Type="Self.TVET_Citas" Multiplicity="*" />
     <ReferentialConstraint>
@@ -69,7 +69,7 @@
       </Dependent>
     </ReferentialConstraint>
   </Association>
-  <Association Name="FK__TVET_Deta__TN_Id__3C69FB99">
+  <Association Name="FK__TVET_Deta__TN_Id__59904A2C">
     <End Role="TVET_Mascotas" Type="Self.TVET_Mascotas" Multiplicity="1" />
     <End Role="TVET_DetalleMascota" Type="Self.TVET_DetalleMascota" Multiplicity="0..1" />
     <ReferentialConstraint>
@@ -81,7 +81,7 @@
       </Dependent>
     </ReferentialConstraint>
   </Association>
-  <Association Name="FK__TVET_Diag__TN_Id__4316F928">
+  <Association Name="FK__TVET_Diag__TN_Id__603D47BB">
     <End Role="TVET_Citas" Type="Self.TVET_Citas" Multiplicity="0..1" />
     <End Role="TVET_Diagnostico" Type="Self.TVET_Diagnostico" Multiplicity="*" />
     <ReferentialConstraint>
@@ -93,7 +93,7 @@
       </Dependent>
     </ReferentialConstraint>
   </Association>
-  <Association Name="FK__TVET_Masc__TN_Id__398D8EEE">
+  <Association Name="FK__TVET_Masc__TN_Id__56B3DD81">
     <End Role="TVE_Clientes" Type="Self.TVE_Clientes" Multiplicity="0..1" />
     <End Role="TVET_Mascotas" Type="Self.TVET_Mascotas" Multiplicity="*" />
     <ReferentialConstraint>
@@ -105,29 +105,68 @@
       </Dependent>
     </ReferentialConstraint>
   </Association>
+  <Function Name="sp_alterdiagram" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="diagramname" Type="nvarchar" Mode="In" />
+    <Parameter Name="owner_id" Type="int" Mode="In" />
+    <Parameter Name="version" Type="int" Mode="In" />
+    <Parameter Name="definition" Type="varbinary(max)" Mode="In" />
+  </Function>
+  <Function Name="sp_creatediagram" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="diagramname" Type="nvarchar" Mode="In" />
+    <Parameter Name="owner_id" Type="int" Mode="In" />
+    <Parameter Name="version" Type="int" Mode="In" />
+    <Parameter Name="definition" Type="varbinary(max)" Mode="In" />
+  </Function>
+  <Function Name="sp_dropdiagram" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="diagramname" Type="nvarchar" Mode="In" />
+    <Parameter Name="owner_id" Type="int" Mode="In" />
+  </Function>
+  <Function Name="sp_helpdiagramdefinition" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="diagramname" Type="nvarchar" Mode="In" />
+    <Parameter Name="owner_id" Type="int" Mode="In" />
+  </Function>
+  <Function Name="sp_helpdiagrams" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="diagramname" Type="nvarchar" Mode="In" />
+    <Parameter Name="owner_id" Type="int" Mode="In" />
+  </Function>
+  <Function Name="sp_renamediagram" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="diagramname" Type="nvarchar" Mode="In" />
+    <Parameter Name="owner_id" Type="int" Mode="In" />
+    <Parameter Name="new_diagramname" Type="nvarchar" Mode="In" />
+  </Function>
+  <Function Name="sp_upgraddiagrams" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" />
+  <Function Name="spEliminarCitaYDiagnostico" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="IdCita" Type="int" Mode="In" />
+  </Function>
+  <Function Name="spEliminarClienteYRelacionados" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="IdCliente" Type="int" Mode="In" />
+  </Function>
+  <Function Name="spEliminarMascotaYDetalles" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="IdMascota" Type="int" Mode="In" />
+  </Function>
   <EntityContainer Name="VPModeloStoreContainer">
     <EntitySet Name="TVE_Clientes" EntityType="Self.TVE_Clientes" Schema="dbo" store:Type="Tables" />
     <EntitySet Name="TVET_Citas" EntityType="Self.TVET_Citas" Schema="dbo" store:Type="Tables" />
     <EntitySet Name="TVET_DetalleMascota" EntityType="Self.TVET_DetalleMascota" Schema="dbo" store:Type="Tables" />
     <EntitySet Name="TVET_Diagnostico" EntityType="Self.TVET_Diagnostico" Schema="dbo" store:Type="Tables" />
     <EntitySet Name="TVET_Mascotas" EntityType="Self.TVET_Mascotas" Schema="dbo" store:Type="Tables" />
-    <AssociationSet Name="FK__TVET_Cita__TN_Id__3F466844" Association="Self.FK__TVET_Cita__TN_Id__3F466844">
+    <AssociationSet Name="FK__TVET_Cita__TN_Id__5C6CB6D7" Association="Self.FK__TVET_Cita__TN_Id__5C6CB6D7">
       <End Role="TVE_Clientes" EntitySet="TVE_Clientes" />
       <End Role="TVET_Citas" EntitySet="TVET_Citas" />
     </AssociationSet>
-    <AssociationSet Name="FK__TVET_Cita__TN_Id__403A8C7D" Association="Self.FK__TVET_Cita__TN_Id__403A8C7D">
+    <AssociationSet Name="FK__TVET_Cita__TN_Id__5D60DB10" Association="Self.FK__TVET_Cita__TN_Id__5D60DB10">
       <End Role="TVET_Mascotas" EntitySet="TVET_Mascotas" />
       <End Role="TVET_Citas" EntitySet="TVET_Citas" />
     </AssociationSet>
-    <AssociationSet Name="FK__TVET_Deta__TN_Id__3C69FB99" Association="Self.FK__TVET_Deta__TN_Id__3C69FB99">
+    <AssociationSet Name="FK__TVET_Deta__TN_Id__59904A2C" Association="Self.FK__TVET_Deta__TN_Id__59904A2C">
       <End Role="TVET_Mascotas" EntitySet="TVET_Mascotas" />
       <End Role="TVET_DetalleMascota" EntitySet="TVET_DetalleMascota" />
     </AssociationSet>
-    <AssociationSet Name="FK__TVET_Diag__TN_Id__4316F928" Association="Self.FK__TVET_Diag__TN_Id__4316F928">
+    <AssociationSet Name="FK__TVET_Diag__TN_Id__603D47BB" Association="Self.FK__TVET_Diag__TN_Id__603D47BB">
       <End Role="TVET_Citas" EntitySet="TVET_Citas" />
       <End Role="TVET_Diagnostico" EntitySet="TVET_Diagnostico" />
     </AssociationSet>
-    <AssociationSet Name="FK__TVET_Masc__TN_Id__398D8EEE" Association="Self.FK__TVET_Masc__TN_Id__398D8EEE">
+    <AssociationSet Name="FK__TVET_Masc__TN_Id__56B3DD81" Association="Self.FK__TVET_Masc__TN_Id__56B3DD81">
       <End Role="TVE_Clientes" EntitySet="TVE_Clientes" />
       <End Role="TVET_Mascotas" EntitySet="TVET_Mascotas" />
     </AssociationSet>

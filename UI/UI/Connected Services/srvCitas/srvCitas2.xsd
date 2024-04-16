@@ -68,7 +68,7 @@
   <xs:element name="eliminaCita_ENT">
     <xs:complexType>
       <xs:sequence>
-        <xs:element xmlns:q5="http://schemas.datacontract.org/2004/07/Entidades" minOccurs="0" name="pCita" nillable="true" type="q5:TVET_Citas" />
+        <xs:element minOccurs="0" name="pIdCita" type="xs:int" />
       </xs:sequence>
     </xs:complexType>
   </xs:element>

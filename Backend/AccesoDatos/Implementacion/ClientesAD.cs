@@ -3,15 +3,16 @@ using Entidades;
 using System;
 using System.Collections.Generic;
 using System.Data.Entity;
+using System.Data.SqlClient;
 using System.Linq;
 
 namespace AccesoDatos.Implementacion
 {
     public class ClientesAD : IClientesAD
     {
-        private VPEntidades gObjCnnAW;
+        private VeterinariaDBEntities gObjCnnAW;
 
-        public ClientesAD(VPEntidades lObjCnnAW)
+        public ClientesAD(VeterinariaDBEntities lObjCnnAW)
         {
             gObjCnnAW = lObjCnnAW;
         }
@@ -108,29 +109,31 @@ namespace AccesoDatos.Implementacion
             return lObjRespuesta;
         }
 
-        public bool eliminaCliente_ENT(TVE_Clientes pCliente)
+        public bool eliminarClienteAD(int pIdCliente)
         {
             bool lObjRespuesta = false;
             try
             {
-                gObjCnnAW.Configuration.ProxyCreationEnabled = false;
-                var lRegistroEncontrado = gObjCnnAW.TVE_Clientes.Find(pCliente.TN_IdCliente);
-                if (lRegistroEncontrado != null)
+                using (var context = new VeterinariaDBEntities())
                 {
-                    gObjCnnAW.Entry(lRegistroEncontrado).CurrentValues.SetValues(pCliente);
-                    gObjCnnAW.Entry(lRegistroEncontrado).State = EntityState.Deleted;
-                    gObjCnnAW.SaveChanges();
-                    lObjRespuesta = true;
+                    var resultado = context.Database.ExecuteSqlCommand("EXEC spEliminarClienteYRelacionados @IdCliente",
+                        new SqlParameter("IdCliente", pIdCliente));
+
+                    if (resultado > 0)
+                    {
+                        lObjRespuesta = false;
+                    }
+                    else
+                    {
+                        lObjRespuesta = true;
+                    }
                 }
             }
             catch (Exception lEx)
             {
                 throw lEx;
             }
-            finally
-            {
-                gObjCnnAW.Configuration.ProxyCreationEnabled = true;
-            }
+
             return lObjRespuesta;
         }
     }

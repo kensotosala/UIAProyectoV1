@@ -9,7 +9,7 @@ namespace LogicaNegocio.Implementacion
 {
     public class DetalleMascotaLN : IDetalleMascotaLN
     {
-        public static VPEntidades lObjAWCnn = new VPEntidades();
+        public static VeterinariaDBEntities lObjAWCnn = new VeterinariaDBEntities();
         private readonly DetalleMascotaAD gObjDetalleAD = new DetalleMascotaAD(lObjAWCnn);
 
         public List<TVET_DetalleMascota> obtenerDetalle_ENT()

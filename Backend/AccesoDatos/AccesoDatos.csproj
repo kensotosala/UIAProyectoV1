@@ -82,15 +82,15 @@
     <Compile Include="TBUsuarios.cs">
       <DependentUpon>Login.tt</DependentUpon>
     </Compile>
-    <Compile Include="VP.Context.cs">
+    <Compile Include="VETModelo.Context.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
-      <DependentUpon>VP.Context.tt</DependentUpon>
+      <DependentUpon>VETModelo.Context.tt</DependentUpon>
     </Compile>
-    <Compile Include="VP.Designer.cs">
+    <Compile Include="VETModelo.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
-      <DependentUpon>VP.edmx</DependentUpon>
+      <DependentUpon>VETModelo.edmx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
@@ -98,12 +98,6 @@
       <Project>{c1cc2099-8b7d-4d7b-895b-fd51a3aaee85}</Project>
       <Name>Entidades</Name>
     </ProjectReference>
-  </ItemGroup>
-  <ItemGroup>
-    <EntityDeploy Include="VP.edmx">
-      <Generator>EntityModelCodeGenerator</Generator>
-      <LastGenOutput>VP.Designer.cs</LastGenOutput>
-    </EntityDeploy>
   </ItemGroup>
   <ItemGroup>
     <None Include="App.Config" />
@@ -115,8 +109,12 @@
       <DependentUpon>Login.edmx</DependentUpon>
     </None>
     <None Include="packages.config" />
-    <None Include="VP.edmx.diagram">
-      <DependentUpon>VP.edmx</DependentUpon>
+    <EntityDeploy Include="VETModelo.edmx">
+      <Generator>EntityModelCodeGenerator</Generator>
+      <LastGenOutput>VETModelo.Designer.cs</LastGenOutput>
+    </EntityDeploy>
+    <None Include="VETModelo.edmx.diagram">
+      <DependentUpon>VETModelo.edmx</DependentUpon>
     </None>
   </ItemGroup>
   <ItemGroup>
@@ -130,10 +128,10 @@
       <DependentUpon>Login.edmx</DependentUpon>
       <LastGenOutput>Login.cs</LastGenOutput>
     </Content>
-    <Content Include="VP.Context.tt">
+    <Content Include="VETModelo.Context.tt">
       <Generator>TextTemplatingFileGenerator</Generator>
-      <LastGenOutput>VP.Context.cs</LastGenOutput>
-      <DependentUpon>VP.edmx</DependentUpon>
+      <DependentUpon>VETModelo.edmx</DependentUpon>
+      <LastGenOutput>VETModelo.Context.cs</LastGenOutput>
     </Content>
   </ItemGroup>
   <ItemGroup>

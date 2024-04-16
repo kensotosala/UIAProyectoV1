@@ -9,7 +9,7 @@ namespace LogicaNegocio.Implementacion
 {
     public class DiagnosticoLN : IDiagnosticoLN
     {
-        public static VPEntidades lObjAWCnn = new VPEntidades();
+        public static VeterinariaDBEntities lObjAWCnn = new VeterinariaDBEntities();
         private readonly DiagnosticoAD gObjdiagnosticoAD = new DiagnosticoAD(lObjAWCnn);
 
         public List<TVET_Diagnostico> obtenerDiagnostico_ENT()

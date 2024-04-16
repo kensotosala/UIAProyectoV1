@@ -9,9 +9,9 @@ namespace AccesoDatos.Implementacion
 {
     public class DiagnosticoAD : IDiagnosticoAD
     {
-        private VPEntidades gObjCnnAW;
+        private VeterinariaDBEntities gObjCnnAW;
 
-        public DiagnosticoAD(VPEntidades lObjCnnAW)
+        public DiagnosticoAD(VeterinariaDBEntities lObjCnnAW)
         {
             gObjCnnAW = lObjCnnAW;
         }

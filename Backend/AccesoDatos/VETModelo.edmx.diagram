@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="cea3a691c8f149dabd9bdc52f371f665" Name="Diagram1">
+        <EntityTypeShape EntityType="VeterinariaDBModel.sysdiagrams" Width="1.5" PointX="7.75" PointY="5.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="VeterinariaDBModel.TVE_Clientes" Width="1.5" PointX="0.75" PointY="2.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="VeterinariaDBModel.TVET_Citas" Width="1.5" PointX="5.25" PointY="2" IsExpanded="true" />
+        <EntityTypeShape EntityType="VeterinariaDBModel.TVET_DetalleMascota" Width="1.5" PointX="5.25" PointY="5.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="VeterinariaDBModel.TVET_Diagnostico" Width="1.5" PointX="7.5" PointY="2.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="VeterinariaDBModel.TVET_Mascotas" Width="1.5" PointX="3" PointY="5.75" IsExpanded="true" />
+        <AssociationConnector Association="VeterinariaDBModel.FK__TVET_Cita__TN_Id__5C6CB6D7" ManuallyRouted="false" />
+        <AssociationConnector Association="VeterinariaDBModel.FK__TVET_Masc__TN_Id__56B3DD81" ManuallyRouted="false" />
+        <AssociationConnector Association="VeterinariaDBModel.FK__TVET_Cita__TN_Id__5D60DB10" ManuallyRouted="false" />
+        <AssociationConnector Association="VeterinariaDBModel.FK__TVET_Diag__TN_Id__603D47BB" ManuallyRouted="false" />
+        <AssociationConnector Association="VeterinariaDBModel.FK__TVET_Deta__TN_Id__59904A2C" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

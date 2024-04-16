@@ -9,7 +9,7 @@ namespace LogicaNegocio.Implementacion
 {
     public class CitasLN : ICitasLN
     {
-        public static VPEntidades lObjAWCnn = new VPEntidades();
+        public static VeterinariaDBEntities lObjAWCnn = new VeterinariaDBEntities();
         private readonly CitasAD gObjCitasAD = new CitasAD(lObjAWCnn);
 
         public List<TVET_Citas> obtenerCita_ENT()
@@ -70,12 +70,12 @@ namespace LogicaNegocio.Implementacion
             return lObjRespuesta;
         }
 
-        public bool eliminaCita_ENT(TVET_Citas pCita)
+        public bool eliminarCitaLN(int pIdCita)
         {
             bool lObjRespuesta = false;
             try
             {
-                lObjRespuesta = gObjCitasAD.eliminaCita_ENT(pCita);
+                lObjRespuesta = gObjCitasAD.eliminarCitaAD(pIdCita);
             }
             catch (Exception lEx)
             {

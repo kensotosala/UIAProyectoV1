@@ -68,7 +68,7 @@
   <xs:element name="eliminaCliente_ENT">
     <xs:complexType>
       <xs:sequence>
-        <xs:element xmlns:q5="http://schemas.datacontract.org/2004/07/Entidades" minOccurs="0" name="pCliente" nillable="true" type="q5:TVE_Clientes" />
+        <xs:element minOccurs="0" name="pIdCliente" type="xs:int" />
       </xs:sequence>
     </xs:complexType>
   </xs:element>

@@ -54,8 +54,6 @@ C:\Dev Projects\UIA\Backend\AccesoDatos\obj\Debug\AccesoDatos.csproj.CoreCompile
 C:\Dev Projects\UIA\Backend\AccesoDatos\obj\Debug\AccesoDa.B2719C34.Up2Date
 C:\Dev Projects\UIA\Backend\AccesoDatos\obj\Debug\AccesoDatos.dll
 C:\Dev Projects\UIA\Backend\AccesoDatos\obj\Debug\AccesoDatos.pdb
-C:\Dev Projects\UIA\PROYECTOV1\Backend\AccesoDatos\obj\Debug\AccesoDatos.csproj.AssemblyReference.cache
-C:\Dev Projects\UIA\PROYECTOV1\Backend\AccesoDatos\obj\Debug\AccesoDatos.csproj.CoreCompileInputs.cache
 C:\Dev Projects\UIA\PROYECTOV1\Backend\AccesoDatos\bin\Debug\AccesoDatos.dll.config
 C:\Dev Projects\UIA\PROYECTOV1\Backend\AccesoDatos\bin\Debug\AccesoDatos.dll
 C:\Dev Projects\UIA\PROYECTOV1\Backend\AccesoDatos\bin\Debug\AccesoDatos.pdb
@@ -65,6 +63,8 @@ C:\Dev Projects\UIA\PROYECTOV1\Backend\AccesoDatos\bin\Debug\EntityFramework.Sql
 C:\Dev Projects\UIA\PROYECTOV1\Backend\AccesoDatos\bin\Debug\Entidades.pdb
 C:\Dev Projects\UIA\PROYECTOV1\Backend\AccesoDatos\bin\Debug\EntityFramework.xml
 C:\Dev Projects\UIA\PROYECTOV1\Backend\AccesoDatos\bin\Debug\EntityFramework.SqlServer.xml
+C:\Dev Projects\UIA\PROYECTOV1\Backend\AccesoDatos\obj\Debug\AccesoDatos.csproj.AssemblyReference.cache
+C:\Dev Projects\UIA\PROYECTOV1\Backend\AccesoDatos\obj\Debug\AccesoDatos.csproj.CoreCompileInputs.cache
 C:\Dev Projects\UIA\PROYECTOV1\Backend\AccesoDatos\obj\Debug\AccesoDa.B2719C34.Up2Date
 C:\Dev Projects\UIA\PROYECTOV1\Backend\AccesoDatos\obj\Debug\AccesoDatos.dll
 C:\Dev Projects\UIA\PROYECTOV1\Backend\AccesoDatos\obj\Debug\AccesoDatos.pdb

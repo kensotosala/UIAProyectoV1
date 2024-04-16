@@ -13,6 +13,6 @@ namespace AccesoDatos.Interfaces
 
         bool modificaCliente_ENT(TVE_Clientes pCliente);
 
-        bool eliminaCliente_ENT(TVE_Clientes pCliente);
+        bool eliminarClienteAD(int pIdCliente);
     }
 }

@@ -65,12 +65,12 @@ public class srvCitas : IsrvCitas
         return respuesta;
     }
 
-    public bool eliminaCita_ENT(TVET_Citas pCita)
+    public bool eliminaCita_ENT(int pIdCita)
     {
         bool respuesta = false;
         try
         {
-            respuesta = _citasLN.eliminaCita_ENT(pCita);
+            respuesta = _citasLN.eliminarCitaLN(pIdCita);
         }
         catch (Exception lEx)
         {
@@ -81,5 +81,6 @@ public class srvCitas : IsrvCitas
 
     public void DoWork()
     {
+        throw new NotImplementedException();
     }
 }

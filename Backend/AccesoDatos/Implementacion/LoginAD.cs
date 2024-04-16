@@ -57,7 +57,6 @@ namespace AccesoDatos.Implementacion
                         new SqlParameter("Usuario", usuario),
                         new SqlParameter("Contrasenha", password)).FirstOrDefault();
 
-                    // Verificar el resultado del procedimiento almacenado
                     if (resultado != null)
                     {
                         if (resultado == "Login exitoso. Bienvenido.")
@@ -77,7 +76,6 @@ namespace AccesoDatos.Implementacion
             }
             catch (Exception lEx)
             {
-                // Manejar la excepción adecuadamente según tus requisitos
                 throw lEx;
             }
             return respuesta;
